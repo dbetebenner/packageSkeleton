@@ -1,0 +1,6 @@
+^quarto_site$
+^docs$
+^README\.md$
+^LICENSE\.md$
+^\.github$
+^CITATION\.cff$

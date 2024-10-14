@@ -1,0 +1,13 @@
+cff-version: 1.0.0
+message: "If you use the packageSkeleton Package, please cite it using these metadata."
+authors:
+- family-names: "Betebenner"
+  given-names: "Damian"
+  orcid: "https://orcid.org/0000-0003-0476-5599"
+- family-names: "Van Iwaarden"
+  given-names: "Adam"
+title: "packageSkeleton: A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website."
+version: 0.0-0.1
+doi: 10.5281/zenodo.3634024
+date-released: 2024-10-14
+url: "https://centerforassessment.github.io/packageSkeleton"
