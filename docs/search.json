@@ -1,159 +1,5 @@
 [
   {
-    "objectID": "content/presentations/Years_of_Learning_Staff_Sharing_May_2023.html#inspiration",
-    "href": "content/presentations/Years_of_Learning_Staff_Sharing_May_2023.html#inspiration",
-    "title": "A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website",
-    "section": "Inspiration",
-    "text": "Inspiration\n\n\n\n\nPandemic Related Insights\n\nReporting of pandemic learning loss: Weeks/months/years of lost learning.\nRecognition of learning being a process with an inherent velocity\n\nSandy Student’s NCME presentation (2023) and discussion on year’s worth of learning (his dissertation topic).\nStrategic planning by states including updates long term achievement targets\n\nDesire to calibrate achievement indicators to ambitious yet reasonable individual learning/growth goals (Hawaii and Rhode Island).\nRecent staff sharing from Brian on work in Kentucky related to accountability systems.\n\nDesire to make rigorous “a year’s worth of learning” in order to better communicate SGP results."
-  },
-  {
-    "objectID": "content/presentations/Years_of_Learning_Staff_Sharing_May_2023.html#my-personal-perspectivesbiases",
-    "href": "content/presentations/Years_of_Learning_Staff_Sharing_May_2023.html#my-personal-perspectivesbiases",
-    "title": "A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website",
-    "section": "My Personal Perspectives/Biases",
-    "text": "My Personal Perspectives/Biases\n\n\n\n\nCommunicating results to non-technical audiences requires trade-offs.\nThe best solution from a technical perspective may be a communication failure from a practical perspective.\nUtility trumps validity.\nAre the shortcomings of expressions like year’s worth of learning so large as to make them counterproductive?\nOne prominent researcher in the measurement field doesn’t think so."
-  },
-  {
-    "objectID": "content/presentations/Years_of_Learning_Staff_Sharing_May_2023.html#andrew-hos-rule-of-27",
-    "href": "content/presentations/Years_of_Learning_Staff_Sharing_May_2023.html#andrew-hos-rule-of-27",
-    "title": "A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website",
-    "section": "Andrew Ho’s Rule of 27",
-    "text": "Andrew Ho’s Rule of 27\n\n\n\n1\n\n\n\n\n2\n\n\n\n:::::"
-  },
-  {
-    "objectID": "content/presentations/Years_of_Learning_Staff_Sharing_May_2023.html#section-3",
-    "href": "content/presentations/Years_of_Learning_Staff_Sharing_May_2023.html#section-3",
-    "title": "A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website",
-    "section": "",
-    "text": "Fons Sapientiae Leuven, Belgium\n\nThe name translates to “Source of Wisdom,” and the water the man pours atop his head is supposedly meant to symbolize knowledge flowing into his brain. An intricate math formula is scrawled across the front cover of the book he clutches that, when solved, forms the Dutch word for “happiness.”"
-  },
-  {
-    "objectID": "content/presentations/Years_of_Learning_Staff_Sharing_May_2023.html#section-4",
-    "href": "content/presentations/Years_of_Learning_Staff_Sharing_May_2023.html#section-4",
-    "title": "A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website",
-    "section": "",
-    "text": "The predominant view of learning and education (IMHO).\nVolume/amount of “learning” delivered to students in a given time.\n\nWeeks, months, years of learning.\n\nTime on task\n\n\n\n\n\n\n\n\nInspirational, but is this reality?\nWould we know fire if we saw it?\n\nHow would fire manifest itself in assessment results?"
-  },
-  {
-    "objectID": "content/presentations/Years_of_Learning_Staff_Sharing_May_2023.html#a-years-worth-of-learning",
-    "href": "content/presentations/Years_of_Learning_Staff_Sharing_May_2023.html#a-years-worth-of-learning",
-    "title": "A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website",
-    "section": "A Year’s Worth of Learning",
-    "text": "A Year’s Worth of Learning\n\n\nA year’s worth of learning purports to express an amount of growth (i.e., learning) demonstrated by students.\nThe quantity can be construed as the effect due to exposure of a year’s worth of education.\nBloom et al. (2008) compare effect sizes to estimates of how much students grow in one year.\nDadey and Briggs (2012) investigated the extent to which design and content differences impact growth trends on vertically scaled assessments"
-  },
-  {
-    "objectID": "content/presentations/Years_of_Learning_Staff_Sharing_May_2023.html#years-of-learning-a-question",
-    "href": "content/presentations/Years_of_Learning_Staff_Sharing_May_2023.html#years-of-learning-a-question",
-    "title": "A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website",
-    "section": "Years of Learning: A Question",
-    "text": "Years of Learning: A Question\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLoading…"
-  },
-  {
-    "objectID": "content/presentations/Years_of_Learning_Staff_Sharing_May_2023.html#effect-size-illustration",
-    "href": "content/presentations/Years_of_Learning_Staff_Sharing_May_2023.html#effect-size-illustration",
-    "title": "A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website",
-    "section": "Effect Size Illustration",
-    "text": "Effect Size Illustration\n\n\n\n\nFigure shows effect size for matched grade 3 to 4 students in mathematics.\nMean scaled score increase of 35 (461 to 496).\nEffect size increase of 0.41.\nNote: This effect size change is applicable to the entire group of students but not, in general, to individual students.\nWhy?"
-  },
-  {
-    "objectID": "content/presentations/Years_of_Learning_Staff_Sharing_May_2023.html#effect-size-illustration-1",
-    "href": "content/presentations/Years_of_Learning_Staff_Sharing_May_2023.html#effect-size-illustration-1",
-    "title": "A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website",
-    "section": "Effect Size Illustration",
-    "text": "Effect Size Illustration\n\n\n\n\nIncrease in attainment is not uniform by prior attainment (i.e., gains correlate with initial achievement).\nFigure shows two regions:\n\nIndividual gains above effect size.\nIndividual gains below effect size.\n\nBottom axis includes decile cuts for Grade 3 scaled score.\nIn lowest decile, 74.4% of students had gains exceeding the effect size. In highest decile, 15.7% had gains exceeding the effect size.\nReductio ad absurdum"
-  },
-  {
-    "objectID": "content/presentations/Years_of_Learning_Staff_Sharing_May_2023.html#empirical-results",
-    "href": "content/presentations/Years_of_Learning_Staff_Sharing_May_2023.html#empirical-results",
-    "title": "A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website",
-    "section": "Empirical results",
-    "text": "Empirical results\n\n\nWe examine effect size increases for unmatched and matched cohorts of students using data from 4 states.\nAll data are derived from assessment administrations occurring prior to the COVID-19 pandemic.\nUsing Equation 1 we calculate effect size changes for 1, 2, 3, and 4 years (provided enough years of data exist for the state).\nDepending upon the number of years of data we have for a state, we can calculate effect size changes across several cohorts of students.\nResults are summarized in the following figures."
-  },
-  {
-    "objectID": "content/presentations/Years_of_Learning_Staff_Sharing_May_2023.html#mathematics",
-    "href": "content/presentations/Years_of_Learning_Staff_Sharing_May_2023.html#mathematics",
-    "title": "A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website",
-    "section": "Mathematics",
-    "text": "Mathematics\n\nState AState BState CState D"
-  },
-  {
-    "objectID": "content/presentations/Years_of_Learning_Staff_Sharing_May_2023.html#ela",
-    "href": "content/presentations/Years_of_Learning_Staff_Sharing_May_2023.html#ela",
-    "title": "A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website",
-    "section": "ELA",
-    "text": "ELA\n\nState AState BState CState D"
-  },
-  {
-    "objectID": "content/presentations/Years_of_Learning_Staff_Sharing_May_2023.html#lets-summarize",
-    "href": "content/presentations/Years_of_Learning_Staff_Sharing_May_2023.html#lets-summarize",
-    "title": "A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website",
-    "section": "Let’s Summarize",
-    "text": "Let’s Summarize\n\n\nThe effect size approach to quantifying a year’s worth of learning depends on:\n\nthe assessment that is administered,\nthe population of students to whom the assessment is administered,\nthe year in which the assessment is administered,\nthe content area of the assessment,\nthe grade level of the assessment, and\nthe psychometric design used to scale and construct the assessment.\nMoreover, the calculated effect size is only a system level average and is not applicable for determinations of a year’s worth of learning at the individual level.\n\nThis list of dependencies is as bad as the list we’d put together for any indicator derived from assessments."
-  },
-  {
-    "objectID": "content/presentations/Years_of_Learning_Staff_Sharing_May_2023.html#yikes",
-    "href": "content/presentations/Years_of_Learning_Staff_Sharing_May_2023.html#yikes",
-    "title": "A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website",
-    "section": "Yikes!!!",
-    "text": "Yikes!!!\n\n\n\nHard to call this rule anything but just BAD\nThe assumptions (3 grade levels per standard deviation) don’t hold.\nGives rise to misleading statements, especially for parents concerned about their children.\n\nNot good. We should do better.\n\n\n\nRule of 27\n\n\n\n:::::"
-  },
-  {
-    "objectID": "content/presentations/Years_of_Learning_Staff_Sharing_May_2023.html#section-5",
-    "href": "content/presentations/Years_of_Learning_Staff_Sharing_May_2023.html#section-5",
-    "title": "A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website",
-    "section": "",
-    "text": "Is there any"
-  },
-  {
-    "objectID": "content/presentations/Years_of_Learning_Staff_Sharing_May_2023.html#yes",
-    "href": "content/presentations/Years_of_Learning_Staff_Sharing_May_2023.html#yes",
-    "title": "A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website",
-    "section": "Yes!",
-    "text": "Yes!\n\nMeanConditional MeanConditional MedianConditional Decile"
-  },
-  {
-    "objectID": "content/presentations/Years_of_Learning_Staff_Sharing_May_2023.html#how",
-    "href": "content/presentations/Years_of_Learning_Staff_Sharing_May_2023.html#how",
-    "title": "A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website",
-    "section": "How?",
-    "text": "How?\n\n\nYear’s worth of learning is implicitly a norm-referenced quantity based upon average student performance.\nAs such, one can employ regression based approaches to better formalize the concept.\nAttempts to reduce a year’s worth of learning to an effect size are a clumsy, scaled-based attempt to address the question.\nAs a norm-referenced quantity, SGPs can be utilized to define a year’s worth of learning to be 50th percentile growth.\nThis is consistent with the effect size approach to defining change and avoids all of the shortcomings mentioned.\nThe next section explores the consequences of this."
-  },
-  {
-    "objectID": "content/presentations/Years_of_Learning_Staff_Sharing_May_2023.html#analyses",
-    "href": "content/presentations/Years_of_Learning_Staff_Sharing_May_2023.html#analyses",
-    "title": "A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website",
-    "section": "Analyses",
-    "text": "Analyses\n\n\nWe examine the relationship between mean SGP and year’s of learning using pre-pandemic, vertically scaled, pre-pandemic, longitudinal data from 4 states as follows:\n\nOne year’s growth (for a one year span of time) is defined as 50th percentile growth. This is a normal SGP.\nTwo year’s growth (in one year) is calculated empirically by running individual data spanning two years (e.g. grade 3 to 5 data) through one-year growth norms (e.g., grade 3 to 4 growth norms).\nThree year’s growth (in one year) is calculated empirically by running individual data spanning three years (e.g. grade 3 to 6 data) through one-year growth norms (e.g., grade 3 to 4 growth norms).\nNo growth (in one year) is calculated by running individual data with no increase in scaled score through the one-year growth norms (e.g., grade 3 to 4 growth norms).\nI also calculated half-year growth (in one year) by running individual data spanning a single year (e.g., grade 3 to 4 data) through two-year growth norms(e.g., grade 3 to 5 growth norms).\n\nResults are summarized in the following figures."
-  },
-  {
-    "objectID": "content/presentations/Years_of_Learning_Staff_Sharing_May_2023.html#sgp-by-years-of-learning-mathematics",
-    "href": "content/presentations/Years_of_Learning_Staff_Sharing_May_2023.html#sgp-by-years-of-learning-mathematics",
-    "title": "A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website",
-    "section": "SGP by Years of Learning: Mathematics",
-    "text": "SGP by Years of Learning: Mathematics\n\nState AState BState CState D"
-  },
-  {
-    "objectID": "content/presentations/Years_of_Learning_Staff_Sharing_May_2023.html#sgp-by-years-of-learning-ela",
-    "href": "content/presentations/Years_of_Learning_Staff_Sharing_May_2023.html#sgp-by-years-of-learning-ela",
-    "title": "A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website",
-    "section": "SGP by Years of Learning: ELA",
-    "text": "SGP by Years of Learning: ELA\n\nState AState BState CState D"
-  },
-  {
-    "objectID": "content/presentations/Years_of_Learning_Staff_Sharing_May_2023.html#back-to-the-survey-question",
-    "href": "content/presentations/Years_of_Learning_Staff_Sharing_May_2023.html#back-to-the-survey-question",
-    "title": "A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website",
-    "section": "Back to the survey question",
-    "text": "Back to the survey question\n\nBased upon the SGP analyses were you able to determine the correct answer to the question you answered?"
-  },
-  {
-    "objectID": "content/presentations/Years_of_Learning_Staff_Sharing_May_2023.html#startling-results",
-    "href": "content/presentations/Years_of_Learning_Staff_Sharing_May_2023.html#startling-results",
-    "title": "A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website",
-    "section": "Startling results",
-    "text": "Startling results\n\nThe results perplexed me when I ran the analyses a month ago.\nHow is it possible for 60 or more percent of students making at least a year’s worth of learning to make two or more year’s worth of learning.\n\nAre vertical scales this corrupt?\nCharlie DePascale called vertical scaling an interesting parlor trick."
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -203,11 +49,46 @@
     "text": "Biography of Workshop Presenter\nDr. Emi Tanaka is a Senior Lecturer in Statistics at Monash University whose primary interest is to develop impactful statistical methods and tools that can readily be used by practitioners. Her research area includes data visualisation, mixed models and experimental designs, motivated primarily by problems in bioinformatics and agricultural sciences. She is currently the President of the Statistical Society of Australia Victorian Branch and the recipient of the Distinguished Presenter’s Award from the Statistical Society of Australia for her delivery of a wide-range of R workshops."
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website",
+    "section": "",
+    "text": "The packageSkeleton repository provides a streamlined template for setting up an R package, complete with an integrated Quarto website hosted on GitHub. This skeleton is designed to simplify the often daunting process of creating, maintaining, and distributing an R package, making GitHub an ideal platform for collaboration, version control, and sharing your work.\nWhether you’re an experienced R developer or new to package development, this skeleton offers a robust starting point. The primary advantage of using this skeleton is that it handles much of the initial setup, allowing you to focus on personalizing the package to meet your specific needs. This includes: - Customizing the package name, - Adding your own functions, - Creating a website to document and showcase your work."
+  },
+  {
+    "objectID": "index.html#overview",
+    "href": "index.html#overview",
+    "title": "A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website",
+    "section": "",
+    "text": "The packageSkeleton repository provides a streamlined template for setting up an R package, complete with an integrated Quarto website hosted on GitHub. This skeleton is designed to simplify the often daunting process of creating, maintaining, and distributing an R package, making GitHub an ideal platform for collaboration, version control, and sharing your work.\nWhether you’re an experienced R developer or new to package development, this skeleton offers a robust starting point. The primary advantage of using this skeleton is that it handles much of the initial setup, allowing you to focus on personalizing the package to meet your specific needs. This includes: - Customizing the package name, - Adding your own functions, - Creating a website to document and showcase your work."
+  },
+  {
+    "objectID": "index.html#why-create-an-r-package",
+    "href": "index.html#why-create-an-r-package",
+    "title": "A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website",
+    "section": "Why Create an R Package?",
+    "text": "Why Create an R Package?\nCreating an R package isn’t just about building tools for others—it’s about building something useful for you. By consolidating functions, data sets, and workflows you use regularly into a package, you streamline your own work. Additionally, your solutions may end up being valuable to others who work in similar domains.\nThis package skeleton encourages that mindset, helping you create something that is immediately useful in your own workflow while also providing a structure for sharing your work with the broader R community."
+  },
+  {
+    "objectID": "index.html#what-youll-need",
+    "href": "index.html#what-youll-need",
+    "title": "A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website",
+    "section": "What You’ll Need",
+    "text": "What You’ll Need\nTo get the most out of the package skeleton, a few foundational skills and concepts will be useful:\n\nGitHub Basics: Familiarity with cloning repositories, making commits, and pushing changes is essential.\nR and R Package Basics: Understand how R packages are structured and function.\nQuarto Basics: Quarto will help you build documentation and websites for your package.\nPackage Content: Consider including:\n\nData cleaning functions,\nCustom wrapper functions,\nData sets you frequently use,\nReused code from other open-source packages (with proper attribution)."
+  },
+  {
+    "objectID": "index.html#getting-started",
+    "href": "index.html#getting-started",
+    "title": "A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website",
+    "section": "Getting Started",
+    "text": "Getting Started\nWe’ve provided a detailed vignette that walks you through the essential steps for setting up your own R package and Quarto website, including: 1. Cloning the repository and customizing it for your own package. 2. Setting up the Quarto website for documenting your functions and workflows. 3. Using GitHub for version control, collaboration, and package distribution.\nStart building your R package today to make your work more efficient, organized, and shareable!"
+  },
+  {
     "objectID": "license.html",
     "href": "license.html",
-    "title": "MIT License",
+    "title": "License",
     "section": "",
-    "text": "The MIT License (MIT)\nCopyright (c) [YEAR] [YOUR NAME]\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    "text": "License\nThis is a human-readable summary of (and not a substitute for) the license. Please see https://creativecommons.org/licenses/by-sa/4.0/legalcode for the full legal text.\nThis work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).\nYou are free to:\n\nShare—copy and redistribute the material in any medium or format\nAdapt—remix, transform, and build upon the material for any purpose, even commercially.\n\nThe licensor cannot revoke these freedoms as long as you follow the license terms.\nUnder the following terms:\n\nAttribution—You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.\nShareAlike—If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.\n\nNo additional restrictions—You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.\nNotices:\nYou do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation.\nNo warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material."
   },
   {
     "objectID": "documents.html",
@@ -247,50 +128,8 @@
   {
     "objectID": "reference.html",
     "href": "reference.html",
-    "title": "Function Reference",
+    "title": "Documentation",
     "section": "",
-    "text": "Function Reference\nBelow is the list of functions available in the your_package_name package.\n\n\nLoad your package and include the reference\nlibrary(packageSkeleton) quarto::use_rd()"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Index",
-    "section": "",
-    "text": "Welcome to the effective data visualisation with R workshop!\nTuesday 6th December 2022\n 9.00AM - 12.00PM AEDT\n Zoom (links provided to participants via email)"
-  },
-  {
-    "objectID": "index.html#materials",
-    "href": "index.html#materials",
-    "title": "Index",
-    "section": "Materials",
-    "text": "Materials\nAll materials are hosted on a GitHub repo here and can be downloaded here as a zip file (including the website, slides and exercises).\nOnce the material is downloaded, open the docs/index.html in a browser to see this website (emitanaka.org/EDVR-workshop)."
-  },
-  {
-    "objectID": "index.html#schedule",
-    "href": "index.html#schedule",
-    "title": "Index",
-    "section": "Schedule",
-    "text": "Schedule"
-  },
-  {
-    "objectID": "index.html#installation",
-    "href": "index.html#installation",
-    "title": "Index",
-    "section": "Installation",
-    "text": "Installation\nThis is only needed if the exercise links above do not work for you.\n\ninstall.packages(c(\"remotes\", \"learnr\"))\nremotes::install_github(\"emitanaka/EDVR-workshop/pkg\")"
-  },
-  {
-    "objectID": "index.html#exercises",
-    "href": "index.html#exercises",
-    "title": "Index",
-    "section": "Exercises",
-    "text": "Exercises\nTo run the exercises locally, install the packages under Installation and then run:\n\nlearnr::run_tutorial(\"exercise-01\", package = \"edvr.workshop\")\nlearnr::run_tutorial(\"exercise-02\", package = \"edvr.workshop\")"
-  },
-  {
-    "objectID": "index.html#lorum-ipsum",
-    "href": "index.html#lorum-ipsum",
-    "title": "Index",
-    "section": "Lorum Ipsum",
-    "text": "Lorum Ipsum\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    "text": "Function Reference\nBelow is the list of functions available in the packageSkeleton package.\n\n\n# DESCRIPTION\n\n``````\nPackage: packageSkeleton\nVersion: 0.0-0.1\nDate: 2024-10-14\nTitle: A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website\nDescription: The packageSkeleton R package provides a comprehensive template to jumpstart the development of an R package, complete with a structured framework for coding, documentation, and version control. It simplifies the process of setting up an R package repository on GitHub, offering built-in integration with Quarto for generating a professional, customizable website to showcase package documentation and vignettes. This template is designed to help both new and experienced R developers streamline package creation while ensuring best practices in documentation and collaboration. With minimal setup, users can focus on building and sharing valuable tools within the R ecosystem.\nAuthors@R: c(person(given=c(\"Damian\", \"W.\"), family=\"Betebenner\", email=\"dbetebenner@nciea.org\", role=c(\"aut\", \"cre\"), \n        comment = c(ORCID = \"0000-0003-0476-5599\")),\n                person(given=c(\"Adam\", \"R.\"), family=\"Van Iwaarden\", email=\"avaniwaarden@nciea.org\", role=\"aut\"))\nMaintainer: Damian W. Betebenner &lt;dbetebenner@nciea.org&gt;\nDepends: R (&gt;= 4.0)\nSuggests: knitr, rmarkdown\nImports: crayon, testthat, toOrdinal\nURL: https://CenterForAssessment.github.io/packageSkeleton\nBugReports: https://github.com/CenterForAssessment/packageSkeleton/issues\nVignetteBuilder: knitr\nLazyData: Yes\nLazyDataCompression: xz\nLazyLoad: Yes\nByteCompile: TRUE\nLicense: MIT + file LICENSE\nEncoding: UTF-8\n``````\n\n# `Hello_World`: Hello World Sample Dataset\n\n## Description\n\nThe `Hello_World` dataset provides a simple example with greetings in different languages, useful for illustrating basic data frame operations in R.\n\n## Usage\n\n``````r\nHello_World\n``````\n\n## Format\n\nA data frame with 10 rows and 2 variables:\n\n* `Language`: A character vector indicating the language of the Hello World greeting.\n* `Hello_World_Greeting`: A character vector containing the word \"Hello\" in different languages.\n\n## Source\n\nManually created for demonstration purposes.\n\n## Examples\n\n``````r\n# Display the hello_world dataset\nHello_World\n\n# Access the greeting column\nHello_World$Hello_World_Greeting\n\n# Access the language column\nHello_World$Language\n``````\n\n# `packageSkeleton-package`: A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website.\n\n## Description\n\nThe packageSkeleton R package provides a comprehensive template to jumpstart the development of an R package, complete with a structured framework for coding, documentation, and version control. It simplifies the process of setting up an R package repository on GitHub, offering built-in integration with Quarto for generating a professional, customizable website to showcase package documentation and vignettes. This template is designed to help both new and experienced R developers streamline package creation while ensuring best practices in documentation and collaboration. With minimal setup, users can focus on building and sharing valuable tools within the R ecosystem.\n\n## Keyword\n\npackage\n\n## Details\n\n|         |               |\n|---------|---------------|\n|Package: |packageSkeleton|\n|Type:    |Package        |\n|Version: |0.0-0.1        |\n|Date:    |2024-10-14     |\n|License: |GPL-3          |\n|LazyLoad:|yes            |\n\n## Author\n\nDamian W. Betebenner [DBetebenner@nciea.org](mailto:DBetebenner@nciea.org)\n\n# `strHead`: Returns the first `n` characters of a string, with support for negative values.\n\n## Description\n\nThe `strHead` function extracts the first `n` characters of a provided string. If `n_char` is positive, it returns the first `n_char` characters; if negative, it returns all but the last `abs(n_char)` characters. The function handles input validation, ensuring that `n_char` is within the bounds of the string length. It's useful for quickly trimming strings to desired lengths.\n\n## Usage\n\n``````r\nstrHead(\n    string,\n    n_char=1)\n``````\n\n## Arguments\n\n* `string`: Character string or vector of character strings.\n* `n_char`: Number of characters to take from the head (starting at the first character) of the string (or vector of strings). A positive value returns the first `n_char` characters, while a negative value removes the last `abs(n_char)` characters from the end. Defaults to 1.\n\n## Keyword\n\nmisc\n\n## Keyword\n\nmodels\n\n## Details\n\nThe `strHead` function is typically used to extract the first few characters from a character string or each string in a vector of character strings. This can be useful for truncating strings or extracting prefixes. The function supports both positive and negative values for `n_char`, allowing flexible string extraction. For positive values, the function returns the first `n_char` characters, while for negative values, it returns all but the last `abs(n_char)` characters.\n\n## Author\n\nDamian W. Betebenner [dbetebenner@nciea.org](mailto:dbetebenner@nciea.org)\n\n## Value\n\nThe function returns a character string or a vector of character strings, depending on the input. The output consists of the first `n_char` characters from each string in the input. If `n_char` is negative, the result excludes the last `abs(n_char)` characters from each string.\n\n## Examples\n\n``````r\n# Example 1: First two characters of each state name\nstrHead(state.name, 2)\n\n# Example 2: First three characters of a single string\nstrHead(\"California\", 3)\n\n# Example 3: Remove the last two characters from each string in a vector\nstrHead(c(\"apple\", \"banana\", \"cherry\"), -2)\n\n# Example 4: Get the first character of each month name\nstrHead(month.name, 1)\n\n# Example 5: Handle a vector of different length strings\nstrHead(c(\"wolf\", \"elephant\", \"giraffe\"), 4)\n``````\n\n# `strTail`: Returns the last `n` characters of a string, with support for negative values.\n\n## Description\n\nThe `strTail` function extracts the last `n` characters of a provided string. If `n_char` is positive, it returns the last `n_char` characters; if negative, it returns all but the first `abs(n_char)` characters. The function handles input validation, ensuring that `n_char` is within the bounds of the string length. It's useful for quickly trimming strings to desired lengths.\n\n## Usage\n\n``````r\nstrTail(\n    string,\n    n_char=1)\n``````\n\n## Arguments\n\n* `string`: Character string or vector of character strings.\n* `n_char`: Number of characters to take from the tail (starting at the last character) of the string (or vector of strings). A positive value returns the last `n_char` characters, while a negative value removes the first `abs(n_char)` characters from the start. Defaults to 1.\n\n## Keyword\n\nmisc\n\n## Keyword\n\nmodels\n\n## Details\n\nThe `strTail` function is commonly used to extract the last few characters from a character string or each string in a vector of character strings. This is helpful when you need to retrieve suffixes or the end portion of strings. The function supports both positive and negative values for `n_char`. For positive values, the function returns the last `n_char` characters, while for negative values, it excludes the first `abs(n_char)` characters from the start of each string.\n\n## Author\n\nDamian W. Betebenner [dbetebenner@nciea.org](mailto:dbetebenner@nciea.org)\n\n## Value\n\nThe function returns a character string or a vector of character strings, depending on the input. The output consists of the last `n_char` characters from each string in the input. If `n_char` is negative, the result excludes the first `abs(n_char)` characters from each string.\n\n## Examples\n\n``````r\n# Example 1: Last two characters of each state name\nstrTail(state.name, 2)\n\n# Example 2: Last three characters of a single string\nstrTail(\"California\", 3)\n\n# Example 3: Remove the first two characters from each string in a vector\nstrTail(c(\"apple\", \"banana\", \"cherry\"), -2)\n\n# Example 4: Get the last character of each month name\nstrTail(month.name, 1)\n\n# Example 5: Handle a vector of different length strings\nstrTail(c(\"wolf\", \"elephant\", \"giraffe\"), 4)\n``````"
   }
 ]
