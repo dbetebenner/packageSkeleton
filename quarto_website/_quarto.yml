@@ -26,7 +26,7 @@ website:
   navbar:
     title: "packageSkeleton"
     logo: ./assets/img/logo_grey.png
-    logo-href: "https://centerforassessment.github.io/"
+    logo-href: "https://centerforassessment.github.io/packageSkeleton"
     search: false
     pinned: true
     foreground: "#7c7c7c"
