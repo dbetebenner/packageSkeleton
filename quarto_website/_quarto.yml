@@ -6,6 +6,10 @@ project:
    - "assets/**/*"
    - "!pkg/"
 
+author: 
+  - name: "Damian Betebenner"
+  - name: "Adam VanIwaarden"
+
 execute:
   freeze: auto
 
@@ -32,9 +36,9 @@ website:
     foreground: "#7c7c7c"
     right:
       - text: Getting Started 
-        href: reference.qmd
+        href: getting_started.qmd
       - text: Presentations 
-        href: presentations.qmd
+        href: ./content/presentations/packageSkeleton_Presentation.qmd
       - text: Documents
         href: documents.qmd
       - text: Reference 

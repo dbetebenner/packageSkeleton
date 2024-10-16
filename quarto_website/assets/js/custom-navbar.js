@@ -1,15 +1,25 @@
 document.addEventListener('DOMContentLoaded', function() {
-  // Find the navbar-brand element which contains both the logo and the title
+  // Select the navbar-brand <a> tag that contains both the logo and the title
   const navbarBrand = document.querySelector('.navbar-brand');
-
-  // Create a new <a> element for the package title
+  
+  // Find the logo <img> inside the navbar-brand
+  const logo = navbarBrand.querySelector('img');
+  
+  // Create a new <a> tag for the package title
   const titleElement = navbarBrand.querySelector('.navbar-title');
-  const packageLink = document.createElement('a');
-  packageLink.href = 'https://centerforassessment.github.io/packageSkeleton/';
-  packageLink.classList.add('navbar-brand-title');
-  packageLink.textContent = titleElement.textContent;
-
-  // Insert the new <a> element after the logo and remove the original title
-  navbarBrand.appendChild(packageLink);
+  const titleLink = document.createElement('a');
+  
+  // Set the separate href for the package title
+  titleLink.href = 'https://centerforassessment.github.io/packageSkeleton/';
+  titleLink.classList.add('navbar-brand-title');
+  // titleLink.textContent = titleElement.textContent; // Preserve the title text
+  
+  // Insert the new <a> tag for the title next to the logo
+  navbarBrand.appendChild(titleLink);
+  
+  // Modify the href of the original <a> tag to only apply to the logo
+  navbarBrand.href = 'https://centerforassessment.github.io/';
+  
+  // Remove the original title span, since we now have a new <a> tag for it
   titleElement.remove();
 });
