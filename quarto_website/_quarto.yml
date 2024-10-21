@@ -2,9 +2,9 @@ project:
   type: website
   output-dir: ../docs
   render:
-   - "*.qmd"
+   - "*.qmd"      # Render all .qmd files by default
+   - "!content/presentations/**"  # Exclude everything in the "content/presentations" directory
    - "assets/**/*"
-   - "!pkg/"
 
 author: 
   - name: "Damian Betebenner"
@@ -23,7 +23,6 @@ website:
   site-url: "https://centerforassessment.github.io/packageSkeleton/"
   repo-url: "https://github.com/centerforassessment/packageSkeleton"
   title: "A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website"
-  repo-actions: [edit, issue]
   favicon: ./assets/img/logo_color.png
 
   page-navigation: true
@@ -46,10 +45,12 @@ website:
         href: reference.qmd
       - text: News
         href: news.qmd
-      - text: "{{< iconify fa6-brands github size=28px title='GitHub' label='The packageSkeleton GitHub Repo' >}}"
-        href: https://github.com/centerforassessment/packageSkeleton
-      - text: "{{< iconify fa6-brands bluesky size=28px title='Bluesky' label='Share on Bluesky' >}}" 
-        href: https://bsky.app/intent/compose?text=packageSkeleton%3A%20A%20GitHub%20repository%20featuring%20a%20starter%20template%20for%20R%20package%20development%2C%20paired%20with%20a%20Quarto-powered%20website.%20%23packageSkeleton%20%23rstats%20https%3A%2F%2Fcenterforassessment.github.io%2FpackageSkeleton 
+      - text: "{{< iconify fa6-brands github size=28px title='GitHub Repo' label='The packageSkeleton GitHub Repo' >}}"
+        href: https://github.com/centerforassessment/packageSkeleton/
+        target: _blank
+      - text: "{{< iconify fa6-brands bluesky size=28px title='Share on Bluesky' label='Share on Bluesky' >}}" 
+        href: https://bsky.app/intent/compose?text=packageSkeleton%3A%20A%20GitHub%20repository%20featuring%20a%20starter%20template%20for%20R%20package%20development%2C%20paired%20with%20a%20Quarto-powered%20website.%20%23packageSkeleton%20%23rstats%20https%3A%2F%2Fcenterforassessment.github.io%2FpackageSkeleton
+        target: _blank 
 
   search:
     location: navbar
@@ -58,12 +59,11 @@ website:
 
   page-footer:
     center:
-      - text: About
-        href: about.qmd
-      - icon: github
-        text: GitHub
-        aria-label: github
-        href: https://https://github.com/centerforassessment/packageSkeleton
+      - text: "{{< iconify bi:info-square-fill size=28px title='About packageSkeleton', label='About packageSkeleton' >}}"
+        href: https://centerforassessment.github.io/packageSkeleton/
+      - text: "{{< iconify jam:github-square size=33.5px title='GitHub Repo' label='The packageSkeleton GitHub Repo' >}}"
+        href: https://github.com/centerforassessment/packageSkeleton/
+        target: _blank
 
   open-graph: true
   twitter-card: 
@@ -83,4 +83,4 @@ format:
       <script type="text/javascript" src="/assets/js/jquery.sticky-kit.min.js"></script>
       <script type="text/javascript" src="/assets/js/scroll.js"></script>
       <script type="text/javascript" src="/assets/js/logo-switch.js"></script>
-      <script type="text/javascript" src="/assets/js/custom-navbar.js"></script>
+      <script type="text/javascript" src="/assets/js/custom-anchors.js"></script>
