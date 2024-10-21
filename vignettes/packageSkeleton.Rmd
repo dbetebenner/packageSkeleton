@@ -26,7 +26,7 @@ if (is_html_output()) {
 ```
 
 The **packageSkeleton** is both a [GitHub](www.github.com) version control repository, and associated GitHub hosted
-[static website](https://centerforassessment.github.io/packageSkeleton/articles/packageSkeleton.html) as well as an
+[static website](https://centerforassessment.github.io/packageSkeleton/) as well as an
 [R package](https://cran.r-project.org/doc/manuals/r-release/R-exts.html#Creating-R-packages). The combination of GitHub and R together is a
 *super-power* skill to develop if you have a serious interest in data analysis.
 
@@ -36,7 +36,7 @@ The following steps are meant to help you get set up:
 
 You'll need to have software installed and access to GitHub to make all of this work.
 
-* Have R >= 4.0 installed. If you use [RStudio](https://www.rstudio.com/), make sure to update it to the latest version.
+* Have R >= 4.0 installed. If you use [RStudio](https://posit.co/), make sure to update it to the latest version.
 * Make sure you have a GitHub account with a username and password.
 * Update all your R packages that you have installed: `update.packages(ask=FALSE)`
 * You'll need to install several R packages to make all of this work:
@@ -77,14 +77,14 @@ Some things you should do:
 To help illustrate what all these changes would look like, I've cloned the **packageSkeleton** and modified it and created a customized version of
 it called **customizedPackage**:
 
-* [GitHub repo](https://github.com/dbetebenner/customizedPackage)
+* [GitHub Repo](https://github.com/dbetebenner/customizedPackage)
 * [Website](https://dbetebenner.github.io/customizedPackage/)
 
 
 # Step 4: Build, check and install your package locally
 
 Once you get your package tidied up with name changes and customizations, to make sure everything is working build your package locally.
-If you're using RStudio, there are capabilities to [build the package](https://support.rstudio.com/hc/en-us/articles/200486488-Developing-Packages-with-RStudio) included in the user interface. If you are using OSX or Windows you will likely be using the command line to [build, check, and install your package locally](https://kbroman.org/pkg_primer/pages/build.html).
+If you're using RStudio, there are capabilities to [build the package](https://support.posit.co/hc/en-us/articles/200486488-Developing-Packages-with-RStudio) included in the user interface. If you are using OSX or Windows you will likely be using the command line to [build, check, and install your package locally](https://kbroman.org/pkg_primer/pages/build.html).
 
 # Step 5: Update your package website
 

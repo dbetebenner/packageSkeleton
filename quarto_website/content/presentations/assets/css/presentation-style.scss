@@ -36,4 +36,11 @@ $presentation-heading-font: "Yanone Kaffeesatz", sans-serif !default;
    -moz-transform: rotate(-180deg);
 }
 
+.reveal {
+  background-color: #f0f0f0;  /* Light grey background globally */
+}
+
+.reveal .slides section {
+  color: #333333; /* Custom text color */
+}
 

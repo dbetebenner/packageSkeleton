@@ -1,14 +1,18 @@
-citHeader("To cite package 'packageSkeleton' in publications, please use:")
-
-citEntry(entry = "Manual",
-         title        = "{packageSkeleton}: A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website.",
-         author       = "Damian W. Betebenner",
-         year         = "2024",
-         note         = "R package version 0.0-0.1",
-         url          = "https://centerforassessment.github.io/packageSkeleton",
-         
-         textVersion  = paste("Damian W. Betebenner (2024).",
-                        "packageSkeleton: A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website.",
-                        "(R package version 0.0-0.1",
-                        "URL https://centerforassessment.github.io/packageSkeleton")
+bibentry(
+    bibtype      = "Manual",
+    header       = "To cite the packageSkeleton package in publications use:",
+    title        = "{packageSkeleton}: A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website.",
+    author       = c(
+                    person(given = c("Damian", "W."), family = "Betebenner"),
+                    person(given = c("Adam", "R."), family = "Van Iwaarden")
+                   ),
+    year         = "2024",
+    note         = "R package version 0.0-0.1",
+    url          = "https://centerforassessment.github.io/packageSkeleton/",
+    textVersion  = paste(
+                    "Damian W. Betebenner and Adam R. Van Iwaarden (2024).",
+                    "{packageSkeleton}: A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website.",
+                    "(R package version 0.0-0.1)",
+                    "URL: https://centerforassessment.github.io/packageSkeleton/"
+                  )
 )

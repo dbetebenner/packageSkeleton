@@ -9,7 +9,7 @@
 <meta name="author" content="Damian Betebenner">
 <meta name="author" content="Adam VanIwaarden">
 
-<title>Presentations – A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website</title>
+<title>Embedded Presentations – A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -41,6 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-c280c4eeba53f3932fd6ed3acc0a55a5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": true,
@@ -70,10 +71,11 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="assets/css/website-styles.css">
-<meta property="og:title" content="Presentations – A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website">
+<link rel="stylesheet" href="./assets/css/presentations-custom.css">
+<meta property="og:title" content="Embedded Presentations – A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website">
 <meta property="og:description" content="">
 <meta property="og:site_name" content="A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website">
-<meta name="twitter:title" content="Presentations – A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website">
+<meta name="twitter:title" content="Embedded Presentations – A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website">
 <meta name="twitter:description" content="">
 <meta name="twitter:creator" content="dbetebenner">
 <meta name="twitter:site" content="nciea1">
@@ -87,10 +89,10 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="https://centerforassessment.github.io/packageSkeleton" class="navbar-brand navbar-brand-logo">
-    <img src="././assets/img/logo_grey.png" alt="" class="navbar-logo">
+    <a href="https://centerforassessment.github.io/" class="navbar-brand navbar-brand-logo">
+    <img src="././assets/img/logo_grey.png" alt="Center for Assessment GitHub Homepage" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="https://centerforassessment.github.io/packageSkeleton">
+    <a class="navbar-brand" href="https://centerforassessment.github.io/">
     <span class="navbar-title">packageSkeleton</span>
     </a>
   </div>
@@ -105,7 +107,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Getting Started</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./content/presentations/packageSkeleton_Presentation.html"> 
+    <a class="nav-link active" href="./presentations.html" aria-current="page"> 
 <span class="menu-text">Presentations</span></a>
   </li>  
   <li class="nav-item">
@@ -120,15 +122,13 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./news.html"> 
 <span class="menu-text">News</span></a>
   </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/dbetebenner/packageSkeleton"> <i class="bi bi-github" role="img" aria-label="github">
-</i> 
-<span class="menu-text"></span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="https://github.com/centerforassessment/packageSkeleton"> 
+<span class="menu-text"><iconify-icon role="img" inline="" icon="fa6-brands:github" style="font-size: 28px;" aria-label="The packageSkeleton GitHub Repo" title="GitHub"></iconify-icon></span></a>
   </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://x.com/nciea1"> <i class="bi bi-X-Twitter" role="img" aria-label="X-Twitter">
-</i> 
-<span class="menu-text"></span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="https://bsky.app/intent/compose?text=packageSkeleton%3A%20A%20GitHub%20repository%20featuring%20a%20starter%20template%20for%20R%20package%20development%2C%20paired%20with%20a%20Quarto-powered%20website.%20%23packageSkeleton%20%23rstats%20https%3A%2F%2Fcenterforassessment.github.io%2FpackageSkeleton"> 
+<span class="menu-text"><iconify-icon role="img" inline="" icon="fa6-brands:bluesky" style="font-size: 28px;" aria-label="Share on Bluesky" title="Bluesky"></iconify-icon></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -146,7 +146,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#biography-of-workshop-presenter" id="toc-biography-of-workshop-presenter" class="nav-link active" data-scroll-target="#biography-of-workshop-presenter">Biography of Workshop Presenter</a></li>
+  <li><a href="#presentation-1" id="toc-presentation-1" class="nav-link active" data-scroll-target="#presentation-1">Presentation 1</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/centerforassessment/packageSkeleton/edit/main/presentations.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/centerforassessment/packageSkeleton/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -155,7 +155,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Presentations</h1>
+<h1 class="title">Embedded Presentations</h1>
 </div>
 
 
@@ -179,16 +179,12 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>In this 3 hour tutorial, I will demonstrate some cognitive principles and apply methods supported by empirical studies that make data visualisation more effective. The construction of data visualisation will be accompanied with R code using the ggplot2 package. The R code and data used will be provided so participants can fully replicate the presented data visualisations.</p>
-<ul>
-<li>Session 1: Basics of creating plots with ggplot2.</li>
-<li>Session 2: Fundamentals of data visualisation.</li>
-<li>Session 3: Elements of effective data visualisation.</li>
-</ul>
-<p>Participants are expected to know how to use R. Some knowledge in tidyverse would be beneficial. You can find an interactive introduction to data analysis with R at <a href="https://learnr.numbat.space/">https://learnr.numbat.space/</a>.</p>
-<section id="biography-of-workshop-presenter" class="level2">
-<h2 class="anchored" data-anchor-id="biography-of-workshop-presenter">Biography of Workshop Presenter</h2>
-<p>Dr.&nbsp;Emi Tanaka is a Senior Lecturer in Statistics at Monash University whose primary interest is to develop impactful statistical methods and tools that can readily be used by practitioners. Her research area includes data visualisation, mixed models and experimental designs, motivated primarily by problems in bioinformatics and agricultural sciences. She is currently the President of the Statistical Society of Australia Victorian Branch and the recipient of the Distinguished Presenter’s Award from the Statistical Society of Australia for her delivery of a wide-range of R workshops.</p>
+<p>Below are some presentations I’ve given on the packageSkeleton framework.</p>
+<section id="presentation-1" class="level1">
+<h1>Presentation 1</h1>
+<div class="iframe-container">
+<p><iframe src="content/presentations/packageSkeleton_Presentation-speaker.html" allowfullscreen=""> </iframe></p>
+</div>
 
 
 </section>
