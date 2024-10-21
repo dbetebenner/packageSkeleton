@@ -1,39 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://centerforassessment.github.io/packageSkeleton/about.html</loc>
-    <lastmod>2024-10-15T13:27:10.827Z</lastmod>
-  </url>
-  <url>
-    <loc>https://centerforassessment.github.io/packageSkeleton/presentations.html</loc>
-    <lastmod>2024-10-21T09:54:34.676Z</lastmod>
-  </url>
-  <url>
-    <loc>https://centerforassessment.github.io/packageSkeleton/license.html</loc>
-    <lastmod>2024-10-17T09:47:11.016Z</lastmod>
-  </url>
-  <url>
-    <loc>https://centerforassessment.github.io/packageSkeleton/getting_started.html</loc>
-    <lastmod>2024-10-16T18:20:22.312Z</lastmod>
-  </url>
-  <url>
-    <loc>https://centerforassessment.github.io/packageSkeleton/content/presentations/packageSkeleton_Presentation.html</loc>
-    <lastmod>2024-10-21T09:49:43.034Z</lastmod>
-  </url>
-  <url>
-    <loc>https://centerforassessment.github.io/packageSkeleton/documents.html</loc>
-    <lastmod>2024-10-15T13:27:10.831Z</lastmod>
-  </url>
-  <url>
-    <loc>https://centerforassessment.github.io/packageSkeleton/index.html</loc>
-    <lastmod>2024-10-16T09:52:50.115Z</lastmod>
+    <loc>https://centerforassessment.github.io/packageSkeleton/reference.html</loc>
+    <lastmod>2024-10-16T15:46:06.959Z</lastmod>
   </url>
   <url>
     <loc>https://centerforassessment.github.io/packageSkeleton/news.html</loc>
     <lastmod>2024-10-15T13:27:10.834Z</lastmod>
   </url>
   <url>
-    <loc>https://centerforassessment.github.io/packageSkeleton/reference.html</loc>
-    <lastmod>2024-10-16T15:46:06.959Z</lastmod>
+    <loc>https://centerforassessment.github.io/packageSkeleton/index.html</loc>
+    <lastmod>2024-10-21T15:11:34.437Z</lastmod>
+  </url>
+  <url>
+    <loc>https://centerforassessment.github.io/packageSkeleton/documents.html</loc>
+    <lastmod>2024-10-15T13:27:10.831Z</lastmod>
+  </url>
+  <url>
+    <loc>https://centerforassessment.github.io/packageSkeleton/getting_started.html</loc>
+    <lastmod>2024-10-21T15:19:47.310Z</lastmod>
+  </url>
+  <url>
+    <loc>https://centerforassessment.github.io/packageSkeleton/license.html</loc>
+    <lastmod>2024-10-17T09:47:11.016Z</lastmod>
+  </url>
+  <url>
+    <loc>https://centerforassessment.github.io/packageSkeleton/presentations.html</loc>
+    <lastmod>2024-10-21T09:54:34.676Z</lastmod>
   </url>
 </urlset>
