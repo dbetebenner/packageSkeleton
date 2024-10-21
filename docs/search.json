@@ -23,37 +23,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website",
+    "title": "Overview",
     "section": "",
-    "text": "The packageSkeleton repository provides a streamlined template for setting up an R package, complete with an integrated Quarto website hosted on GitHub. This skeleton is designed to simplify the often daunting process of creating, maintaining, and distributing an R package, making GitHub an ideal platform for collaboration, version control, and sharing your work.\nWhether you’re an experienced R developer or new to package development, this skeleton offers a robust starting point. The primary advantage of using this skeleton is that it handles much of the initial setup, allowing you to focus on personalizing the package to meet your specific needs. This includes: - Customizing the package name, - Adding your own functions, - Creating a website to document and showcase your work."
-  },
-  {
-    "objectID": "index.html#overview",
-    "href": "index.html#overview",
-    "title": "A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website",
-    "section": "",
-    "text": "The packageSkeleton repository provides a streamlined template for setting up an R package, complete with an integrated Quarto website hosted on GitHub. This skeleton is designed to simplify the often daunting process of creating, maintaining, and distributing an R package, making GitHub an ideal platform for collaboration, version control, and sharing your work.\nWhether you’re an experienced R developer or new to package development, this skeleton offers a robust starting point. The primary advantage of using this skeleton is that it handles much of the initial setup, allowing you to focus on personalizing the package to meet your specific needs. This includes: - Customizing the package name, - Adding your own functions, - Creating a website to document and showcase your work."
-  },
-  {
-    "objectID": "index.html#why-create-an-r-package",
-    "href": "index.html#why-create-an-r-package",
-    "title": "A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website",
-    "section": "Why Create an R Package?",
-    "text": "Why Create an R Package?\nCreating an R package isn’t just about building tools for others—it’s about building something useful for you. By consolidating functions, data sets, and workflows you use regularly into a package, you streamline your own work. Additionally, your solutions may end up being valuable to others who work in similar domains.\nThis package skeleton encourages that mindset, helping you create something that is immediately useful in your own workflow while also providing a structure for sharing your work with the broader R community."
-  },
-  {
-    "objectID": "index.html#what-youll-need",
-    "href": "index.html#what-youll-need",
-    "title": "A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website",
-    "section": "What You’ll Need",
-    "text": "What You’ll Need\nTo get the most out of the package skeleton, a few foundational skills and concepts will be useful:\n\nGitHub Basics: Familiarity with cloning repositories, making commits, and pushing changes is essential.\nR and R Package Basics: Understand how R packages are structured and function.\nQuarto Basics: Quarto will help you build documentation and websites for your package.\nPackage Content: Consider including:\n\nData cleaning functions,\nCustom wrapper functions,\nData sets you frequently use,\nReused code from other open-source packages (with proper attribution)."
-  },
-  {
-    "objectID": "index.html#getting-started",
-    "href": "index.html#getting-started",
-    "title": "A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website",
-    "section": "Getting Started",
-    "text": "Getting Started\nWe’ve provided a detailed vignette that walks you through the essential steps for setting up your own R package and Quarto website, including: 1. Cloning the repository and customizing it for your own package. 2. Setting up the Quarto website for documenting your functions and workflows. 3. Using GitHub for version control, collaboration, and package distribution.\nStart building your R package today to make your work more efficient, organized, and shareable!"
+    "text": "Overview\nThe packageSkeleton repository provides a streamlined template for setting up an R package, complete with an integrated Quarto website hosted on GitHub. This skeleton is designed to simplify the often daunting process of creating, maintaining, and distributing an R package, making GitHub an ideal platform for collaboration, version control, and sharing your work.\nWhether you’re an experienced R developer or new to package development, this skeleton offers a robust starting point. The primary advantage of using this skeleton is that it handles much of the initial setup, allowing you to focus on personalizing the package to meet your specific needs. This includes: - Customizing the package name, - Adding your own functions, - Creating a website to document and showcase your work.\n\n\nWhy Create an R Package?\nCreating an R package isn’t just about building tools for others—it’s about building something useful for you. By consolidating functions, data sets, and workflows you use regularly into a package, you streamline your own work. Additionally, your solutions may end up being valuable to others who work in similar domains.\nThis package skeleton encourages that mindset, helping you create something that is immediately useful in your own workflow while also providing a structure for sharing your work with the broader R community.\n\n\nWhat You’ll Need\nTo get the most out of the package skeleton, a few foundational skills and concepts will be useful:\n\nGitHub Basics: Familiarity with cloning repositories, making commits, and pushing changes is essential.\nR and R Package Basics: Understand how R packages are structured and function.\nQuarto Basics: Quarto will help you build documentation and websites for your package.\nPackage Content: Consider including:\n\nData cleaning functions,\nCustom wrapper functions,\nData sets you frequently use,\nReused code from other open-source packages (with proper attribution).\n\n\n\n\nGetting Started\nWe’ve provided a detailed vignette that walks you through the essential steps for setting up your own R package and Quarto website, including: 1. Cloning the repository and customizing it for your own package. 2. Setting up the Quarto website for documenting your functions and workflows. 3. Using GitHub for version control, collaboration, and package distribution.\nStart building your R package today to make your work more efficient, organized, and shareable!"
   },
   {
     "objectID": "documents.html",

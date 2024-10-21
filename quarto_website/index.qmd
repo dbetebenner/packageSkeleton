@@ -1,11 +1,11 @@
 ---
 format:
   html:
-    toc: false
+    toc: true
     number-sections: false
 ---
 
-## Overview
+# Overview
 
 The **packageSkeleton** repository provides a streamlined template for setting up an [R](https://cran.r-project.org/) package, complete with an integrated [Quarto](https://quarto.org/) website hosted on GitHub. This skeleton is designed to simplify the often daunting process of creating, maintaining, and distributing an R package, making GitHub an ideal platform for collaboration, version control, and sharing your work.
 
@@ -15,14 +15,14 @@ Whether you're an experienced R developer or new to package development, this sk
 - Creating a website to document and showcase your work.
 
 
-## Why Create an R Package?
+# Why Create an R Package?
 
 Creating an R package isn't just about building tools for others—it's about building something useful for **you**. By consolidating functions, data sets, and workflows you use regularly into a package, you streamline your own work. Additionally, your solutions may end up being valuable to others who work in similar domains.
 
 This package skeleton encourages that mindset, helping you create something that is immediately useful in your own workflow while also providing a structure for sharing your work with the broader R community.
 
 
-## What You’ll Need
+# What You’ll Need
 
 To get the most out of the package skeleton, a few foundational skills and concepts will be useful:
 
@@ -36,7 +36,7 @@ To get the most out of the package skeleton, a few foundational skills and conce
   - Reused code from other open-source packages (with proper attribution).
 
 
-## Getting Started
+# Getting Started
 
 We’ve provided a [detailed vignette](https://centerforassessment.github.io/packageSkeleton/articles/packageSkeleton.html) that walks you through the essential steps for setting up your own R package and Quarto website, including:
 1. Cloning the repository and customizing it for your own package.
