@@ -12,7 +12,6 @@ Suggests: knitr, rmarkdown
 Imports: crayon, testthat, toOrdinal
 URL: https://centerforassessment.github.io/packageSkeleton/
 BugReports: https://github.com/centerforassessment/packageSkeleton/issues
-VignetteBuilder: knitr
 LazyData: Yes
 LazyDataCompression: xz
 LazyLoad: Yes

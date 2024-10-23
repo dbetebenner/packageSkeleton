@@ -2,7 +2,6 @@ packageSkeleton
 ===========
 
 [![R-CMD-check](https://github.com/CenterForAssessment/packageSkeleton/workflows/R-CMD-check/badge.svg)](https://github.com/CenterForAssessment/packageSkeleton/actions)
-[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/centerforassessment/packageSkeleton?branch=master&svg=true)](https://ci.appveyor.com/project/centerforassessment/packageSkeleton)
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/packageSkeleton)](http://cran.r-project.org/package=packageSkeleton)
 [![Development Version](https://img.shields.io/badge/devel-0.0--0.1-brightgreen.svg)](https://github.com/CenterForAssessment/packageSkeleton)
 [![License](http://img.shields.io/badge/license-GPL%203-brightgreen.svg?style=flat)](https://github.com/CenterForAssessment/packageSkeleton/blob/master/LICENSE.md)
