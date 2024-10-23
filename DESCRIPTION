@@ -11,7 +11,7 @@ Depends: R (>= 4.0)
 Suggests: knitr, rmarkdown
 Imports: crayon, testthat, toOrdinal
 URL: https://centerforassessment.github.io/packageSkeleton/
-BugReports: https://github.com/centerforassessment/packageSkeleton/issues
+BugReports: https://github.com/centerforassessment/packageSkeleton/issues/
 LazyData: Yes
 LazyDataCompression: xz
 LazyLoad: Yes
