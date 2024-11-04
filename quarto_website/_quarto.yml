@@ -77,7 +77,7 @@ website:
     site: "nciea1"
 
   open-graph: 
-    #description: The personal website of Ella Kaye
+    #description: A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website
     image: ./assets/img/logo_grey.png
     image-alt: packageSkeleton logo
     image-width: 500
