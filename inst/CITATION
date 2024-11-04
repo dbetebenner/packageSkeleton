@@ -7,12 +7,12 @@ bibentry(
                     person(given = c("Adam", "R."), family = "Van Iwaarden")
                    ),
     year         = "2024",
-    note         = "R package version 0.0-0.1",
+    note         = "R package version 0.0-0.2",
     url          = "https://centerforassessment.github.io/packageSkeleton/",
     textVersion  = paste(
                     "Damian W. Betebenner and Adam R. Van Iwaarden (2024).",
                     "{packageSkeleton}: A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website.",
-                    "(R package version 0.0-0.1)",
+                    "(R package version 0.0-0.2)",
                     "URL: https://centerforassessment.github.io/packageSkeleton/"
                   )
 )

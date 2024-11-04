@@ -11,7 +11,7 @@
     # Define a friendly startup message
     message_text <- paste0(
       magenta$bold("packageSkeleton"), " v", formatted_version, 
-      " (10-14-2024)\n",
+      " (11-4-2024)\n",
       "For help, type: ", magenta$bold("> help(\"packageSkeleton\")"), " or visit:\n",
       magenta$bold("https://centerforassessment.github.io/packageSkeleton")
     )

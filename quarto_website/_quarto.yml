@@ -65,10 +65,24 @@ website:
         href: https://github.com/centerforassessment/packageSkeleton/
         target: _blank
 
-  open-graph: true
-  twitter-card: 
+  twitter-card:
+    title: packageSkeleton
+    description: A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website
+    image: ./assets/img/logo_grey.png
+    image-alt: packageSkeleton logo 
+    image-width: 500
+    image-height: 500
+    card-style: summary
     creator: "dbetebenner"
     site: "nciea1"
+
+  open-graph: 
+    #description: The personal website of Ella Kaye
+    image: ./assets/img/logo_grey.png
+    image-alt: packageSkeleton logo
+    image-width: 500
+    image-height: 500
+    locale: en-US
 
 format:
   html:
