@@ -1,7 +1,11 @@
+#' @importFrom utils packageDescription
+#' @importFrom crayon bold cyan green magenta red
+#' @importFrom toOrdinal toOrdinalDate
+
 .onLoad <- function(libname, pkgname) {
 }
 
-`.onAttach` <- function(libname, pkgname) {
+.onAttach <- function(libname, pkgname) {
     if (interactive()) {
 		# Utility function 
         get_dev_version <- function(package) {
