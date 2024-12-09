@@ -13,8 +13,8 @@
 #' \tabular{ll}{
 #'   Package: \tab packageSkeleton \cr
 #'   Type: \tab Package \cr
-#'   Version: \tab 0.0-0.2 \cr
-#'   Date: \tab 2024-11-4 \cr
+#'   Version: \tab 0.0-0.4 \cr
+#'   Date: \tab 2024-12-8 \cr
 #'   License: \tab MIT \cr
 #'   LazyLoad: \tab yes \cr
 #' }
