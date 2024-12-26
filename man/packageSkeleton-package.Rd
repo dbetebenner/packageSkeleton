@@ -19,8 +19,8 @@ With minimal setup, users can focus on building and sharing valuable tools withi
 \tabular{ll}{
 Package: \tab packageSkeleton \cr
 Type: \tab Package \cr
-Version: \tab 0.0-0.4 \cr
-Date: \tab 2024-12-8 \cr
+Version: \tab 0.0-0.5 \cr
+Date: \tab 2024-12-26 \cr
 License: \tab MIT \cr
 LazyLoad: \tab yes \cr
 }

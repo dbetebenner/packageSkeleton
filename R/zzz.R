@@ -35,7 +35,7 @@
 
         # Define a friendly startup message
 		message_text <- paste0(
-		    magenta(bold("\uD83C\uDF89 packageSkeleton v", installed.version, sep="")), " - ", toOrdinal::toOrdinalDate("2024-12-8"), "\n",
+		    magenta(bold("\uD83C\uDF89 packageSkeleton v", installed.version, sep="")), " - ", toOrdinal::toOrdinalDate("2024-12-26"), "\n",
 			strrep("\u2501", 40), "\n",
     	    bold("\U1F4E6 CRAN: "), cran.version, "\n",
     	    bold("\U1F527 Dev: "), dev.version, "\n",

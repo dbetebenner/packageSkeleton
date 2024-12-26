@@ -9,7 +9,7 @@
 <meta name="author" content="Damian Betebenner">
 <meta name="author" content="Adam VanIwaarden">
 
-<title>About – A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website</title>
+<title>about – A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,40 +21,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -74,7 +40,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-018089954d508eae8a473f0b7f0491f0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-68acbd68e543be2cf9aac9678c3e744e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-1216a170f12b2e3fe0401b81265aec2e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script src="site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
@@ -105,14 +71,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <link rel="stylesheet" href="assets/css/website-styles.css">
-<meta property="og:title" content="About – A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website">
+<meta property="og:title" content="A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website">
 <meta property="og:description" content="">
+<meta property="og:image" content="https://centerforassessment.github.io/packageSkeleton/assets/img/logo_grey.png">
 <meta property="og:site_name" content="A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website">
-<meta name="twitter:title" content="About – A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website">
-<meta name="twitter:description" content="">
+<meta property="og:image:alt" content="packageSkeleton logo">
+<meta property="og:image:height" content="237">
+<meta property="og:image:width" content="246">
+<meta property="og:locale" content="en-US">
+<meta name="twitter:title" content="packageSkeleton">
+<meta name="twitter:description" content="A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website">
+<meta name="twitter:image" content="https://centerforassessment.github.io/packageSkeleton/assets/img/logo_grey.png">
+<meta name="twitter:image:alt" content="packageSkeleton logo">
 <meta name="twitter:creator" content="dbetebenner">
 <meta name="twitter:site" content="nciea1">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image-height" content="237">
+<meta name="twitter:image-width" content="246">
 </head>
 
 <body class="nav-fixed">
@@ -136,6 +111,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
+    <a class="nav-link active" href="./about.html" aria-current="page"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./getting_started.html"> 
 <span class="menu-text">Getting Started</span></a>
   </li>  
@@ -156,11 +135,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://github.com/centerforassessment/packageSkeleton/"> 
+    <a class="nav-link" href="https://github.com/centerforassessment/packageSkeleton/" target="_blank"> 
 <span class="menu-text"><iconify-icon role="img" inline="" icon="fa6-brands:github" style="font-size: 28px;" aria-label="The packageSkeleton GitHub Repo" title="GitHub Repo"></iconify-icon></span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://bsky.app/intent/compose?text=packageSkeleton%3A%20A%20GitHub%20repository%20featuring%20a%20starter%20template%20for%20R%20package%20development%2C%20paired%20with%20a%20Quarto-powered%20website.%20%23packageSkeleton%20%23rstats%20https%3A%2F%2Fcenterforassessment.github.io%2FpackageSkeleton"> 
+    <a class="nav-link" href="https://bsky.app/intent/compose?text=packageSkeleton%3A%20A%20GitHub%20repository%20featuring%20a%20starter%20template%20for%20R%20package%20development%2C%20paired%20with%20a%20Quarto-powered%20website.%20%23packageSkeleton%20%23rstats%20https%3A%2F%2Fcenterforassessment.github.io%2FpackageSkeleton" target="_blank"> 
 <span class="menu-text"><iconify-icon role="img" inline="" icon="fa6-brands:bluesky" style="font-size: 28px;" aria-label="Share on Bluesky" title="Share on Bluesky"></iconify-icon></span></a>
   </li>  
 </ul>
@@ -179,10 +158,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#materials" id="toc-materials" class="nav-link active" data-scroll-target="#materials">Materials</a></li>
-  <li><a href="#schedule" id="toc-schedule" class="nav-link" data-scroll-target="#schedule">Schedule</a></li>
-  <li><a href="#installation" id="toc-installation" class="nav-link" data-scroll-target="#installation">Installation</a></li>
-  <li><a href="#exercises" id="toc-exercises" class="nav-link" data-scroll-target="#exercises">Exercises</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#why-create-an-r-package" id="toc-why-create-an-r-package" class="nav-link" data-scroll-target="#why-create-an-r-package">Why Create an R Package?</a></li>
+  <li><a href="#what-youll-need" id="toc-what-youll-need" class="nav-link" data-scroll-target="#what-youll-need">What You’ll Need</a></li>
+  <li><a href="#getting-started" id="toc-getting-started" class="nav-link" data-scroll-target="#getting-started">Getting Started</a></li>
   </ul>
 </nav>
     </div>
@@ -191,7 +170,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
 </div>
 
 
@@ -215,33 +193,37 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>Welcome to the <span style="color:#006DAE;">effective data visualisation with R</span> workshop!</p>
-<p><i class="fas fa-calendar" style="width:40px;"></i> Tuesday 6th December 2022<br>
-<i class="fas fa-clock" style="width:40px;"></i> 9.00AM - 12.00PM AEDT<br>
-<i class="fas fa-map-pin" style="width:40px;"></i> Zoom (links provided to participants via email)</p>
-<section id="materials" class="level2">
-<h2 class="anchored" data-anchor-id="materials">Materials</h2>
-<p>All materials are hosted on a GitHub repo <a href="https://github.com/emitanaka/EDVR-workshop">here</a> and can be downloaded <a href="https://github.com/emitanaka/EDVR-workshop/archive/refs/heads/master.zip">here as a zip file</a> (including the website, slides and exercises).</p>
-<p>Once the material is downloaded, open the <code>docs/index.html</code> in a browser to see this website (<a href="https://emitanaka.org/EDVR-workshop/">emitanaka.org/EDVR-workshop</a>).</p>
+<section id="overview" class="level1">
+<h1>Overview</h1>
+<p>The <strong>packageSkeleton</strong> repository provides a streamlined template for setting up an <a href="https://cran.r-project.org/">R</a> package, complete with an integrated <a href="https://quarto.org/">Quarto</a> website hosted on GitHub. This skeleton is designed to simplify the often daunting process of creating, maintaining, and distributing an R package, making GitHub an ideal platform for collaboration, version control, and sharing your work.</p>
+<p>Whether you’re an experienced R developer or new to package development, this skeleton offers a robust starting point. The primary advantage of using this skeleton is that it handles much of the initial setup, allowing you to focus on personalizing the package to meet your specific needs. This includes: - Customizing the package name, - Adding your own functions, - Creating a website to document and showcase your work.</p>
 </section>
-<section id="schedule" class="level2">
-<h2 class="anchored" data-anchor-id="schedule">Schedule</h2>
+<section id="why-create-an-r-package" class="level1">
+<h1>Why Create an R Package?</h1>
+<p>Creating an R package isn’t just about building tools for others—it’s about building something useful for <strong>you</strong>. By consolidating functions, data sets, and workflows you use regularly into a package, you streamline your own work. Additionally, your solutions may end up being valuable to others who work in similar domains.</p>
+<p>This package skeleton encourages that mindset, helping you create something that is immediately useful in your own workflow while also providing a structure for sharing your work with the broader R community.</p>
 </section>
-<section id="installation" class="level2">
-<h2 class="anchored" data-anchor-id="installation">Installation</h2>
-<p>This is only needed if the exercise links above do not work for you.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="fu">c</span>(<span class="st">"remotes"</span>, <span class="st">"learnr"</span>))</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>remotes<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">"emitanaka/EDVR-workshop/pkg"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
+<section id="what-youll-need" class="level1">
+<h1>What You’ll Need</h1>
+<p>To get the most out of the package skeleton, a few foundational skills and concepts will be useful:</p>
+<ul>
+<li><strong>GitHub Basics</strong>: Familiarity with cloning repositories, making commits, and pushing changes is essential.</li>
+<li><strong>R and R Package Basics</strong>: Understand how R packages are structured and function.</li>
+<li><strong>Quarto Basics</strong>: Quarto will help you build documentation and websites for your package.</li>
+<li><strong>Package Content</strong>: Consider including:
+<ul>
+<li>Data cleaning functions,</li>
+<li>Custom wrapper functions,</li>
+<li>Data sets you frequently use,</li>
+<li>Reused code from other open-source packages (with proper attribution).</li>
+</ul></li>
+</ul>
 </section>
-<section id="exercises" class="level2">
-<h2 class="anchored" data-anchor-id="exercises">Exercises</h2>
-<p>To run the exercises locally, install the packages under <a href="#installation">Installation</a> and then run:</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>learnr<span class="sc">::</span><span class="fu">run_tutorial</span>(<span class="st">"exercise-01"</span>, <span class="at">package =</span> <span class="st">"edvr.workshop"</span>)</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>learnr<span class="sc">::</span><span class="fu">run_tutorial</span>(<span class="st">"exercise-02"</span>, <span class="at">package =</span> <span class="st">"edvr.workshop"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
+<section id="getting-started" class="level1">
+<h1>Getting Started</h1>
+<p>We’ve provided a <a href="https://centerforassessment.github.io/packageSkeleton/articles/packageSkeleton.html">detailed vignette</a> that walks you through the essential steps for setting up your own R package and Quarto website, including: 1. Cloning the repository and customizing it for your own package. 2. Setting up the Quarto website for documenting your functions and workflows. 3. Using GitHub for version control, collaboration, and package distribution.</p>
+<p>Start building your R package today to make your work more efficient, organized, and shareable!</p>
+<hr>
 
 
 </section>
@@ -681,8 +663,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="https://github.com/centerforassessment/packageSkeleton/">
-<p><iconify-icon role="img" inline="" icon="skill-icons:github-dark" style="font-size: 28px;" aria-label="The packageSkeleton GitHub Repo" title="GitHub Repo"></iconify-icon></p>
+    <a class="nav-link" href="https://github.com/centerforassessment/packageSkeleton/" target="_blank">
+<p><iconify-icon role="img" inline="" icon="jam:github-square" style="font-size: 33.5px;" aria-label="The packageSkeleton GitHub Repo" title="GitHub Repo"></iconify-icon></p>
 </a>
   </li>  
 </ul>
