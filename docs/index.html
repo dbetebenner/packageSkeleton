@@ -40,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-018089954d508eae8a473f0b7f0491f0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-c54bcd3636fff9644f56543b9106cd36.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-1216a170f12b2e3fe0401b81265aec2e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script src="site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
@@ -72,7 +72,6 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="assets/css/website-styles.css">
 <meta property="og:title" content="A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website">
-<meta property="og:description" content="">
 <meta property="og:image" content="https://centerforassessment.github.io/packageSkeleton/assets/img/logo_grey.png">
 <meta property="og:site_name" content="A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website">
 <meta property="og:image:alt" content="packageSkeleton logo">
@@ -90,7 +89,7 @@ ul.task-list li input[type="checkbox"] {
 <meta name="twitter:image-width" content="246">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -110,6 +109,10 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
   <li class="nav-item">
     <a class="nav-link" href="./getting_started.html"> 
 <span class="menu-text">Getting Started</span></a>
@@ -149,18 +152,7 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#why-create-an-r-package" id="toc-why-create-an-r-package" class="nav-link" data-scroll-target="#why-create-an-r-package">Why Create an R Package?</a></li>
-  <li><a href="#what-youll-need" id="toc-what-youll-need" class="nav-link" data-scroll-target="#what-youll-need">What You’ll Need</a></li>
-  <li><a href="#getting-started" id="toc-getting-started" class="nav-link" data-scroll-target="#getting-started">Getting Started</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -189,40 +181,19 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="overview" class="level1">
-<h1>Overview</h1>
-<p>The <strong>packageSkeleton</strong> repository provides a streamlined template for setting up an <a href="https://cran.r-project.org/">R</a> package, complete with an integrated <a href="https://quarto.org/">Quarto</a> website hosted on GitHub. This skeleton is designed to simplify the often daunting process of creating, maintaining, and distributing an R package, making GitHub an ideal platform for collaboration, version control, and sharing your work.</p>
-<p>Whether you’re an experienced R developer or new to package development, this skeleton offers a robust starting point. The primary advantage of using this skeleton is that it handles much of the initial setup, allowing you to focus on personalizing the package to meet your specific needs. This includes: - Customizing the package name, - Adding your own functions, - Creating a website to document and showcase your work.</p>
-</section>
-<section id="why-create-an-r-package" class="level1">
-<h1>Why Create an R Package?</h1>
-<p>Creating an R package isn’t just about building tools for others—it’s about building something useful for <strong>you</strong>. By consolidating functions, data sets, and workflows you use regularly into a package, you streamline your own work. Additionally, your solutions may end up being valuable to others who work in similar domains.</p>
-<p>This package skeleton encourages that mindset, helping you create something that is immediately useful in your own workflow while also providing a structure for sharing your work with the broader R community.</p>
-</section>
-<section id="what-youll-need" class="level1">
-<h1>What You’ll Need</h1>
-<p>To get the most out of the package skeleton, a few foundational skills and concepts will be useful:</p>
-<ul>
-<li><strong>GitHub Basics</strong>: Familiarity with cloning repositories, making commits, and pushing changes is essential.</li>
-<li><strong>R and R Package Basics</strong>: Understand how R packages are structured and function.</li>
-<li><strong>Quarto Basics</strong>: Quarto will help you build documentation and websites for your package.</li>
-<li><strong>Package Content</strong>: Consider including:
-<ul>
-<li>Data cleaning functions,</li>
-<li>Custom wrapper functions,</li>
-<li>Data sets you frequently use,</li>
-<li>Reused code from other open-source packages (with proper attribution).</li>
-</ul></li>
-</ul>
-</section>
-<section id="getting-started" class="level1">
-<h1>Getting Started</h1>
-<p>We’ve provided a <a href="https://centerforassessment.github.io/packageSkeleton/articles/packageSkeleton.html">detailed vignette</a> that walks you through the essential steps for setting up your own R package and Quarto website, including: 1. Cloning the repository and customizing it for your own package. 2. Setting up the Quarto website for documenting your functions and workflows. 3. Using GitHub for version control, collaboration, and package distribution.</p>
-<p>Start building your R package today to make your work more efficient, organized, and shareable!</p>
-<hr>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><img src="assets/img/logo_color.png" title="packageSkeleton logo" class="img-fluid"></p>
+</div><div class="column" style="width:5%;">
+<!-- empty column to create gap -->
+</div><div class="column text-wrap" style="width:35%;">
+<pre><code>  A comprehensive template to jumpstart the development of an R package, complete with a structured framework for coding, documentation, and version control. The package simplifies the process of setting up an R package repository on GitHub, offering built-in integration with Quarto for generating a professional, customizable website to showcase package documentation and vignettes.
+
+  It is designed to help both new and experienced R developers streamline package creation while ensuring best practices in documentation and collaboration. With minimal setup, users can focus on building and sharing valuable tools within the R ecosystem.</code></pre>
+</div>
+</div>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -35,6 +35,8 @@ website:
     pinned: true
     foreground: "#7c7c7c"
     right:
+      - text: About 
+        href: about.qmd
       - text: Getting Started 
         href: getting_started.qmd
       - text: Presentations 
