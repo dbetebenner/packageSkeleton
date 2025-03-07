@@ -35,7 +35,7 @@
 
         # Define a friendly startup message
 		message_text <- paste0(
-		    magenta(bold("\uD83C\uDF89 packageSkeleton v", installed.version, sep="")), " - ", toOrdinal::toOrdinalDate("2024-12-26"), "\n",
+		    magenta(bold("\uD83C\uDF89 packageSkeleton v", installed.version, sep="")), " - ", toOrdinal::toOrdinalDate("2025-3-7"), "\n",
 			strrep("\u2501", 40), "\n",
     	    bold("\U1F4E6 CRAN: "), cran.version, "\n",
     	    bold("\U1F527 Dev: "), dev.version, "\n",
@@ -43,7 +43,7 @@
 		    "\U1F4A1 Tip: ", magenta(bold("> help(package=\"packageSkeleton\")")), "\n",
 		    "\U1F310 Docs: ", magenta(bold("https://centerforassessment.github.io/packageSkeleton")), "\n",
 			strrep("\u2501", 40), "\n",
-		    "\u2728 Happy randomNaming!")
+		    "\u2728 Happy packageSkeletoning!")
 
         # Display the startup message
         packageStartupMessage(message_text)
