@@ -3,7 +3,7 @@ packageSkeleton
 
 [![R-CMD-check](https://github.com/CenterForAssessment/packageSkeleton/workflows/R-CMD-check/badge.svg)](https://github.com/CenterForAssessment/packageSkeleton/actions)
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/packageSkeleton)](http://cran.r-project.org/package=packageSkeleton)
-[![Development Version](https://img.shields.io/badge/devel-0.0--0.1-brightgreen.svg)](https://github.com/CenterForAssessment/packageSkeleton)
+[![Development Version](https://img.shields.io/badge/devel-0.0--0.7-brightgreen.svg)](https://github.com/CenterForAssessment/packageSkeleton)
 [![License](http://img.shields.io/badge/license-GPL%203-brightgreen.svg?style=flat)](https://github.com/CenterForAssessment/packageSkeleton/blob/master/LICENSE.md)
 
 

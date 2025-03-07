@@ -7,7 +7,7 @@ authors:
 - family-names: "Van Iwaarden"
   given-names: "Adam"
 title: "packageSkeleton: A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website."
-version: 0.0-0.5
+version: 0.0-0.7
 doi: 10.5281/zenodo.3634024
-date-released: 2024-12-26
+date-released: 2025-3-7
 url: "https://centerforassessment.github.io/packageSkeleton"
