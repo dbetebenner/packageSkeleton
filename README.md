@@ -252,3 +252,5 @@ Creating an R package isn't just for CRAN submissions—it's about **building be
 [Erik Whitfield](https://github.com/erwx)
 
 [Brian Harrold](https://github.com/stat-brain)
+
+[Nathan Dadey](https://github.com/ndadey)
