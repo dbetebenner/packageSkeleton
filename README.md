@@ -247,4 +247,12 @@ Creating an R package isn't just for CRAN submissions—it's about **building be
 
 **Produced with love ❤️ by:**
 
+<<<<<<< HEAD
 [Damian Betebenner](https://github.com/dbetebenner/packageSkeleton), [Nathan Dadey](https://github.com/ndadey/packageSkeleton)
+=======
+[Damian Betebenner](https://github.com/dbetebenner/packageSkeleton)
+
+[Erik Whitfield](https://github.com/erwx)
+
+[Brian Harrold](https://github.com/stat-brain)
+>>>>>>> 5d01b4f5eced3618c67fa22ec56072b3feee8100
