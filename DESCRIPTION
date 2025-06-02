@@ -8,11 +8,14 @@ Authors@R: c(person(given=c("Damian", "W."), family="Betebenner", email="dbetebe
                 person(given=c("Adam", "R."), family="Van Iwaarden", email="avaniwaarden@nciea.org", role="aut"))
 Maintainer: Damian W. Betebenner <dbetebenner@nciea.org>
 Depends: R (>= 4.0)
-Suggests: knitr, rmarkdown, testthat (>= 3.0.0)
+Suggests: knitr, rmarkdown
 Imports: 
     crayon,
     data.table (>= 1.14.0),
+    jsonlite (>= 1.9.0),
     pkgsearch,
+    RestRserve (>= 1.2.0),
+    testthat (>= 3.2.0),
     toOrdinal,
     utils
 URL: https://centerforassessment.github.io/packageSkeleton/

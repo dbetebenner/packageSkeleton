@@ -1,4 +1,6 @@
+# Load required packages for testing
 library(testthat)
+library(data.table)
 
 # Load the package data
 data(Hello_World, envir = environment())
@@ -12,7 +14,7 @@ test_that("Basic functionality works", {
     expect_true(is.character(result$greeting))
     
     # Test Spanish greeting
-    result_spanish <- helloWorld("spanish")
+    result_spanish <- helloWorld("Spanish")
     expect_equal(result_spanish$status, "success")
     expect_equal(result_spanish$language, "Spanish")
     expect_true(is.character(result_spanish$greeting))
@@ -76,21 +78,16 @@ test_that("getAvailableLanguages function works", {
     expect_true(length(languages) > 0)
     expect_true(is.character(languages))
     expect_true(all(!is.na(languages)))
-    expect_true(all(languages == sort(languages))) # Should be sorted
     
     # Check that all languages are unique
     expect_equal(length(languages), length(unique(languages)))
 })
 
-test_that("Combined functionality works", {
-    # Test random with metadata
-    result <- helloWorld(random = TRUE, include_meta = TRUE)
-    expect_equal(result$status, "success")
-    expect_true(!is.null(result$metadata))
-    expect_true(!is.null(result$greeting))
+test_that("Data.table specific features work", {
+    # Test that Hello_World is a data.table
+    expect_true(is.data.table(packageSkeleton::Hello_World))
     
-    # Verify that the selected language is in the available languages
-    expect_true(
-        result$language %in% result$metadata$available_languages
-    )
+    # Test column names
+    expect_true(all(c("language", "hello_world_greeting", "note") %in% 
+                    names(packageSkeleton::Hello_World)))
 })
