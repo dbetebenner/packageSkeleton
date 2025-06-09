@@ -1,17 +1,18 @@
 /*-- scss:defaults --*/
 $h2-font-size:          1.6rem !default;
 $headings-font-weight:  500 !default;
+$body-bg: #ededeb !default;
 
 /*-- scss:rules --*/
 
 /* For shrinking navbar ------------------ */
 
  .navbar {
-    background-image: linear-gradient(to bottom, #f4fda6 0%, #b6e202 100%);
+    background-image: linear-gradient(to bottom, #f4f4f0 0%, #e6e6e2 100%);
     border-color: transparent;
-    border-bottom: 1px solid #444;
-    -webkit-box-shadow: 0 3px 12px 0px rgba(0, 0, 0, 0.1);
-    box-shadow: 0 3px 12px 0px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #ffd87c;
+    -webkit-box-shadow: 0 3px 12px 0px #ffd87c;
+    box-shadow: 0 2px 8px 0px rgba(0, 0, 0, 0.1);
     min-height: 50px;
     transition: all 0.35s ease; 
  }
@@ -155,9 +156,9 @@ h1, h2, h3, h4, h5, h6 {
   margin: 3rem auto;
   padding: 2rem;
   max-width: 1200px;
-  border: 1px solid #e0e0e0;
+  border: 1px solid #c2c211;
   border-radius: 8px;
-  background-color: #f9f9f9;
+  background-color: #c2c211;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
