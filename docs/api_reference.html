@@ -9,7 +9,7 @@
 <meta name="author" content="Damian Betebenner">
 <meta name="author" content="Adam VanIwaarden">
 
-<title>Getting Started with packageSkeleton – A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website</title>
+<title>api_reference – A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -107,8 +107,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <link rel="stylesheet" href="assets/css/website-styles.css">
-<meta property="og:title" content="Getting Started with packageSkeleton – A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website">
-<meta property="og:description" content="">
+<meta property="og:title" content="A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website">
 <meta property="og:image" content="https://centerforassessment.github.io/packageSkeleton/assets/img/logo_grey.png">
 <meta property="og:site_name" content="A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website">
 <meta property="og:image:alt" content="packageSkeleton logo">
@@ -150,7 +149,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./getting_started.html" aria-current="page"> 
+    <a class="nav-link" href="./getting_started.html"> 
 <span class="menu-text">Getting Started</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -211,31 +210,40 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#requirements" id="toc-requirements" class="nav-link active" data-scroll-target="#requirements"><span class="header-section-number">1</span> Requirements</a>
+  <li><a href="#description" id="toc-description" class="nav-link active" data-scroll-target="#description">DESCRIPTION</a></li>
+  <li><a href="#getavailablelanguages-list-available-languages" id="toc-getavailablelanguages-list-available-languages" class="nav-link" data-scroll-target="#getavailablelanguages-list-available-languages"><code>getAvailableLanguages</code>: List Available Languages</a>
   <ul class="collapse">
-  <li><a href="#software-installation" id="toc-software-installation" class="nav-link" data-scroll-target="#software-installation"><span class="header-section-number">1.1</span> Software Installation</a></li>
+  <li><a href="#description-1" id="toc-description-1" class="nav-link" data-scroll-target="#description-1">Description</a></li>
+  <li><a href="#usage" id="toc-usage" class="nav-link" data-scroll-target="#usage">Usage</a></li>
+  <li><a href="#details" id="toc-details" class="nav-link" data-scroll-target="#details">Details</a></li>
+  <li><a href="#value" id="toc-value" class="nav-link" data-scroll-target="#value">Value</a></li>
   </ul></li>
-  <li><a href="#set-up-a-github-account-and-fork-the-repository" id="toc-set-up-a-github-account-and-fork-the-repository" class="nav-link" data-scroll-target="#set-up-a-github-account-and-fork-the-repository"><span class="header-section-number">2</span> Set Up a GitHub Account and Fork the Repository</a>
+  <li><a href="#hello_world-hello-world-greetings-dataset" id="toc-hello_world-hello-world-greetings-dataset" class="nav-link" data-scroll-target="#hello_world-hello-world-greetings-dataset"><code>Hello_World</code>: Hello World Greetings Dataset</a>
   <ul class="collapse">
-  <li><a href="#fork-the-packageskeleton-repository" id="toc-fork-the-packageskeleton-repository" class="nav-link" data-scroll-target="#fork-the-packageskeleton-repository"><span class="header-section-number">2.0.1</span> 2.1 Fork the <strong>packageSkeleton</strong> Repository</a></li>
-  <li><a href="#clone-the-repository-locally" id="toc-clone-the-repository-locally" class="nav-link" data-scroll-target="#clone-the-repository-locally"><span class="header-section-number">2.1</span> Clone the Repository Locally</a></li>
+  <li><a href="#description-2" id="toc-description-2" class="nav-link" data-scroll-target="#description-2">Description</a></li>
+  <li><a href="#usage-1" id="toc-usage-1" class="nav-link" data-scroll-target="#usage-1">Usage</a></li>
+  <li><a href="#keyword" id="toc-keyword" class="nav-link" data-scroll-target="#keyword">Keyword</a></li>
+  <li><a href="#format" id="toc-format" class="nav-link" data-scroll-target="#format">Format</a></li>
+  <li><a href="#source" id="toc-source" class="nav-link" data-scroll-target="#source">Source</a></li>
+  <li><a href="#examples" id="toc-examples" class="nav-link" data-scroll-target="#examples">Examples</a></li>
   </ul></li>
-  <li><a href="#customizing-the-r-package" id="toc-customizing-the-r-package" class="nav-link" data-scroll-target="#customizing-the-r-package"><span class="header-section-number">3</span> Customizing the R Package</a>
+  <li><a href="#helloworld-multi-language-hello-world-function" id="toc-helloworld-multi-language-hello-world-function" class="nav-link" data-scroll-target="#helloworld-multi-language-hello-world-function"><code>helloWorld</code>: Multi-language Hello World Function</a>
   <ul class="collapse">
-  <li><a href="#rename-the-package" id="toc-rename-the-package" class="nav-link" data-scroll-target="#rename-the-package"><span class="header-section-number">3.1</span> Rename the Package</a></li>
-  <li><a href="#update-the-package-name-in-other-places-such-as-the-namespace-and-r-files-where-it-is-referenced." id="toc-update-the-package-name-in-other-places-such-as-the-namespace-and-r-files-where-it-is-referenced." class="nav-link" data-scroll-target="#update-the-package-name-in-other-places-such-as-the-namespace-and-r-files-where-it-is-referenced."><span class="header-section-number">3.2</span> Update the package name in other places such as the NAMESPACE and R files where it is referenced.</a></li>
-  <li><a href="#add-your-own-functions" id="toc-add-your-own-functions" class="nav-link" data-scroll-target="#add-your-own-functions"><span class="header-section-number">3.3</span> Add Your Own Functions</a></li>
-  <li><a href="#build-and-test-your-package" id="toc-build-and-test-your-package" class="nav-link" data-scroll-target="#build-and-test-your-package"><span class="header-section-number">3.4</span> Build and Test Your Package</a></li>
+  <li><a href="#description-3" id="toc-description-3" class="nav-link" data-scroll-target="#description-3">Description</a></li>
+  <li><a href="#usage-2" id="toc-usage-2" class="nav-link" data-scroll-target="#usage-2">Usage</a></li>
+  <li><a href="#arguments" id="toc-arguments" class="nav-link" data-scroll-target="#arguments">Arguments</a></li>
+  <li><a href="#details-1" id="toc-details-1" class="nav-link" data-scroll-target="#details-1">Details</a></li>
+  <li><a href="#value-1" id="toc-value-1" class="nav-link" data-scroll-target="#value-1">Value</a></li>
+  <li><a href="#examples-1" id="toc-examples-1" class="nav-link" data-scroll-target="#examples-1">Examples</a></li>
   </ul></li>
-  <li><a href="#customizing-the-quarto-website" id="toc-customizing-the-quarto-website" class="nav-link" data-scroll-target="#customizing-the-quarto-website"><span class="header-section-number">4</span> Customizing the Quarto Website</a>
+  <li><a href="#packageskeleton-package-a-github-repository-featuring-a-starter-template-for-r-package-development-paired-with-a-quarto-powered-website." id="toc-packageskeleton-package-a-github-repository-featuring-a-starter-template-for-r-package-development-paired-with-a-quarto-powered-website." class="nav-link" data-scroll-target="#packageskeleton-package-a-github-repository-featuring-a-starter-template-for-r-package-development-paired-with-a-quarto-powered-website."><code>packageSkeleton-package</code>: A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website.</a>
   <ul class="collapse">
-  <li><a href="#edit-the-quarto-configuration" id="toc-edit-the-quarto-configuration" class="nav-link" data-scroll-target="#edit-the-quarto-configuration"><span class="header-section-number">4.1</span> Edit the Quarto Configuration</a></li>
-  <li><a href="#modify-the-website-content" id="toc-modify-the-website-content" class="nav-link" data-scroll-target="#modify-the-website-content"><span class="header-section-number">4.2</span> Modify the Website Content</a></li>
-  <li><a href="#build-and-preview-the-website" id="toc-build-and-preview-the-website" class="nav-link" data-scroll-target="#build-and-preview-the-website"><span class="header-section-number">4.3</span> Build and Preview the Website</a></li>
-  <li><a href="#publish-the-website" id="toc-publish-the-website" class="nav-link" data-scroll-target="#publish-the-website"><span class="header-section-number">4.4</span> Publish the Website</a></li>
+  <li><a href="#description-4" id="toc-description-4" class="nav-link" data-scroll-target="#description-4">Description</a></li>
+  <li><a href="#keyword-1" id="toc-keyword-1" class="nav-link" data-scroll-target="#keyword-1">Keyword</a></li>
+  <li><a href="#details-2" id="toc-details-2" class="nav-link" data-scroll-target="#details-2">Details</a></li>
+  <li><a href="#author" id="toc-author" class="nav-link" data-scroll-target="#author">Author</a></li>
+  <li><a href="#seealso" id="toc-seealso" class="nav-link" data-scroll-target="#seealso">Seealso</a></li>
   </ul></li>
-  <li><a href="#keep-your-fork-synced" id="toc-keep-your-fork-synced" class="nav-link" data-scroll-target="#keep-your-fork-synced"><span class="header-section-number">5</span> Keep Your Fork Synced</a></li>
-  <li><a href="#start-building" id="toc-start-building" class="nav-link" data-scroll-target="#start-building"><span class="header-section-number">6</span> Start Building!</a></li>
   </ul>
 </nav>
     </div>
@@ -244,7 +252,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Getting Started with <strong>packageSkeleton</strong></h1>
 </div>
 
 
@@ -268,134 +275,198 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>Welcome to <strong>packageSkeleton</strong>, a template designed to help you set up and develop an R package alongside a Quarto-powered website hosted on GitHub. This guide will walk you through the necessary steps for getting started, including installing required software, setting up your GitHub account, forking the repository, and customizing both the R package and the website.</p>
-<hr>
-<section id="requirements" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Requirements</h1>
-<p>Before using <strong>packageSkeleton</strong>, you need to have the following tools installed on your computer, and you’ll need a GitHub account to manage your project.</p>
-<section id="software-installation" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="software-installation"><span class="header-section-number">1.1</span> Software Installation</h2>
+<section id="description" class="level1">
+<h1>DESCRIPTION</h1>
+<pre><code>Package: packageSkeleton
+Version: 0.0-0.7
+Date: 2025-3-7
+Title: A GitHub Repository Featuring a Starter Template for R Package Development, Paired with a Quarto-Powered Website
+Description: A comprehensive template to jumpstart the development of an R package, complete with a structured framework for coding, documentation, and version control. The package simplifies the process of setting up an R package repository on GitHub, offering built-in integration with Quarto for generating a professional, customizable website to showcase package documentation and vignettes. It is designed to help both new and experienced R developers streamline package creation while ensuring best practices in documentation and collaboration. With minimal setup, users can focus on building and sharing valuable tools within the R ecosystem.
+Authors@R: c(person(given=c("Damian", "W."), family="Betebenner", email="dbetebenner@nciea.org", role=c("aut", "cre"), 
+        comment = c(ORCID = "0000-0003-0476-5599")),
+                person(given=c("Adam", "R."), family="Van Iwaarden", email="avaniwaarden@nciea.org", role="aut"))
+Maintainer: Damian W. Betebenner &lt;dbetebenner@nciea.org&gt;
+Depends: R (&gt;= 4.0)
+Suggests: knitr, rmarkdown
+Imports: 
+    crayon,
+    data.table (&gt;= 1.14.0),
+    jsonlite (&gt;= 1.9.0),
+    pkgsearch,
+    RestRserve (&gt;= 1.2.0),
+    testthat (&gt;= 3.2.0),
+    toOrdinal,
+    utils
+URL: https://centerforassessment.github.io/packageSkeleton/
+BugReports: https://github.com/centerforassessment/packageSkeleton/issues/
+LazyData: Yes
+LazyDataCompression: xz
+LazyLoad: Yes
+ByteCompile: TRUE
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Config/testthat/edition: 3</code></pre>
+</section>
+<section id="getavailablelanguages-list-available-languages" class="level1">
+<h1><code>getAvailableLanguages</code>: List Available Languages</h1>
+<section id="description-1" class="level2">
+<h2 class="anchored" data-anchor-id="description-1">Description</h2>
+<p>Returns a list of all available languages in the Hello_World dataset</p>
+</section>
+<section id="usage" class="level2">
+<h2 class="anchored" data-anchor-id="usage">Usage</h2>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">getAvailableLanguages</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="details" class="level2">
+<h2 class="anchored" data-anchor-id="details">Details</h2>
+<p>Get Available Languages</p>
+</section>
+<section id="value" class="level2">
+<h2 class="anchored" data-anchor-id="value">Value</h2>
+<p>A character vector of available languages</p>
+</section>
+</section>
+<section id="hello_world-hello-world-greetings-dataset" class="level1">
+<h1><code>Hello_World</code>: Hello World Greetings Dataset</h1>
+<section id="description-2" class="level2">
+<h2 class="anchored" data-anchor-id="description-2">Description</h2>
+<p>A dataset containing “Hello, World!” greetings in various languages The <code>Hello_World</code> dataset provides a simple example with greetings in different languages, useful for illustrating basic data frame operations in R.</p>
+</section>
+<section id="usage-1" class="level2">
+<h2 class="anchored" data-anchor-id="usage-1">Usage</h2>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">data</span>(Hello_World)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>Hello_World</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="keyword" class="level2">
+<h2 class="anchored" data-anchor-id="keyword">Keyword</h2>
+<p>datasets</p>
+</section>
+<section id="format" class="level2">
+<h2 class="anchored" data-anchor-id="format">Format</h2>
+<p>A data.table with 47 rows and 3 variables:</p>
 <ul>
-<li><strong>R</strong>: Ensure that you have the latest version of <a href="https://cran.r-project.org/">R</a> installed. You can download it from <a href="https://cran.r-project.org/">CRAN</a>.</li>
-<li><strong>RStudio</strong> (Optional but Recommended): <a href="https://rstudio.com/">RStudio</a> is a popular IDE for working with R. It simplifies the development process and integrates well with GitHub and Quarto.</li>
-<li><strong>Quarto</strong>: Quarto is used to build the website associated with your R package. Install Quarto by following the instructions on <a href="https://quarto.org/docs/get-started/">Quarto’s website</a>.
-<ul>
-<li><p>On macOS:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">brew</span> install quarto</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
-<li><p>On Windows: Download and run the installer from <a href="https://quarto.org/docs/download/">Quarto’s download page</a>.</p></li>
-</ul></li>
-<li><strong>Git</strong>: Install <a href="https://git-scm.com/">Git</a>, which will allow you to interact with GitHub and version control your project.
-<ul>
-<li><p>On macOS:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">brew</span> install git</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
-<li><p>On Windows: Download and install <a href="https://gitforwindows.org/">Git for Windows</a>.</p></li>
-</ul></li>
+<li>language: The name of the language</li>
+<li>hello_world_greeting: The “Hello, World!” greeting in the respective language</li>
+<li>note: Notes about the language</li>
 </ul>
-<hr>
-</section>
-</section>
-<section id="set-up-a-github-account-and-fork-the-repository" class="level1" data-number="2">
-<h1 data-number="2"><span class="header-section-number">2</span> Set Up a GitHub Account and Fork the Repository</h1>
-<p>You will need a GitHub account to manage your project repository and host the website. If you don’t have a GitHub account yet, <a href="https://github.com/join">sign up for free here</a>.</p>
-<section id="fork-the-packageskeleton-repository" class="level3" data-number="2.0.1">
-<h3 data-number="2.0.1" class="anchored" data-anchor-id="fork-the-packageskeleton-repository"><span class="header-section-number">2.0.1</span> 2.1 Fork the <strong>packageSkeleton</strong> Repository</h3>
-<ol type="1">
-<li>Go to the <a href="https://github.com/CenterForAssessment/packageSkeleton"><strong>packageSkeleton</strong> GitHub repository</a>.</li>
-<li>Click the “Fork” button in the top-right corner to create a personal copy of the repository under your GitHub account.</li>
-<li>Once forked, you will have your own version of <strong>packageSkeleton</strong> to work with.</li>
-</ol>
-</section>
-<section id="clone-the-repository-locally" class="level2" data-number="2.1">
-<h2 data-number="2.1" class="anchored" data-anchor-id="clone-the-repository-locally"><span class="header-section-number">2.1</span> Clone the Repository Locally</h2>
-<p>Once you’ve forked the repo, clone it to your local machine using Git. In RStudio, you can do this by going to <strong>File &gt; New Project &gt; Version Control &gt; Git</strong>. Alternatively, use the command line:</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone https://github.com/<span class="op">&lt;</span>your-username<span class="op">&gt;</span>/packageSkeleton.git</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> packageSkeleton</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>This will download the repository to your computer, where you can start making changes.</p>
-</section>
-</section>
-<section id="customizing-the-r-package" class="level1" data-number="3">
-<h1 data-number="3"><span class="header-section-number">3</span> Customizing the R Package</h1>
-<p>Now that you have the project on your machine, it’s time to customize the R package.</p>
-<section id="rename-the-package" class="level2" data-number="3.1">
-<h2 data-number="3.1" class="anchored" data-anchor-id="rename-the-package"><span class="header-section-number">3.1</span> Rename the Package</h2>
-<p>By default, the package is called packageSkeleton. To personalize it:</p>
-<ol type="1">
-<li>Open the DESCRIPTION file.</li>
-<li>Change the Package field to your desired package name:</li>
-</ol>
-<div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>Package<span class="sc">:</span> MyPackageName</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-<section id="update-the-package-name-in-other-places-such-as-the-namespace-and-r-files-where-it-is-referenced." class="level2" data-number="3.2">
-<h2 data-number="3.2" class="anchored" data-anchor-id="update-the-package-name-in-other-places-such-as-the-namespace-and-r-files-where-it-is-referenced."><span class="header-section-number">3.2</span> Update the package name in other places such as the NAMESPACE and R files where it is referenced.</h2>
-</section>
-<section id="add-your-own-functions" class="level2" data-number="3.3">
-<h2 data-number="3.3" class="anchored" data-anchor-id="add-your-own-functions"><span class="header-section-number">3.3</span> Add Your Own Functions</h2>
+<p>A data frame with 10 rows and 2 variables:</p>
 <ul>
-<li>Inside the R/ directory, add your own R scripts that define the functions you want to include in your package.</li>
-<li>Each R script should follow the convention of documenting the functions using roxygen comments. For example:</li>
-</ul>
-<div class="sourceCode" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># A Sample Function</span></span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>sample_function <span class="ot">&lt;-</span> <span class="cf">function</span>(x) {</span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  x<span class="sc">^</span><span class="dv">2</span></span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-<section id="build-and-test-your-package" class="level2" data-number="3.4">
-<h2 data-number="3.4" class="anchored" data-anchor-id="build-and-test-your-package"><span class="header-section-number">3.4</span> Build and Test Your Package</h2>
-<p>Once you’ve added your custom functions, it’s important to build and test the package. You can do this in RStudio or via the command line:</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">build</span>()</span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">check</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-</section>
-<section id="customizing-the-quarto-website" class="level1" data-number="4">
-<h1 data-number="4"><span class="header-section-number">4</span> Customizing the Quarto Website</h1>
-<p>Your packageSkeleton project comes with a Quarto-based website that documents your package. Let’s walk through customizing it.</p>
-<section id="edit-the-quarto-configuration" class="level2" data-number="4.1">
-<h2 data-number="4.1" class="anchored" data-anchor-id="edit-the-quarto-configuration"><span class="header-section-number">4.1</span> Edit the Quarto Configuration</h2>
-<p>Open the <code>_quarto.yml</code> file in the project. This file controls the structure and appearance of the website.</p>
-<ul>
-<li>Update the title, author, and repo-url fields to match your package details.</li>
-</ul>
-<div class="sourceCode" id="cb7"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">project</span><span class="kw">:</span></span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">type</span><span class="kw">:</span><span class="at"> website</span></span>
-<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"MyPackageName"</span></span>
-<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="fu">author</span><span class="kw">:</span><span class="at"> </span><span class="st">"Your Name"</span></span>
-<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="fu">repo-url</span><span class="kw">:</span><span class="at"> </span><span class="st">"https://github.com/&lt;your-username&gt;/MyCustomPackage"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-<section id="modify-the-website-content" class="level2" data-number="4.2">
-<h2 data-number="4.2" class="anchored" data-anchor-id="modify-the-website-content"><span class="header-section-number">4.2</span> Modify the Website Content</h2>
-<p>You can edit the content of the website by modifying the .qmd files located in the root directory.</p>
-<ul>
-<li>index.qmd: This is the homepage of your Quarto site.</li>
-<li>getting_started.qmd: This file can serve as a guide for users getting started with your package (like the one you’re reading now).</li>
-<li>reference.qmd: This file provides a function reference for your package.</li>
+<li><code>Language</code>: A character vector indicating the language of the Hello World greeting.</li>
+<li><code>Hello_World_Greeting</code>: A character vector containing the word “Hello” in different languages.</li>
 </ul>
 </section>
-<section id="build-and-preview-the-website" class="level2" data-number="4.3">
-<h2 data-number="4.3" class="anchored" data-anchor-id="build-and-preview-the-website"><span class="header-section-number">4.3</span> Build and Preview the Website</h2>
-<p>To build the website and preview it locally, run the following commands in your terminal or RStudio console:</p>
-<div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render</span>
-<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> preview</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>This will render the documents and start a local server where you can view the site. Any changes you make will automatically be reflected in the browser.</p>
+<section id="source" class="level2">
+<h2 class="anchored" data-anchor-id="source">Source</h2>
+<p>Manually created for demonstration purposes.</p>
 </section>
-<section id="publish-the-website" class="level2" data-number="4.4">
-<h2 data-number="4.4" class="anchored" data-anchor-id="publish-the-website"><span class="header-section-number">4.4</span> Publish the Website</h2>
-<p>Once you’re happy with your customizations, you can publish the website on GitHub Pages. If you’ve forked the <strong>packageSkeleton</strong> repo, GitHub Pages will be set up to build from the docs/ folder. Simply push your changes to GitHub, and the site will be automatically updated.</p>
+<section id="examples" class="level2">
+<h2 class="anchored" data-anchor-id="examples">Examples</h2>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Display the Hello_World dataset</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>Hello_World</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Access the greeting column</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>Hello_World<span class="sc">$</span>Hello_World_Greeting</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Access the language column</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>Hello_World<span class="sc">$</span>Language</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 </section>
-<section id="keep-your-fork-synced" class="level1" data-number="5">
-<h1 data-number="5"><span class="header-section-number">5</span> Keep Your Fork Synced</h1>
-<p>As the original <strong>packageSkeleton</strong> repo might get updates, it’s good practice to keep your fork in sync. You can do this by fetching and merging changes from the original repository:</p>
-<div class="sourceCode" id="cb9"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> remote add upstream https://github.com/CenterForAssessment/packageSkeleton.git</span>
-<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> fetch upstream</span>
-<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> merge upstream/main</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>This will pull in the latest changes from the upstream repo.</p>
+<section id="helloworld-multi-language-hello-world-function" class="level1">
+<h1><code>helloWorld</code>: Multi-language Hello World Function</h1>
+<section id="description-3" class="level2">
+<h2 class="anchored" data-anchor-id="description-3">Description</h2>
+<p>Returns “Hello, World!” in various languages using the Hello_World dataset</p>
 </section>
-<section id="start-building" class="level1" data-number="6">
-<h1 data-number="6"><span class="header-section-number">6</span> Start Building!</h1>
-<p>You’re now ready to start building your own R package with an integrated Quarto website. Follow the steps above to customize the package, document your functions, and share your work with others through GitHub and GitHub Pages. If you run into any issues, check out the vignette for more detailed instructions.</p>
-<p>Happy coding!</p>
+<section id="usage-2" class="level2">
+<h2 class="anchored" data-anchor-id="usage-2">Usage</h2>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">helloWorld</span>(<span class="at">language =</span> <span class="st">"English"</span>, <span class="at">random =</span> <span class="cn">FALSE</span>, <span class="at">include_meta =</span> <span class="cn">FALSE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="arguments" class="level2">
+<h2 class="anchored" data-anchor-id="arguments">Arguments</h2>
+<ul>
+<li><code>language</code>: Character string specifying the language (default: “English”)</li>
+<li><code>random</code>: Logical indicating whether to return a random language greeting (default: FALSE)</li>
+<li><code>include_meta</code>: Logical indicating whether to include metadata (default: FALSE)</li>
+</ul>
+</section>
+<section id="details-1" class="level2">
+<h2 class="anchored" data-anchor-id="details-1">Details</h2>
+<p>Hello World in Multiple Languages</p>
+</section>
+<section id="value-1" class="level2">
+<h2 class="anchored" data-anchor-id="value-1">Value</h2>
+<p>A list containing the greeting and optional metadata</p>
+</section>
+<section id="examples-1" class="level2">
+<h2 class="anchored" data-anchor-id="examples-1">Examples</h2>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">helloWorld</span>()  <span class="co"># Returns English greeting</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">helloWorld</span>(<span class="st">"spanish"</span>)  <span class="co"># Returns Spanish greeting</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="fu">helloWorld</span>(<span class="at">random =</span> <span class="cn">TRUE</span>)  <span class="co"># Returns random language greeting</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="fu">helloWorld</span>(<span class="at">include_meta =</span> <span class="cn">TRUE</span>)  <span class="co"># Returns greeting with metadata</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+</section>
+<section id="packageskeleton-package-a-github-repository-featuring-a-starter-template-for-r-package-development-paired-with-a-quarto-powered-website." class="level1">
+<h1><code>packageSkeleton-package</code>: A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website.</h1>
+<section id="description-4" class="level2">
+<h2 class="anchored" data-anchor-id="description-4">Description</h2>
+<p>packageSkeleton: A GitHub Repository Template for R Package Development with Quarto Integration</p>
+</section>
+<section id="keyword-1" class="level2">
+<h2 class="anchored" data-anchor-id="keyword-1">Keyword</h2>
+<p>package</p>
+</section>
+<section id="details-2" class="level2">
+<h2 class="anchored" data-anchor-id="details-2">Details</h2>
+<p>The <code>packageSkeleton</code> R package provides a comprehensive template to jumpstart the development of an R package, complete with a structured framework for coding, documentation, and version control. It simplifies the process of setting up an R package repository on GitHub, offering built-in integration with Quarto for generating a professional, customizable website to showcase package documentation and vignettes. This template is designed to help both new and experienced R developers streamline package creation while ensuring best practices in documentation and collaboration. With minimal setup, users can focus on building and sharing valuable tools within the R ecosystem.</p>
+<table class="caption-top table">
+<tbody>
+<tr class="odd">
+<td>Package:</td>
+<td>packageSkeleton</td>
+</tr>
+<tr class="even">
+<td>Type:</td>
+<td>Package</td>
+</tr>
+<tr class="odd">
+<td>Version:</td>
+<td>0.0-0.7</td>
+</tr>
+<tr class="even">
+<td>Date:</td>
+<td>2025-3-7</td>
+</tr>
+<tr class="odd">
+<td>License:</td>
+<td>MIT</td>
+</tr>
+<tr class="even">
+<td>LazyLoad:</td>
+<td>yes</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="author" class="level2">
+<h2 class="anchored" data-anchor-id="author">Author</h2>
+<p><strong><em>Maintainer</em></strong>: Damian W. Betebenner <a href="mailto:dbetebenner@nciea.org">dbetebenner@nciea.org</a> (<a href="https://orcid.org/0000-0003-0476-5599">ORCID</a>) Authors:</p>
+<ul>
+<li>Adam R. Van Iwaarden <a href="mailto:avaniwaarden@nciea.org">avaniwaarden@nciea.org</a></li>
+</ul>
+</section>
+<section id="seealso" class="level2">
+<h2 class="anchored" data-anchor-id="seealso">Seealso</h2>
+<p>Useful links:</p>
+<ul>
+<li><a href="https://centerforassessment.github.io/packageSkeleton/">https://centerforassessment.github.io/packageSkeleton/</a></li>
+<li>Report bugs at <a href="https://github.com/centerforassessment/packageSkeleton/issues/">https://github.com/centerforassessment/packageSkeleton/issues/</a></li>
+</ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
