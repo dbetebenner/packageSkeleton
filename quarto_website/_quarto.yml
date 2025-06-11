@@ -73,8 +73,8 @@ website:
   twitter-card:
     title: packageSkeleton
     description: A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website
-    image: ./assets/img/logo_grey.png
-    image-alt: packageSkeleton logo 
+    image: ./assets/img/packageSkeleton.png
+    image-alt: packageSkeleton Logo 
     image-width: 500
     image-height: 500
     card-style: summary
@@ -83,11 +83,20 @@ website:
 
   open-graph: 
     #description: A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website
-    image: ./assets/img/logo_grey.png
+    image: ./assets/img/packageSkeleton.png
     image-alt: packageSkeleton logo
     image-width: 500
     image-height: 500
     locale: en-US
+
+metadata:
+  title: "packageSkeleton"
+  description: "A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website."
+  image: "./assets/img/packageSkeleton.png"  # must be a valid URL or relative path
+  open-graph: true
+  twitter-card:
+    image: "./assets/img/packageSkeleton.png"
+    card-style: summary_large_image
 
 format:
   html:
