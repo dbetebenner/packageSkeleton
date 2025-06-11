@@ -4,6 +4,7 @@ project:
   render:
    - "*.qmd"      # Render all .qmd files by default
    - "!content/presentations/**"  # Exclude everything in the "content/presentations" directory
+   - "!content/documents/**"  # Exclude everything in the "content/documents" directory
    - "assets/**/*"
 
 execute:
