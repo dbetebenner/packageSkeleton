@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://centerforassessment.github.io/packageSkeleton/reference.html</loc>
-    <lastmod>2024-10-16T15:46:06.959Z</lastmod>
+    <loc>https://centerforassessment.github.io/packageSkeleton/presentations.html</loc>
+    <lastmod>2025-06-11T07:44:24.945Z</lastmod>
   </url>
   <url>
     <loc>https://centerforassessment.github.io/packageSkeleton/news.html</loc>
@@ -10,7 +10,7 @@
   </url>
   <url>
     <loc>https://centerforassessment.github.io/packageSkeleton/index.html</loc>
-    <lastmod>2024-12-11T11:14:37.312Z</lastmod>
+    <lastmod>2025-06-10T23:25:06.919Z</lastmod>
   </url>
   <url>
     <loc>https://centerforassessment.github.io/packageSkeleton/documents.html</loc>
@@ -21,6 +21,10 @@
     <lastmod>2024-10-21T18:09:10.675Z</lastmod>
   </url>
   <url>
+    <loc>https://centerforassessment.github.io/packageSkeleton/api_reference.html</loc>
+    <lastmod>2025-06-10T13:29:58.812Z</lastmod>
+  </url>
+  <url>
     <loc>https://centerforassessment.github.io/packageSkeleton/getting_started.html</loc>
     <lastmod>2024-10-21T15:19:47.310Z</lastmod>
   </url>
@@ -29,7 +33,7 @@
     <lastmod>2025-05-28T08:35:52.143Z</lastmod>
   </url>
   <url>
-    <loc>https://centerforassessment.github.io/packageSkeleton/presentations.html</loc>
-    <lastmod>2024-10-21T09:54:34.676Z</lastmod>
+    <loc>https://centerforassessment.github.io/packageSkeleton/overview.html</loc>
+    <lastmod>2025-06-09T21:14:32.116Z</lastmod>
   </url>
 </urlset>

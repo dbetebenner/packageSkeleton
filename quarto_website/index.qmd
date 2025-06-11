@@ -4,22 +4,25 @@ format:
     toc: false
     number-sections: false
     html: true
+    page-layout: full
 ---
 
-:::: {.columns}
+::: {.grid}
 
-::: {.column width="60%"}
-![](assets/img/logo_color.png "packageSkeleton logo")
+::: {.g-col-1}
 :::
 
-::: {.column width="5%"}
-<!-- empty column to create gap -->
+::: {.g-col-5}
+[![](assets/img/packageSkeleton.png)](https://centerforassessment.github.io/packageSkeleton/)
 :::
 
-::: {.column width="35%" .text-wrap}
-      A comprehensive template to jumpstart the development of an R package, complete with a structured framework for coding, documentation, and version control. The package simplifies the process of setting up an R package repository on GitHub, offering built-in integration with Quarto for generating a professional, customizable website to showcase package documentation and vignettes.
-
-      It is designed to help both new and experienced R developers streamline package creation while ensuring best practices in documentation and collaboration. With minimal setup, users can focus on building and sharing valuable tools within the R ecosystem.
+::: {.g-col-1}
 :::
 
-::::
+::: {.g-col-4}
+The packageSkeleton GitHub repository is a comprehensive template to jump-start the development of an R package, complete with a structured framework for coding, documentation, and version control. The package simplifies the process of setting up an R package repository on GitHub, offering built-in integration with Quarto for generating a professional, customizable website to showcase package documentation and and other content derived from the package.
+
+The repo is designed to help both new and experienced R developers streamline package creation while ensuring best practices in documentation and collaboration. With minimal setup, users can focus on building and sharing valuable tools within the R ecosystem.
+:::
+
+:::

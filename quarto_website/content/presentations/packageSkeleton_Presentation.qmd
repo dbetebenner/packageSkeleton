@@ -20,6 +20,11 @@ format:
     html-math-method: mathjax
     embed-resources: true
     bibliography: assets/bibliography/references.bib
+  pptx:
+    theme: [simple, assets/css/presentation-style.scss]
+    html-math-method: mathjax
+    embed-resources: true
+    bibliography: assets/bibliography/references.bib
 draft: false
 ---
 
