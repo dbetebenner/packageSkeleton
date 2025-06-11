@@ -1,6 +1,6 @@
 Package: packageSkeleton
-Version: 0.0-0.7
-Date: 2025-3-7
+Version: 0.0-0.8
+Date: 2025-6-11
 Title: A GitHub Repository Featuring a Starter Template for R Package Development, Paired with a Quarto-Powered Website
 Description: A comprehensive template to jumpstart the development of an R package, complete with a structured framework for coding, documentation, and version control. The package simplifies the process of setting up an R package repository on GitHub, offering built-in integration with Quarto for generating a professional, customizable website to showcase package documentation and vignettes. It is designed to help both new and experienced R developers streamline package creation while ensuring best practices in documentation and collaboration. With minimal setup, users can focus on building and sharing valuable tools within the R ecosystem.
 Authors@R: c(person(given=c("Damian", "W."), family="Betebenner", email="dbetebenner@nciea.org", role=c("aut", "cre"), 
@@ -8,14 +8,13 @@ Authors@R: c(person(given=c("Damian", "W."), family="Betebenner", email="dbetebe
                 person(given=c("Adam", "R."), family="Van Iwaarden", email="avaniwaarden@nciea.org", role="aut"))
 Maintainer: Damian W. Betebenner <dbetebenner@nciea.org>
 Depends: R (>= 4.0)
-Suggests: knitr, rmarkdown
+Suggests: knitr, rmarkdown, testthat (>= 3.2.0)
 Imports: 
     crayon,
     data.table (>= 1.14.0),
     jsonlite (>= 1.9.0),
     pkgsearch,
     RestRserve (>= 1.2.0),
-    testthat (>= 3.2.0),
     toOrdinal,
     utils
 URL: https://centerforassessment.github.io/packageSkeleton/
