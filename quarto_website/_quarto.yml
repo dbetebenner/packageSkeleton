@@ -6,10 +6,6 @@ project:
    - "!content/presentations/**"  # Exclude everything in the "content/presentations" directory
    - "assets/**/*"
 
-author: 
-  - name: "Damian Betebenner"
-  - name: "Adam VanIwaarden"
-
 execute:
   freeze: auto
 

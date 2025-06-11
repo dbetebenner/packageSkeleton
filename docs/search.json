@@ -25,7 +25,7 @@
     "href": "index.html",
     "title": "A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website",
     "section": "",
-    "text": "A comprehensive template to jumpstart the development of an R package, complete with a structured framework for coding, documentation, and version control. The package simplifies the process of setting up an R package repository on GitHub, offering built-in integration with Quarto for generating a professional, customizable website to showcase package documentation and vignettes.\n\n  It is designed to help both new and experienced R developers streamline package creation while ensuring best practices in documentation and collaboration. With minimal setup, users can focus on building and sharing valuable tools within the R ecosystem."
+    "text": "The packageSkeleton GitHub repository is a comprehensive template to jump-start the development of an R package, complete with a structured framework for coding, documentation, and version control. The package simplifies the process of setting up an R package repository on GitHub, offering built-in integration with Quarto for generating a professional, customizable website to showcase package documentation and and other content derived from the package.\nThe repo is designed to help both new and experienced R developers streamline package creation while ensuring best practices in documentation and collaboration. With minimal setup, users can focus on building and sharing valuable tools within the R ecosystem."
   },
   {
     "objectID": "documents.html",

@@ -10,8 +10,8 @@ $body-bg: #ededeb !default;
  .navbar {
     background-image: linear-gradient(to bottom, #f4f4f0 0%, #e6e6e2 100%);
     border-color: transparent;
-    border-bottom: 1px solid #ffd87c;
-    -webkit-box-shadow: 0 3px 12px 0px #ffd87c;
+    border-bottom: 1px solid #ff8c00;
+    -webkit-box-shadow: 0 3px 12px 0px #ff8c00;
     box-shadow: 0 2px 8px 0px rgba(0, 0, 0, 0.1);
     min-height: 50px;
     transition: all 0.35s ease; 
@@ -133,7 +133,7 @@ iconify-icon[icon="jam:github-square"] {
 }
 
 .anchorjs-link:hover {
-   color: black;
+   color: #ff8c00;
 }
 
 /* Ensure the header text doesn't overlap with the icon */
@@ -145,22 +145,6 @@ h1, h2, h3, h4, h5, h6 {
    color: #000;
 }
 
-
-
-
-/* Landing Page Container */
-.landing-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 3rem auto;
-  padding: 2rem;
-  max-width: 1200px;
-  border: 1px solid #c2c211;
-  border-radius: 8px;
-  background-color: #c2c211;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
 
 /* Logo Section */
 .logo-section {
@@ -191,5 +175,10 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.6;
   color: #555;
   margin-bottom: 0.8rem;
+}
+
+/* Grid Column Styling */
+.grid {
+  align-items: center;
 }
 
