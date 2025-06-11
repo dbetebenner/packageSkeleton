@@ -26,7 +26,7 @@ website:
     title: "packageSkeleton"
     logo: ./assets/img/logo_grey.png
     logo-alt: "Center for Assessment GitHub Homepage"
-    logo-href: "https://centerforassessment.github.io/"
+    logo-href: "https://centerforassessment.github.io/packageSkeleton/"
     title-href: "https://centerforassessment.github.io/packageSkeleton/"
     search: false
     pinned: true
