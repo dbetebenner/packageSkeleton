@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Embedded Presentations – A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website</title>
+<title>Presentations – A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -39,7 +39,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-9beb5fcf0fbc227204ec0f777e693449.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-fdf1bca80bd9d483901bef3fce78339d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script src="site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="assets/css/website-styles.css">
 <link rel="stylesheet" href="./assets/css/presentations-custom.css">
-<meta property="og:title" content="Embedded Presentations – A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website">
+<meta property="og:title" content="Presentations – A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website">
 <meta property="og:description" content="">
 <meta property="og:image" content="https://centerforassessment.github.io/packageSkeleton/assets/img/logo_grey.png">
 <meta property="og:site_name" content="A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website">
@@ -175,7 +175,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#presentation-1" id="toc-presentation-1" class="nav-link active" data-scroll-target="#presentation-1">Presentation 1</a></li>
+  <li><a href="#an-introduction-to-packageskeleton" id="toc-an-introduction-to-packageskeleton" class="nav-link active" data-scroll-target="#an-introduction-to-packageskeleton">An Introduction to packageSkeleton</a></li>
   </ul>
 </nav>
     </div>
@@ -184,7 +184,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Embedded Presentations</h1>
+<h1 class="title">Presentations</h1>
 </div>
 
 
@@ -202,11 +202,28 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>Below are some presentations I’ve given on the packageSkeleton framework.</p>
-<section id="presentation-1" class="level1">
-<h1>Presentation 1</h1>
-<div class="iframe-container">
+<section id="an-introduction-to-packageskeleton" class="level1">
+<h1>An Introduction to packageSkeleton</h1>
+<div class="iframe-container" onclick="openPresentationInNewWindow()">
 <p><iframe src="content/presentations/packageSkeleton_Presentation-speaker.html" allowfullscreen=""> </iframe></p>
 </div>
+<div class="presentation-controls">
+<p><button class="btn-presentation" onclick="openPresentationInNewWindow()"> <svg class="btn-icon" fill="currentColor" viewbox="0 0 20 20"> <path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM6.293 6.707a1 1 0 010-1.414l3-3a1 1 0 011.414 0l3 3a1 1 0 01-1.414 1.414L11 5.414V13a1 1 0 11-2 0V5.414L7.707 6.707a1 1 0 01-1.414 0z" clip-rule="evenodd"></path> </svg> Open Full Screen </button></p>
+<p><a href="content/presentations/packageSkeleton_Presentation.pptx" class="btn-presentation btn-secondary" download=""> <svg class="btn-icon" fill="currentColor" viewbox="0 0 20 20"> <path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd"></path> </svg> Download PowerPoint </a></p>
+</div>
+<script>
+function openPresentationInNewWindow() {
+  const presentationUrl = 'content/presentations/packageSkeleton_Presentation-speaker.html';
+  const newWindow = window.open(presentationUrl, '_blank', 'width=1200,height=800,scrollbars=yes,resizable=yes');
+  
+  if (newWindow) {
+    newWindow.focus();
+  } else {
+    // Fallback if popup is blocked
+    window.open(presentationUrl, '_blank');
+  }
+}
+</script>
 
 
 </section>
