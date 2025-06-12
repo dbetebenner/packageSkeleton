@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Damian Betebenner">
+<meta name="dcterms.date" content="2025-06-11">
 
-<title>News – A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website</title>
+<title>An Introduction to Hello World &amp; packageSkeleton</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,169 +22,87 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="././assets/img/logo_color.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-fdf1bca80bd9d483901bef3fce78339d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<script src="site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
-<script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
-  "copy-button": true,
-  "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
-    "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
-  }
-}</script>
+<script src="an_introduction_to_hello_world_files/libs/clipboard/clipboard.min.js"></script>
+<script src="an_introduction_to_hello_world_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="an_introduction_to_hello_world_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="an_introduction_to_hello_world_files/libs/quarto-html/popper.min.js"></script>
+<script src="an_introduction_to_hello_world_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="an_introduction_to_hello_world_files/libs/quarto-html/anchor.min.js"></script>
+<link href="an_introduction_to_hello_world_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="an_introduction_to_hello_world_files/libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="an_introduction_to_hello_world_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="an_introduction_to_hello_world_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="an_introduction_to_hello_world_files/libs/bootstrap/bootstrap-81267100e462c21b3d6c0d5bf76a3417.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 
 
-<link rel="stylesheet" href="assets/css/website-styles.css">
-<meta property="og:title" content="News – A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website">
-<meta property="og:description" content="">
-<meta property="og:image" content="https://centerforassessment.github.io/packageSkeleton/assets/img/packageSkeleton.png">
-<meta property="og:site_name" content="A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website">
-<meta property="og:image:height" content="1200">
-<meta property="og:image:width" content="1037">
-<meta name="twitter:title" content="packageSkeleton">
-<meta name="twitter:description" content="A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website">
-<meta name="twitter:image" content="https://centerforassessment.github.io/packageSkeleton/assets/img/packageSkeleton.png">
-<meta name="twitter:image:alt" content="packageSkeleton Logo">
-<meta name="twitter:creator" content="dbetebenner">
-<meta name="twitter:site" content="nciea1">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image-height" content="1200">
-<meta name="twitter:image-width" content="1037">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="fullcontent quarto-light">
 
-<div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a href="https://centerforassessment.github.io/packageSkeleton/" class="navbar-brand navbar-brand-logo">
-    <img src="././assets/img/logo_grey.png" alt="Center for Assessment GitHub Homepage" class="navbar-logo">
-    </a>
-    <a class="navbar-brand" href="https://centerforassessment.github.io/packageSkeleton/">
-    <span class="navbar-title">packageSkeleton</span>
-    </a>
-  </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./getting_started.html"> 
-<span class="menu-text">Getting Started</span></a>
-  </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-r-package" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">R Package</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-r-package">    
-        <li>
-    <a class="dropdown-item" href="./overview.html">
- <span class="dropdown-text">Overview</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./api_reference.html">
- <span class="dropdown-text">API Reference</span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-resources" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Resources</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-resources">    
-        <li>
-    <a class="dropdown-item" href="./documents.html">
- <span class="dropdown-text">Documents</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./presentations.html">
- <span class="dropdown-text">Presentations</span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link active" href="./news.html" aria-current="page"> 
-<span class="menu-text">News</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="https://github.com/centerforassessment/packageSkeleton/" target="_blank"> 
-<span class="menu-text"><iconify-icon role="img" inline="" icon="fa6-brands:github" style="font-size: 28px;" aria-label="The packageSkeleton GitHub Repo" title="GitHub Repo"></iconify-icon></span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="https://bsky.app/intent/compose?text=packageSkeleton%3A%20A%20GitHub%20repository%20featuring%20a%20starter%20template%20for%20R%20package%20development%2C%20paired%20with%20a%20Quarto-powered%20website.%20%23packageSkeleton%20%23rstats%20https%3A%2F%2Fcenterforassessment.github.io%2FpackageSkeleton" target="_blank"> 
-<span class="menu-text"><iconify-icon role="img" inline="" icon="fa6-brands:bluesky" style="font-size: 28px;" aria-label="Share on Bluesky" title="Share on Bluesky"></iconify-icon></span></a>
-  </li>  
-</ul>
-          </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
-</div>
-      </div> <!-- /container-fluid -->
-    </nav>
-</header>
-<!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
-<!-- sidebar -->
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
-<!-- main -->
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">News</h1>
+<h1 class="title">An Introduction to Hello World &amp; packageSkeleton</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Damian Betebenner </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 11, 2025</p>
+    </div>
+  </div>
   
     
   </div>
@@ -192,11 +112,92 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>June 11th, 2025: Release of v0.0-1.0</p>
+<section id="history-of-hello-world-programs" class="level1">
+<h1>History of “Hello, World!” Programs</h1>
+<p>“Hello, World!” is the traditional first program that many people write when learning a new programming language. This simple program – which typically just prints the message “Hello, World!” to the screen – serves to illustrate the basics of coding syntax and to verify that the development environment is set up correctly. Despite its simplicity, it is an important sanity check: if even a one-line print statement fails, it’s a sign that something in the toolchain or setup is wrong. In fact, data scientist John Mount jokingly describes it as a “confrontational” test of a system – essentially the programmer saying “I won’t invest more time until I see the system can at least print one line of text!”. This tiny two-word program provides a gentle introduction for beginners and a quick diagnostic for experts: novices use it to learn basic syntax, and veterans use it to confirm a new language or setup is working as expected. Over time, “Hello, World!” has become an iconic tradition in computer science, with a rich history behind its humble output.</p>
+<section id="notable-milestones-in-the-history-of-hello-world-include" class="level2">
+<h2 class="anchored" data-anchor-id="notable-milestones-in-the-history-of-hello-world-include">Notable milestones in the history of “Hello, World!” include:</h2>
+<ul>
+<li><p><strong>1967 (Early Origins):</strong> Some sources trace the phrase’s debut in computing to around 1967, in an example for the BCPL programming language. (Outside of computing, the exact phrase “Hello, world!” even appeared as a radio DJ’s catchphrase in the 1950s, but it was later independently adopted in programming contexts.)</p></li>
+<li><p><strong>1972 (First Example in Print):</strong> The earliest known program to use “hello, world” was in Brian Kernighan’s 1972 tutorial for the B language. In that text, Kernighan used a small program printing “hello, world!” (all lower-case, no exclamation) to demonstrate external variables. This was a step up from a previous example that printed a simpler “hi!”, and it showed how to handle a longer string in the B language.</p></li>
+<li><p><strong>1974–1978 (Rise to Popularity):</strong> Kernighan included the same example in a Bell Labs internal memo in 1974, and later, he and Dennis Ritchie featured “hello, world” in their seminal book The C Programming Language (1978). The 1978 K&amp;R C book was hugely influential and is credited with making “Hello, World!” famous among programmers. In the book’s first chapter, a C program that prints “hello, world” is the introductory example, solidifying this phrase as the standard first program in countless languages to follow.</p></li>
+<li><p><strong>Late 1970s and Beyond (Standard Practice):</strong> By the late 1970s, the practice of starting with a “Hello, World!” example had spread quickly and was well-known in the programming community. Since then, virtually every programming language (and many programming tutorials) begin with some version of “Hello, World!” to introduce basic syntax. It remains a ubiquitous tradition to this day, symbolizing the initial triumph of getting code to run successfully.</p></li>
+</ul>
+</section>
+</section>
+<section id="introduction-to-the-packageskeleton-r-package" class="level1">
+<h1>Introduction to the packageSkeleton R Package</h1>
+<p>As the “Hello, World!” tradition lives on, it even finds its way into modern tools and templates. One example is the packageSkeleton R package – a starter template for R package development, paired with a Quarto-powered documentation website. In essence, packageSkeleton provides a comprehensive, production-ready scaffold for creating a professional R package with minimal setup overhead. The repository comes pre-configured with an integrated Quarto documentation site, automated testing, continuous integration, and GitHub Pages deployment, all set up out-of-the-box. This eliminates much of the tedious groundwork usually required when starting a new package project. For the developer, this means you can focus on writing code and documentation rather than wrestling with configuration. Key tasks like naming your package, adding your own functions, and customizing the documentation website are essentially all you need to do – the skeleton handles the rest of the initial setup for you.</p>
+<p>To demonstrate its features, packageSkeleton even includes a built-in example dataset and content. In fact, it’s something of a not-so-simple “Hello, World!” application itself! The package contains a dataset named Hello_World, which stores the phrase “Hello, world!” translated into 47 different languages. This serves as a fun example of including data in your package (with accompanying documentation) and ties back to the theme of a basic “Hello, World!” program, but on a global scale. You can load and inspect this dataset to see how it works. For example, printing the <code>Hello_World</code> data frame in R yields the following:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>packageSkeleton<span class="sc">::</span>Hello_World</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Key: &lt;language&gt;
+      language hello_world_greeting               note
+        &lt;char&gt;               &lt;char&gt;             &lt;char&gt;
+ 1:  Afrikaans       Hallo, wêreld!               &lt;NA&gt;
+ 2:     Arabic       مرحبا بالعالم!               &lt;NA&gt;
+ 3:    Bengali         হ্যালো, বিশ্ব!               &lt;NA&gt;
+ 4:  Bulgarian       Здравей, свят!               &lt;NA&gt;
+ 5:    Chinese         你好，世界！ Simplified Chinese
+ 6:   Croatian    Pozdrav, svijete!               &lt;NA&gt;
+ 7:      Czech         Ahoj, světe!               &lt;NA&gt;
+ 8:     Danish         Hej, verden!               &lt;NA&gt;
+ 9:      Dutch       Hallo, wereld!               &lt;NA&gt;
+10:    English        Hello, world!               &lt;NA&gt;
+11:   Estonian        Tere, maailm!               &lt;NA&gt;
+12:      Farsi           سلام دنیا!               &lt;NA&gt;
+13:    Finnish        Hei, maailma!               &lt;NA&gt;
+14:     French   Bonjour, le monde!               &lt;NA&gt;
+15:     German         Hallo, Welt!               &lt;NA&gt;
+16:      Greek     Γειά σου, κόσμε!               &lt;NA&gt;
+17:     Hebrew          שלום, עולם!               &lt;NA&gt;
+18:      Hindi          नमस्ते दुनिया!               &lt;NA&gt;
+19:  Hungarian        Helló, világ!               &lt;NA&gt;
+20: Indonesian         Halo, dunia!               &lt;NA&gt;
+21:    Italian         Ciao, mondo!               &lt;NA&gt;
+22:   Japanese   こんにちは、世界！               &lt;NA&gt;
+23:    Kannada            ಹಲೋ, ವಿಶ್ವ!               &lt;NA&gt;
+24:     Korean          안녕, 세상!               &lt;NA&gt;
+25:    Kurdish        Silav, cîhan!               &lt;NA&gt;
+26:    Latvian     Sveika, pasaule!               &lt;NA&gt;
+27: Lithuanian      Labas, pasauli!               &lt;NA&gt;
+28:      Malay          Hai, dunia!               &lt;NA&gt;
+29:  Malayalam           ഹലോ, ലോകം!               &lt;NA&gt;
+30:  Norwegian         Hei, verden!               &lt;NA&gt;
+31:    Persian           سلام دنیا!               &lt;NA&gt;
+32:     Polish      Witaj, świecie!               &lt;NA&gt;
+33: Portuguese          Olá, mundo!               &lt;NA&gt;
+34:   Romanian         Salut, lume!               &lt;NA&gt;
+35:    Russian         Привет, мир!               &lt;NA&gt;
+36:    Serbian       Здраво, свете!               &lt;NA&gt;
+37:     Slovak          Ahoj, svet!               &lt;NA&gt;
+38:  Slovenian   Pozdravljen, svet!               &lt;NA&gt;
+39:    Spanish        ¡Hola, mundo!               &lt;NA&gt;
+40:    Swahili       Habari, dunia!               &lt;NA&gt;
+41:    Swedish        Hej, världen!               &lt;NA&gt;
+42:      Tamil           ஹலோ, உலகம்!               &lt;NA&gt;
+43:     Telugu          హలో, ప్రపంచం!               &lt;NA&gt;
+44:       Thai        สวัสดี, ชาวโลก!               &lt;NA&gt;
+45:    Turkish      Merhaba, dünya!               &lt;NA&gt;
+46:  Ukrainian        Привіт, світ!               &lt;NA&gt;
+47: Vietnamese      Chào, thế giới!               &lt;NA&gt;
+      language hello_world_greeting               note</code></pre>
+</div>
+</div>
+<p>As you can see, the <code>Hello_World</code> data frame provides a greeting in dozens of languages – from common ones like Spanish, French, and Chinese to less widely taught languages like Latvian or Kannada – along with an optional note (for example, noting that the Chinese version is Simplified Chinese). This example dataset shows how <strong>packageSkeleton</strong> can incorporate data and documentation into the package website. It’s a playful nod to the classic “Hello, World!” while also demonstrating the package’s capabilities (like embedding data and tables in the documentation).</p>
+<p>Future Directions for packageSkeleton</p>
+<p>The <strong>packageSkeleton</strong> package (and its example content) is still evolving. Looking ahead, there are plans to enrich the Hello World example and add new features that make the template even more useful and interactive. Some envisioned future directions include:</p>
+<ul>
+<li><p><strong>Incorporating Country Metadata:</strong> Augment the Hello_World dataset with additional information, such as the country or countries where each language is predominantly used. For instance, alongside the greeting in Swahili, the data could note Kenya or Tanzania; for Spanish, it might include Spain, Mexico, and other regions. Adding country metadata provides geographical context to the greetings and sets the stage for visualization.</p></li>
+<li><p><strong>Interactive Globe or Map Visualization:</strong> Using the enhanced dataset, the package could introduce an interactive world map or globe that highlights how to say “Hello, World!” around the globe. Imagine a 3D globe or a world map where each country can be clicked (or hovered over) to display the greeting in the country’s primary language. This would allow users of the package website to visually explore the translations – for example, clicking on Japan would show “こんにちは、世界！”, whereas selecting Brazil might show “Olá, mundo!”. Such a feature would transform the static table of greetings into an engaging, educational visualization.</p></li>
+</ul>
+<p>Beyond these specific ideas, the general goal is to make the <strong>packageSkeleton</strong> template more illustrative and interactive. By connecting a simple programming tradition with real-world languages and locations, users can learn not only about coding but also about world languages and cultures. These enhancements would turn the classic “Hello, World!” example into a globe-spanning demo – enriching the package’s educational value and demonstrating how R packages (with Quarto sites) can combine coding with data and visualization in creative ways.</p>
+<p>Overall, the journey from the original “Hello, World!” program to this modern R package example shows how a tiny tradition can inspire broader learning. What began as a two-word test in a console has grown into a multilingual dataset and potentially an interactive map of the world. As <strong>packageSkeleton</strong> continues to develop, it embodies the spirit of “Hello, World!” – making something complex (like building an R package and website) feel welcoming and accessible, one friendly greeting at a time.</p>
+</section>
 
-
-
-</main> <!-- /main -->
+</main>
+<!-- /main column -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -269,7 +270,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/centerforassessment\.github\.io\/packageSkeleton\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -597,36 +598,6 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
-<footer class="footer">
-  <div class="nav-footer">
-    <div class="nav-footer-left">
-      &nbsp;
-    </div>   
-    <div class="nav-footer-center">
-      <ul class="footer-items list-unstyled">
-    <li class="nav-item">
-    <a class="nav-link" href="https://centerforassessment.github.io/packageSkeleton/">
-<p><iconify-icon role="img" inline="" icon="bi:info-square-fill" style="font-size: 28px;" aria-label="About packageSkeleton" title="About packageSkeleton"></iconify-icon></p>
-</a>
-  </li>  
-    <li class="nav-item">
-    <a class="nav-link" href="https://github.com/centerforassessment/packageSkeleton/" target="_blank">
-<p><iconify-icon role="img" inline="" icon="jam:github-square" style="font-size: 33.5px;" aria-label="The packageSkeleton GitHub Repo" title="GitHub Repo"></iconify-icon></p>
-</a>
-  </li>  
-</ul>
-    </div>
-    <div class="nav-footer-right">
-      &nbsp;
-    </div>
-  </div>
-</footer>
-<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600" rel="stylesheet" type="text/css">
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="./assets/js/jquery.sticky-kit.min.js"></script>
-<script type="text/javascript" src="./assets/js/scroll.js"></script>
-<script type="text/javascript" src="./assets/js/logo-switch.js"></script>
-<script type="text/javascript" src="./assets/js/custom-anchors.js"></script>
 
 
 
