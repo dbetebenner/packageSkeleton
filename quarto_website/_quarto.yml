@@ -102,7 +102,9 @@ format:
     theme:
      - cosmo
      - ./assets/css/website-custom.scss
-    css: ./assets/css/website-styles.css
+    css: 
+      - ./assets/css/website-styles.css
+      - ./assets/css/documents.css
     toc: true
     include-after: |
       <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600" rel="stylesheet" type="text/css">

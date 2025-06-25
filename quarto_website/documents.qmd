@@ -1,24 +1,124 @@
 ---
 title: "Documents"
+description: "Technical reports, blogs, and documentation"
+format:
+  html:
+    toc: false
+    number-sections: false
+    html: true
+    page-layout: full
+    css: assets/css/documents.css
 ---
 
-In this 3 hour tutorial, I will demonstrate some cognitive principles and apply methods supported by empirical studies that make data visualisation more effective. The construction of data visualisation will be accompanied with R code using the ggplot2 package. The R code and data used will be provided so participants can fully replicate the presented data visualisations.
+<div class="documents-landing">
 
+# Documents {.documents-title}
 
-* Session 1: Basics of creating plots with ggplot2.
-* Session 2: Fundamentals of data visualisation.
-* Session 3: Elements of effective data visualisation.
+Welcome to our collection of technical reports, blogs, and documentation. Here you'll find in-depth analyses, tutorials, and insights related to our work.
 
-Participants are expected to know how to use R. Some knowledge in tidyverse would be beneficial. You can find an interactive introduction to data analysis with R at [https://learnr.numbat.space/](https://learnr.numbat.space/).
+<div class="documents-grid">
 
+<div class="document-card">
+<div class="document-header"> 
+### [An Introduction to Hello World & packageSkeleton]{.document-title}
+</div>
 
+<div class="document-meta">
+<span class="document-author">Damian Betebenner</span>
+<span class="document-date">June 11, 2025</span>
+</div>
 
-## Biography of Workshop Presenter
+<div class="document-description">
+A comprehensive exploration of the "Hello, World!" programming tradition and its connection to the packageSkeleton R package. This document traces the history of the iconic first program from its origins in the 1960s through its modern applications in R package development.
+</div>
 
-Dr. Emi Tanaka is a Senior Lecturer in Statistics at Monash University whose primary interest is to develop impactful statistical methods and tools that can readily be used by practitioners. Her research area includes data visualisation, mixed models and experimental designs, motivated primarily by problems in bioinformatics and agricultural sciences. She is currently the President of the Statistical Society of Australia Victorian Branch and the recipient of the Distinguished Presenter's Award from the Statistical Society of Australia for her delivery of a wide-range of R workshops.
+<div class="document-tags">
+<span class="tag">Programming History</span>
+<span class="tag">R Package Development</span>
+<span class="tag">Tutorial</span>
+</div>
 
-## Lorum Ipsum
+<div class="document-actions">
+<a href="content/documents/an_introduction_to_hello_world.html" class="btn btn-primary">
+  <i class="fas fa-file-alt"></i>
+  Read Document
+</a>
+<a href="content/documents/an_introduction_to_hello_world.qmd" class="btn btn-outline">
+  <i class="fas fa-code"></i>
+  View Source
+</a>
+</div>
+</div>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<div class="document-card coming-soon">
+<div class="document-header">
+### [Technical Report Template]{.document-title}
+</div>
 
+<div class="document-meta">
+<span class="document-author">Coming Soon</span>
+<span class="document-date">In Development</span>
+</div>
 
+<div class="document-description">
+A template for creating standardized technical reports with reproducible research methods, statistical analyses, and professional formatting.
+</div>
+
+<div class="document-tags">
+<span class="tag">Template</span>
+<span class="tag">Reproducible Research</span>
+<span class="tag">Statistics</span>
+</div>
+
+<div class="document-actions">
+<button class="btn btn-secondary" disabled>
+  <i class="fas fa-clock"></i>
+  Coming Soon
+</button>
+</div>
+</div>
+
+<div class="document-card coming-soon">
+<div class="document-header">
+### [Data Visualization Best Practices]{.document-title}
+</div>
+
+<div class="document-meta">
+<span class="document-author">Coming Soon</span>
+<span class="document-date">In Development</span>
+</div>
+
+<div class="document-description">
+Guidelines and examples for creating effective data visualizations using R, including principles of design, color theory, and accessibility considerations.
+</div>
+
+<div class="document-tags">
+<span class="tag">Data Visualization</span>
+<span class="tag">Design</span>
+<span class="tag">Accessibility</span>
+</div>
+
+<div class="document-actions">
+<button class="btn btn-secondary" disabled>
+  <i class="fas fa-clock"></i>
+  Coming Soon
+</button>
+</div>
+</div>
+
+</div>
+
+<div class="documents-footer">
+## About Our Documents
+
+Our documents are created using **Quarto**, a modern scientific and technical publishing system that supports reproducible research. Each document includes:
+
+- **Reproducible Code**: All analyses and visualizations are created with executable code
+- **Version Control**: Source files are tracked in Git for transparency and collaboration
+- **Multiple Formats**: Documents can be rendered to HTML, PDF, and other formats
+- **Interactive Elements**: Many documents include interactive components and dynamic content
+
+For questions about our documents or to suggest new topics, please [contact us](mailto:contact@example.com).
+</div>
+
+</div>

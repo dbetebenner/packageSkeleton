@@ -1,5 +1,5 @@
 ---
-pagetitle: "packageSkeleton: A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website"
+pagetitle: "packageSkeleton: A modular data science development framework that integrates R package tooling, Quarto-based documentation, and GitHub-based collaboration into a cohesive foundation for analytic and interactive application development." 
 author: Damian Betebenner
 format:
   revealjs:
@@ -28,7 +28,63 @@ format:
 draft: false
 ---
 
-# packageSkeleton
+# {background-color=#ABCDEF}
+
+:::: {.columns}
+
+::: {.column width=50% style="text-align: center;"}
+
+<h1 class="packageskeleton-title">packageSkeleton</h1>
+
+<br>
+
+![](assets/img/packageSkeleton.png){.title-logo width=400px}
+
+:::
+
+::: {.column style="text-align: right; font-size: 68px; font-style: italic; padding-top: 450px;"}
+
+A modular data science<br>development framework.
+
+:::
+
+::::
+
+<!--
+#########################################
+Section: Reproducible Research
+#########################################
+-->
+
+
+# {background-color=#ABCDEF}
+
+<h2 class="large-centered-uhoh">Reproducible<br>Research</h2>
+
+
+---
+
+## Reproducible Research
+
+- Reproducible research is a cornerstone of modern data science.
+- The enemy of reproducible research is complexity. 
+- Taming complexity requires a foundation (i.e., a framework) that provides a structure for the development of the analytic capacities providing for an easily maintained integration of the analytic tools, documentation, and content associated with the analytic tools.
+- Without a solid foundation, analytic tools are often "spaghetti code" that is not reusable, not reproducible, and not well documented.
+- The goal of **packageSkeleton** is to provide a foundation for data science research that is reproducible, reusable, and well documented.
+
+
+<!--
+#########################################
+Section: packageSkeleton
+#########################################
+-->
+
+
+# {background-color=#ABCDEF}
+
+<h2 class="large-centered-uhoh">Why<br>packageSkeleton?</h2>
+
+---
 
 ## Introduction to packageSkeleton
 
@@ -85,7 +141,7 @@ draft: false
 
 - **Quarto Configuration**: Customize the `_quarto.yml` file to change the website settings such as title, author, and repository URL.
 - **Add Pages**: Create `.qmd` files to add custom documentation, tutorials, and more.
-- **Themes & Layouts**: Modify the website’s theme using CSS or choose from Quarto’s built-in themes.
+- **Themes & Layouts**: Modify the website's theme using CSS or choose from Quarto's built-in themes.
 
 ---
 
@@ -103,7 +159,24 @@ draft: false
 2. **Publish on GitHub Pages**: Push your changes to the repository and GitHub Pages will automatically deploy the site.
 3. **Preview Locally**: Use `quarto preview` to see live updates of the website as you edit.
 
+
+<!--
+#########################################
+Section: Future Directions
+#########################################
+-->
+
+# {background-color=#ABCDEF}
+
+<h2 class="large-centered-uhoh">Future<br>Directions</h2>
+
 ---
+
+## Future Directions
+
+- **NextJS Integration**: Integrate packageSkeleton into NextJS framework to facilitate the development of a more robust and scalable data science development framework.
+- **Web API Development**: Expose analytics results as web APIs to be used by users as well as other applications.
+- **MCP Integration**: Utilize Model Context Protocol (MCP) to expose package tools and resources for integration with popular AI services. 
 
 ## Conclusion
 
@@ -118,3 +191,19 @@ draft: false
 - [Quarto Documentation](https://quarto.org/docs/)
 - [R Package Development](https://r-pkgs.org/)
 - [GitHub Pages](https://pages.github.com/)
+
+---
+
+
+```{r echo=FALSE, results="hide", message=FALSE}
+
+URL <- "https://centerforassessment.github.io/packageSkeleton/presentations.html"
+
+qr_code.tmp <- qrcode::qr_code(URL)
+png("assets/img/qr_code.png", width = 800, height = 800, bg = "transparent")
+par(bg = NA)
+plot(qr_code.tmp, bg = "transparent")
+invisible(dev.off())
+```
+
+![](assets/img/qr_code.png){width=800px style="display: block; margin: 0 auto; border-radius: 4px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); vertical-align: middle;"}
