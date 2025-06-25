@@ -8,9 +8,8 @@
 
 <meta name="author" content="Damian Betebenner">
 <meta name="dcterms.date" content="2025-06-11">
-<meta name="description" content="A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website.">
 
-<title>An Introduction to Hello World &amp; packageSkeleton – A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website</title>
+<title>An Introduction to Hello World &amp; packageSkeleton</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -61,179 +60,37 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../.././assets/img/logo_color.png" rel="icon" type="image/png">
-<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-fdf1bca80bd9d483901bef3fce78339d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<script src="../../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
-<script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
-  "copy-button": true,
-  "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
-    "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
-  }
-}</script>
+<script src="an_introduction_to_hello_world_files/libs/clipboard/clipboard.min.js"></script>
+<script src="an_introduction_to_hello_world_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="an_introduction_to_hello_world_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="an_introduction_to_hello_world_files/libs/quarto-html/popper.min.js"></script>
+<script src="an_introduction_to_hello_world_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="an_introduction_to_hello_world_files/libs/quarto-html/anchor.min.js"></script>
+<link href="an_introduction_to_hello_world_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="an_introduction_to_hello_world_files/libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="an_introduction_to_hello_world_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="an_introduction_to_hello_world_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="an_introduction_to_hello_world_files/libs/bootstrap/bootstrap-8a894fcc3cb5e37eb5bf30def131be2f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 
 
-<link rel="stylesheet" href="../../assets/css/website-styles.css">
-<meta property="og:title" content="An Introduction to Hello World &amp; packageSkeleton – A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website">
-<meta property="og:description" content="A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website.">
-<meta property="og:image" content="https://centerforassessment.github.io/packageSkeleton/assets/img/packageSkeleton.png">
-<meta property="og:site_name" content="A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website">
-<meta property="og:image:height" content="1200">
-<meta property="og:image:width" content="1037">
-<meta name="twitter:title" content="packageSkeleton">
-<meta name="twitter:description" content="A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website">
-<meta name="twitter:image" content="https://centerforassessment.github.io/packageSkeleton/assets/img/packageSkeleton.png">
-<meta name="twitter:image:alt" content="packageSkeleton Logo">
-<meta name="twitter:creator" content="dbetebenner">
-<meta name="twitter:site" content="nciea1">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image-height" content="1200">
-<meta name="twitter:image-width" content="1037">
+<link rel="stylesheet" href="../../assets/css/shared-styles.css">
+<link rel="stylesheet" href="document-styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="quarto-light">
 
-<div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a href="https://centerforassessment.github.io/packageSkeleton/" class="navbar-brand navbar-brand-logo">
-    <img src="../.././assets/img/logo_grey.png" alt="Center for Assessment GitHub Homepage" class="navbar-logo">
-    </a>
-    <a class="navbar-brand" href="https://centerforassessment.github.io/packageSkeleton/">
-    <span class="navbar-title">packageSkeleton</span>
-    </a>
-  </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="../../about.html"> 
-<span class="menu-text">About</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../getting_started.html"> 
-<span class="menu-text">Getting Started</span></a>
-  </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-r-package" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">R Package</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-r-package">    
-        <li>
-    <a class="dropdown-item" href="../../overview.html">
- <span class="dropdown-text">Overview</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../api_reference.html">
- <span class="dropdown-text">API Reference</span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-resources" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Resources</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-resources">    
-        <li>
-    <a class="dropdown-item" href="../../documents.html">
- <span class="dropdown-text">Documents</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../presentations.html">
- <span class="dropdown-text">Presentations</span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="../../news.html"> 
-<span class="menu-text">News</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="https://github.com/centerforassessment/packageSkeleton/" target="_blank"> 
-<span class="menu-text"><iconify-icon role="img" inline="" icon="fa6-brands:github" style="font-size: 28px;" aria-label="The packageSkeleton GitHub Repo" title="GitHub Repo"></iconify-icon></span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="https://bsky.app/intent/compose?text=packageSkeleton%3A%20A%20GitHub%20repository%20featuring%20a%20starter%20template%20for%20R%20package%20development%2C%20paired%20with%20a%20Quarto-powered%20website.%20%23packageSkeleton%20%23rstats%20https%3A%2F%2Fcenterforassessment.github.io%2FpackageSkeleton" target="_blank"> 
-<span class="menu-text"><iconify-icon role="img" inline="" icon="fa6-brands:bluesky" style="font-size: 28px;" aria-label="Share on Bluesky" title="Share on Bluesky"></iconify-icon></span></a>
-  </li>  
-</ul>
-          </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
-</div>
-      </div> <!-- /container-fluid -->
-    </nav>
-</header>
-<!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
-<!-- sidebar -->
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#history-of-hello-world-programs" id="toc-history-of-hello-world-programs" class="nav-link active" data-scroll-target="#history-of-hello-world-programs">History of “Hello, World!” Programs</a>
-  <ul class="collapse">
-  <li><a href="#notable-milestones-in-the-history-of-hello-world-include" id="toc-notable-milestones-in-the-history-of-hello-world-include" class="nav-link" data-scroll-target="#notable-milestones-in-the-history-of-hello-world-include">Notable milestones in the history of “Hello, World!” include:</a></li>
-  </ul></li>
-  <li><a href="#introduction-to-the-packageskeleton-r-package" id="toc-introduction-to-the-packageskeleton-r-package" class="nav-link" data-scroll-target="#introduction-to-the-packageskeleton-r-package">Introduction to the packageSkeleton R Package</a></li>
-  </ul>
-</nav>
-    </div>
-<!-- main -->
-<main class="content" id="quarto-document-content">
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-full">
+
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">An Introduction to Hello World &amp; packageSkeleton</h1>
 </div>
 
-<div>
-  <div class="description">
-    A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website.
-  </div>
-</div>
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
     <div>
     <div class="quarto-title-meta-heading">Author</div>
@@ -259,7 +116,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="history-of-hello-world-programs" class="level1">
 <h1>History of “Hello, World!” Programs</h1>
-<p>“Hello, World!” is the traditional first program that many people write when learning a new programming language. This simple program – which typically just prints the message “Hello, World!” to the screen – serves to illustrate the basics of coding syntax and to verify that the development environment is set up correctly. Despite its simplicity, it is an important sanity check: if even a one-line print statement fails, it’s a sign that something in the toolchain or setup is wrong. In fact, data scientist John Mount jokingly describes it as a “confrontational” test of a system – essentially the programmer saying “I won’t invest more time until I see the system can at least print one line of text!”. This tiny two-word program provides a gentle introduction for beginners and a quick diagnostic for experts: novices use it to learn basic syntax, and veterans use it to confirm a new language or setup is working as expected. Over time, “Hello, World!” has become an iconic tradition in computer science, with a rich history behind its humble output.</p>
+<p>“Hello, World!” is the traditional first program that many people write when learning a new programming language. This simple program – which typically just prints the message “Hello, World!” to the screen – serves to illustrate the basics of coding syntax and to verify that the development environment is set up correctly. Despite its simplicity, it is an important sanity check: if even a one-line print statement fails, it’s a sign that something in the toolchain or setup is wrong. In fact, data scientist John Mount jokingly describes it as a “confrontational” test of a system – essentially the programmer saying “I won’t invest more time until I see the system can at least print one line of text!” This tiny two-word program provides a gentle introduction for beginners and a quick diagnostic for experts: novices use it to learn basic syntax, and veterans use it to confirm a new language or setup is working as expected. Over time, “Hello, World!” has become an iconic tradition in computer science, with a rich history behind its humble output.</p>
 <section id="notable-milestones-in-the-history-of-hello-world-include" class="level2">
 <h2 class="anchored" data-anchor-id="notable-milestones-in-the-history-of-hello-world-include">Notable milestones in the history of “Hello, World!” include:</h2>
 <ul>
@@ -335,15 +192,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>The <strong>packageSkeleton</strong> package (and its example content) is still evolving. Looking ahead, there are plans to enrich the Hello World example and add new features that make the template even more useful and interactive. Some envisioned future directions include:</p>
 <ul>
 <li><p><strong>Incorporating Country Metadata:</strong> Augment the Hello_World dataset with additional information, such as the country or countries where each language is predominantly used. For instance, alongside the greeting in Swahili, the data could note Kenya or Tanzania; for Spanish, it might include Spain, Mexico, and other regions. Adding country metadata provides geographical context to the greetings and sets the stage for visualization.</p></li>
-<li><p><strong>Interactive Globe or Map Visualization:</strong> Using the enhanced dataset, the package could introduce an interactive world map or globe that highlights how to say “Hello, World!” around the globe. Imagine a 3D globe or a world map where each country can be clicked (or hovered over) to display the greeting in the country’s primary language. This would allow users of the package website to visually explore the translations – for example, clicking on Japan would show “こんにちは、世界！”, whereas selecting Brazil might show “Olá, mundo!”. Such a feature would transform the static table of greetings into an engaging, educational visualization.</p></li>
+<li><p><strong>Interactive Globe or Map Visualization:</strong> Using the enhanced dataset, the package could introduce an interactive world map or globe that highlights how to say “Hello, World!” around the globe. Imagine a 3D globe or a world map where each country can be clicked (or hovered over) to display the greeting in the country’s primary language. This would allow users of the package website to visually explore the translations – for example, clicking on Japan would show “こんにちは、世界！”, whereas selecting Brazil might show “Olá, mundo!” Such a feature would transform the static table of greetings into an engaging, educational visualization.</p></li>
 </ul>
 <p>Beyond these specific ideas, the general goal is to make the <strong>packageSkeleton</strong> template more illustrative and interactive. By connecting a simple programming tradition with real-world languages and locations, users can learn not only about coding but also about world languages and cultures. These enhancements would turn the classic “Hello, World!” example into a globe-spanning demo – enriching the package’s educational value and demonstrating how R packages (with Quarto sites) can combine coding with data and visualization in creative ways.</p>
 <p>Overall, the journey from the original “Hello, World!” program to this modern R package example shows how a tiny tradition can inspire broader learning. What began as a two-word test in a console has grown into a multilingual dataset and potentially an interactive map of the world. As <strong>packageSkeleton</strong> continues to develop, it embodies the spirit of “Hello, World!” – making something complex (like building an R package and website) feel welcoming and accessible, one friendly greeting at a time.</p>
-
-
 </section>
 
-</main> <!-- /main -->
+</main>
+<!-- /main column -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -416,7 +272,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/centerforassessment\.github\.io\/packageSkeleton\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -744,36 +600,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   });
   </script>
 </div> <!-- /content -->
-<footer class="footer">
-  <div class="nav-footer">
-    <div class="nav-footer-left">
-      &nbsp;
-    </div>   
-    <div class="nav-footer-center">
-      <ul class="footer-items list-unstyled">
-    <li class="nav-item">
-    <a class="nav-link" href="https://centerforassessment.github.io/packageSkeleton/">
-<p><iconify-icon role="img" inline="" icon="bi:info-square-fill" style="font-size: 28px;" aria-label="About packageSkeleton" title="About packageSkeleton"></iconify-icon></p>
-</a>
-  </li>  
-    <li class="nav-item">
-    <a class="nav-link" href="https://github.com/centerforassessment/packageSkeleton/" target="_blank">
-<p><iconify-icon role="img" inline="" icon="jam:github-square" style="font-size: 33.5px;" aria-label="The packageSkeleton GitHub Repo" title="GitHub Repo"></iconify-icon></p>
-</a>
-  </li>  
-</ul>
-    </div>
-    <div class="nav-footer-right">
-      &nbsp;
-    </div>
-  </div>
-</footer>
 <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600" rel="stylesheet" type="text/css">
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="../../assets/js/jquery.sticky-kit.min.js"></script>
-<script type="text/javascript" src="../../assets/js/scroll.js"></script>
-<script type="text/javascript" src="../../assets/js/logo-switch.js"></script>
-<script type="text/javascript" src="../../assets/js/custom-anchors.js"></script>
 
 
 

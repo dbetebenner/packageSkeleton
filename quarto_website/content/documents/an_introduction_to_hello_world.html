@@ -70,16 +70,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="an_introduction_to_hello_world_files/libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="an_introduction_to_hello_world_files/libs/bootstrap/bootstrap.min.js"></script>
 <link href="an_introduction_to_hello_world_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="an_introduction_to_hello_world_files/libs/bootstrap/bootstrap-81267100e462c21b3d6c0d5bf76a3417.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="an_introduction_to_hello_world_files/libs/bootstrap/bootstrap-8a894fcc3cb5e37eb5bf30def131be2f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 
 
+<link rel="stylesheet" href="../../assets/css/shared-styles.css">
+<link rel="stylesheet" href="document-styles.css">
 </head>
 
-<body class="fullcontent quarto-light">
+<body class="quarto-light">
 
-<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-full">
 
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -88,7 +90,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
     <div>
     <div class="quarto-title-meta-heading">Author</div>
@@ -114,7 +116,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="history-of-hello-world-programs" class="level1">
 <h1>History of “Hello, World!” Programs</h1>
-<p>“Hello, World!” is the traditional first program that many people write when learning a new programming language. This simple program – which typically just prints the message “Hello, World!” to the screen – serves to illustrate the basics of coding syntax and to verify that the development environment is set up correctly. Despite its simplicity, it is an important sanity check: if even a one-line print statement fails, it’s a sign that something in the toolchain or setup is wrong. In fact, data scientist John Mount jokingly describes it as a “confrontational” test of a system – essentially the programmer saying “I won’t invest more time until I see the system can at least print one line of text!”. This tiny two-word program provides a gentle introduction for beginners and a quick diagnostic for experts: novices use it to learn basic syntax, and veterans use it to confirm a new language or setup is working as expected. Over time, “Hello, World!” has become an iconic tradition in computer science, with a rich history behind its humble output.</p>
+<p>“Hello, World!” is the traditional first program that many people write when learning a new programming language. This simple program – which typically just prints the message “Hello, World!” to the screen – serves to illustrate the basics of coding syntax and to verify that the development environment is set up correctly. Despite its simplicity, it is an important sanity check: if even a one-line print statement fails, it’s a sign that something in the toolchain or setup is wrong. In fact, data scientist John Mount jokingly describes it as a “confrontational” test of a system – essentially the programmer saying “I won’t invest more time until I see the system can at least print one line of text!” This tiny two-word program provides a gentle introduction for beginners and a quick diagnostic for experts: novices use it to learn basic syntax, and veterans use it to confirm a new language or setup is working as expected. Over time, “Hello, World!” has become an iconic tradition in computer science, with a rich history behind its humble output.</p>
 <section id="notable-milestones-in-the-history-of-hello-world-include" class="level2">
 <h2 class="anchored" data-anchor-id="notable-milestones-in-the-history-of-hello-world-include">Notable milestones in the history of “Hello, World!” include:</h2>
 <ul>
@@ -190,7 +192,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>The <strong>packageSkeleton</strong> package (and its example content) is still evolving. Looking ahead, there are plans to enrich the Hello World example and add new features that make the template even more useful and interactive. Some envisioned future directions include:</p>
 <ul>
 <li><p><strong>Incorporating Country Metadata:</strong> Augment the Hello_World dataset with additional information, such as the country or countries where each language is predominantly used. For instance, alongside the greeting in Swahili, the data could note Kenya or Tanzania; for Spanish, it might include Spain, Mexico, and other regions. Adding country metadata provides geographical context to the greetings and sets the stage for visualization.</p></li>
-<li><p><strong>Interactive Globe or Map Visualization:</strong> Using the enhanced dataset, the package could introduce an interactive world map or globe that highlights how to say “Hello, World!” around the globe. Imagine a 3D globe or a world map where each country can be clicked (or hovered over) to display the greeting in the country’s primary language. This would allow users of the package website to visually explore the translations – for example, clicking on Japan would show “こんにちは、世界！”, whereas selecting Brazil might show “Olá, mundo!”. Such a feature would transform the static table of greetings into an engaging, educational visualization.</p></li>
+<li><p><strong>Interactive Globe or Map Visualization:</strong> Using the enhanced dataset, the package could introduce an interactive world map or globe that highlights how to say “Hello, World!” around the globe. Imagine a 3D globe or a world map where each country can be clicked (or hovered over) to display the greeting in the country’s primary language. This would allow users of the package website to visually explore the translations – for example, clicking on Japan would show “こんにちは、世界！”, whereas selecting Brazil might show “Olá, mundo!” Such a feature would transform the static table of greetings into an engaging, educational visualization.</p></li>
 </ul>
 <p>Beyond these specific ideas, the general goal is to make the <strong>packageSkeleton</strong> template more illustrative and interactive. By connecting a simple programming tradition with real-world languages and locations, users can learn not only about coding but also about world languages and cultures. These enhancements would turn the classic “Hello, World!” example into a globe-spanning demo – enriching the package’s educational value and demonstrating how R packages (with Quarto sites) can combine coding with data and visualization in creative ways.</p>
 <p>Overall, the journey from the original “Hello, World!” program to this modern R package example shows how a tiny tradition can inspire broader learning. What began as a two-word test in a console has grown into a multilingual dataset and potentially an interactive map of the world. As <strong>packageSkeleton</strong> continues to develop, it embodies the spirit of “Hello, World!” – making something complex (like building an R package and website) feel welcoming and accessible, one friendly greeting at a time.</p>
@@ -598,6 +600,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   });
   </script>
 </div> <!-- /content -->
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600" rel="stylesheet" type="text/css">
 
 
 

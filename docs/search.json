@@ -25,21 +25,14 @@
     "href": "documents.html",
     "title": "Documents",
     "section": "",
-    "text": "In this 3 hour tutorial, I will demonstrate some cognitive principles and apply methods supported by empirical studies that make data visualisation more effective. The construction of data visualisation will be accompanied with R code using the ggplot2 package. The R code and data used will be provided so participants can fully replicate the presented data visualisations.\nParticipants are expected to know how to use R. Some knowledge in tidyverse would be beneficial. You can find an interactive introduction to data analysis with R at https://learnr.numbat.space/."
+    "text": "Welcome to our collection of technical reports, blogs, and documentation. Here you’ll find in-depth analyses, tutorials, and insights related to our work.\n\n\n\n\n\n\nDamian Betebenner June 11, 2025\n\n\nA comprehensive exploration of the “Hello, World!” programming tradition and its connection to the packageSkeleton R package. This document traces the history of the iconic first program from its origins in the 1960s through its modern applications in R package development.\n\n\nProgramming History R Package Development Tutorial\n\n\n  Read Document    View Source \n\n\n\n\n\n\n\nComing Soon In Development\n\n\nA template for creating standardized technical reports with reproducible research methods, statistical analyses, and professional formatting.\n\n\nTemplate Reproducible Research Statistics\n\n\n\n Coming Soon\n\n\n\n\n\n\n\n\nComing Soon In Development\n\n\nGuidelines and examples for creating effective data visualizations using R, including principles of design, color theory, and accessibility considerations.\n\n\nData Visualization Design Accessibility\n\n\n\n Coming Soon\n\n\n\n\n\n\nOur documents are created using Quarto, a modern scientific and technical publishing system that supports reproducible research. Each document includes:\n\nReproducible Code: All analyses and visualizations are created with executable code\nVersion Control: Source files are tracked in Git for transparency and collaboration\nMultiple Formats: Documents can be rendered to HTML, PDF, and other formats\nInteractive Elements: Many documents include interactive components and dynamic content\n\nFor questions about our documents or to suggest new topics, please contact us."
   },
   {
-    "objectID": "documents.html#biography-of-workshop-presenter",
-    "href": "documents.html#biography-of-workshop-presenter",
+    "objectID": "documents.html#about-our-documents",
+    "href": "documents.html#about-our-documents",
     "title": "Documents",
-    "section": "Biography of Workshop Presenter",
-    "text": "Biography of Workshop Presenter\nDr. Emi Tanaka is a Senior Lecturer in Statistics at Monash University whose primary interest is to develop impactful statistical methods and tools that can readily be used by practitioners. Her research area includes data visualisation, mixed models and experimental designs, motivated primarily by problems in bioinformatics and agricultural sciences. She is currently the President of the Statistical Society of Australia Victorian Branch and the recipient of the Distinguished Presenter’s Award from the Statistical Society of Australia for her delivery of a wide-range of R workshops."
-  },
-  {
-    "objectID": "documents.html#lorum-ipsum",
-    "href": "documents.html#lorum-ipsum",
-    "title": "Documents",
-    "section": "Lorum Ipsum",
-    "text": "Lorum Ipsum\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    "section": "",
+    "text": "Our documents are created using Quarto, a modern scientific and technical publishing system that supports reproducible research. Each document includes:\n\nReproducible Code: All analyses and visualizations are created with executable code\nVersion Control: Source files are tracked in Git for transparency and collaboration\nMultiple Formats: Documents can be rendered to HTML, PDF, and other formats\nInteractive Elements: Many documents include interactive components and dynamic content\n\nFor questions about our documents or to suggest new topics, please contact us."
   },
   {
     "objectID": "about.html",
