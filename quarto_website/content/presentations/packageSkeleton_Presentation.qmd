@@ -42,7 +42,7 @@ draft: false
 
 :::
 
-::: {.column style="text-align: right; font-size: 68px; font-style: italic; padding-top: 450px;"}
+::: {.column style="text-align: right; font-size: 72px; font-style: italic; padding-top: 500px;"}
 
 A modular data science<br>development framework.
 
@@ -66,10 +66,10 @@ Section: Reproducible Research
 
 ## Reproducible Research
 
-- Reproducible research is a cornerstone of modern data science.
-- The enemy of reproducible research is complexity. 
+- **Reproducible research** is a cornerstone of modern data science.
+- The biggest enemy of reproducible research is complexity. 
 - Taming complexity requires a foundation (i.e., a framework) that provides a structure for the development of the analytic capacities providing for an easily maintained integration of the analytic tools, documentation, and content associated with the analytic tools.
-- Without a solid foundation, analytic tools are often "spaghetti code" that is not reusable, not reproducible, and not well documented.
+- Without a solid foundation, analytic tools often become "spaghetti code" that is barely reusable, not reproducible, and not well documented.
 - The goal of **packageSkeleton** is to provide a foundation for data science research that is reproducible, reusable, and well documented.
 
 
@@ -105,8 +105,8 @@ Section: packageSkeleton
 ## Key Features
 
 - **R Package Template**: A basic structure that you can easily customize for your package needs.
-- **GitHub Integration**: Fork the repository and start developing right away.
-- **Quarto Documentation**: Create rich, dynamic content that documents your package and provides a public-facing website.
+- **GitHub Integration**: Fork or clone the repository and start developing right away.
+- **Quarto Documentation**: Create rich, dynamic content in multiple formats (e.g., HTML, PDF, DOCX, PPTX, etc.) that documents your package and provides a public-facing website.
 
 ---
 
