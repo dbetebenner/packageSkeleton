@@ -159,6 +159,14 @@ Section: packageSkeleton
 2. **Publish on GitHub Pages**: Push your changes to the repository and GitHub Pages will automatically deploy the site.
 3. **Preview Locally**: Use `quarto preview` to see live updates of the website as you edit.
 
+---
+
+## Conclusion
+
+- **packageSkeleton** is a powerful starting point for R package development.
+- Use it to streamline your workflow, create well-documented R code, and publish it with a professional Quarto-powered website.
+- Leverage GitHub for collaboration, version control, and public distribution of your work.
+
 
 <!--
 #########################################
@@ -178,15 +186,20 @@ Section: Future Directions
 - **Web API Development**: Expose analytics results as web APIs to be used by users as well as other applications.
 - **MCP Integration**: Utilize Model Context Protocol (MCP) to expose package tools and resources for integration with popular AI services. 
 
-## Conclusion
 
-- **packageSkeleton** is a powerful starting point for R package development.
-- Use it to streamline your workflow, create well-documented R code, and publish it with a professional Quarto-powered website.
-- Leverage GitHub for collaboration, version control, and public distribution of your work.
+<!--
+#########################################
+Section: Resources
+#########################################
+-->
+
+# {background-color=#ABCDEF}
+
+<h2 class="large-centered-uhoh">Resources</h2>
 
 ---
 
-## Further Resources
+## Resources
 
 - [Quarto Documentation](https://quarto.org/docs/)
 - [R Package Development](https://r-pkgs.org/)
@@ -194,16 +207,17 @@ Section: Future Directions
 
 ---
 
+## For the Presentation
 
 ```{r echo=FALSE, results="hide", message=FALSE}
 
 URL <- "https://centerforassessment.github.io/packageSkeleton/presentations.html"
 
 qr_code.tmp <- qrcode::qr_code(URL)
-png("assets/img/qr_code.png", width = 800, height = 800, bg = "transparent")
+png("assets/img/qr_code.png", width = 600, height = 600, bg = "transparent")
 par(bg = NA)
 plot(qr_code.tmp, bg = "transparent")
 invisible(dev.off())
 ```
 
-![](assets/img/qr_code.png){width=800px style="display: block; margin: 0 auto; border-radius: 4px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); vertical-align: middle;"}
+![](assets/img/qr_code.png){width=600px style="display: block; margin: 0 auto; border-radius: 4px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); vertical-align: middle;"}
