@@ -1,0 +1,54 @@
+# Appendix A: Additional Materials {.unnumbered}
+
+## Survey Instruments
+
+### Primary Survey Instrument
+
+[Include full text of survey instruments used in the study]
+
+**Instructions**: [Survey instructions given to participants]
+
+**Items**:
+1. [Survey item 1]
+2. [Survey item 2]
+3. [Survey item 3]
+
+### Secondary Instruments
+
+[Include any additional instruments, scales, or measures]
+
+## Additional Statistical Output
+
+### Supplementary Analyses
+
+[Include additional statistical output that supports but doesn't fit in main results]
+
+### Model Diagnostics
+
+[Include diagnostic plots and tests not shown in main chapters]
+
+## Interview Protocols (if applicable)
+
+### Semi-structured Interview Guide
+
+**Opening Questions**:
+- [Opening question 1]
+- [Opening question 2]
+
+**Main Questions**:
+- [Main question 1]
+- [Main question 2]
+
+**Closing Questions**:
+- [Closing question 1]
+- [Closing question 2]
+
+## Supplementary Data
+
+### Additional Tables
+
+[Include supplementary tables referenced in main text]
+
+### Additional Figures
+
+[Include supplementary figures referenced in main text]

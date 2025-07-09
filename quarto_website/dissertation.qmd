@@ -1,0 +1,43 @@
+---
+title: "Dissertation"
+---
+
+# Dissertation
+
+This page provides access to the dissertation content in both HTML and PDF formats.
+
+## Navigation
+
+- [View Dissertation Online (HTML)](content/dissertation/index.html)
+- [Download PDF Version](content/dissertation/Dissertation-Title.pdf)
+
+## About the Dissertation
+
+This dissertation explores [topic] and provides [brief description of contribution].
+
+### Chapters
+
+1. [Introduction](content/dissertation/01-introduction.html)
+2. [Literature Review](content/dissertation/02-literature-review.html)
+3. [Methodology](content/dissertation/03-methodology.html)
+4. [Results](content/dissertation/04-results.html)
+5. [Discussion](content/dissertation/05-discussion.html)
+6. [Conclusion](content/dissertation/06-conclusion.html)
+
+### Appendices
+
+- [Appendix A](content/dissertation/appendix-a.html)
+
+## Compilation Information
+
+The dissertation is compiled using Quarto with:
+- **HTML Format**: For web viewing with interactive navigation
+- **PDF Format**: Using the University of Colorado thesis class for formal submission
+
+To compile the dissertation:
+
+```bash
+cd quarto_website/content/dissertation
+quarto render --to html
+quarto render --to pdf
+```

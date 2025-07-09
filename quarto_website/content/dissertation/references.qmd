@@ -1,0 +1,14 @@
+# References {.unnumbered}
+
+::: {#refs}
+:::
+
+<!-- 
+This chapter will automatically generate the reference list based on:
+1. The bibliography file specified in _quarto.yml (assets/bibliography/references.bib)
+2. Citations used throughout the dissertation chapters
+3. The CSL style file for formatting (assets/bibliography/apa.csl)
+
+The references will be automatically formatted and inserted here when the document is rendered.
+No manual entry of references is needed - just cite sources using [@key] format in your chapters.
+-->
