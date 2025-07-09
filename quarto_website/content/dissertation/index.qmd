@@ -1,0 +1,15 @@
+# Dissertation {.unnumbered}
+
+This is the main dissertation document. It will be compiled to both HTML (for web viewing) and PDF (using the University of Colorado thesis class).
+
+## Abstract {.unnumbered}
+
+[Abstract content goes here]
+
+## Acknowledgments {.unnumbered}
+
+[Acknowledgments content goes here]
+
+## Table of Contents {.unnumbered}
+
+The table of contents will be automatically generated for both HTML and PDF formats.

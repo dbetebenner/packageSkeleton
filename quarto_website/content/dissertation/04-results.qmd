@@ -1,0 +1,320 @@
+# Results
+
+This chapter presents the findings from the data analysis, organized by research question and hypothesis. The results are presented objectively without interpretation, which will be addressed in the Discussion chapter.
+
+## Data Collection Summary
+
+### Response Rate
+
+- **Total participants contacted**: N = [number]
+- **Completed responses**: N = [number]
+- **Response rate**: [percentage]%
+- **Excluded responses**: N = [number] (reasons: [list reasons])
+- **Final sample size**: N = [number]
+
+### Data Quality
+
+- **Missing data**: [percentage]% overall
+- **Complete cases**: N = [number]
+- **Data cleaning procedures**: [brief summary of procedures applied]
+
+## Descriptive Statistics
+
+### Participant Characteristics
+
+#### Demographic Information
+
+```{r}
+#| label: tbl-demographics
+#| tbl-cap: "Participant Demographics"
+
+# Demographic table will be generated here
+```
+
+**Table 4.1** presents the demographic characteristics of the sample:
+
+- **Age**: M = [mean], SD = [standard deviation], Range = [range]
+- **Gender**: [breakdown by categories]
+- **Education level**: [breakdown by categories]
+- **Other relevant demographics**: [additional characteristics]
+
+### Variable Distributions
+
+#### Primary Variables
+
+```{r}
+#| label: tbl-descriptives
+#| tbl-cap: "Descriptive Statistics for Primary Variables"
+
+# Descriptive statistics table will be generated here
+```
+
+**Table 4.2** shows descriptive statistics for all primary variables:
+
+- **Variable 1**: M = [mean], SD = [standard deviation], Skewness = [value], Kurtosis = [value]
+- **Variable 2**: M = [mean], SD = [standard deviation], Skewness = [value], Kurtosis = [value]
+- **Variable 3**: M = [mean], SD = [standard deviation], Skewness = [value], Kurtosis = [value]
+
+#### Distribution Assessment
+
+```{r}
+#| label: fig-distributions
+#| fig-cap: "Distribution of Primary Variables"
+
+# Histogram/density plots will be generated here
+```
+
+**Figure 4.1** displays the distributions of primary variables. [Brief description of distribution patterns and any notable features].
+
+## Assumption Testing
+
+### Statistical Assumptions
+
+#### Normality
+
+- **Shapiro-Wilk tests**: [Results summary]
+- **Q-Q plots**: [Visual assessment results]
+- **Kolmogorov-Smirnov tests**: [Results if applicable]
+
+#### Linearity
+
+```{r}
+#| label: fig-linearity
+#| fig-cap: "Scatterplot Matrix for Linearity Assessment"
+
+# Scatterplot matrix will be generated here
+```
+
+**Figure 4.2** shows scatterplots examining linearity assumptions. [Brief description of linearity assessment].
+
+#### Homoscedasticity
+
+- **Levene's test**: F([df1, df2]) = [value], p = [p-value]
+- **Breusch-Pagan test**: χ²([df]) = [value], p = [p-value]
+
+#### Multicollinearity
+
+```{r}
+#| label: tbl-correlation
+#| tbl-cap: "Correlation Matrix and Multicollinearity Statistics"
+
+# Correlation matrix with VIF values will be generated here
+```
+
+**Table 4.3** presents the correlation matrix and variance inflation factors (VIF). All VIF values were below [threshold], indicating no multicollinearity concerns.
+
+## Research Question 1: [Question Text]
+
+### Hypothesis 1: [Hypothesis Statement]
+
+#### Primary Analysis
+
+```{r}
+#| label: tbl-rq1-primary
+#| tbl-cap: "Primary Analysis Results for Research Question 1"
+
+# Analysis results table will be generated here
+```
+
+**Primary Statistical Test**: [Test name]
+- **Test statistic**: [statistic] = [value]
+- **Degrees of freedom**: [df]
+- **p-value**: p = [value]
+- **Effect size**: [effect size measure] = [value]
+- **Confidence interval**: [CI range]
+
+**Result**: [Brief statement of statistical significance and direction]
+
+#### Secondary Analysis
+
+```{r}
+#| label: fig-rq1-visualization
+#| fig-cap: "Visualization of Results for Research Question 1"
+
+# Relevant plot/graph will be generated here
+```
+
+**Figure 4.3** illustrates [description of what the figure shows]. [Brief description of visual patterns].
+
+**Post-hoc Analysis** (if applicable):
+- **Multiple comparisons**: [Results of post-hoc tests]
+- **Pairwise comparisons**: [Specific comparisons and results]
+
+## Research Question 2: [Question Text]
+
+### Hypothesis 2: [Hypothesis Statement]
+
+#### Primary Analysis
+
+```{r}
+#| label: tbl-rq2-primary
+#| tbl-cap: "Primary Analysis Results for Research Question 2"
+
+# Analysis results table will be generated here
+```
+
+**Primary Statistical Test**: [Test name]
+- **Test statistic**: [statistic] = [value]
+- **Degrees of freedom**: [df]
+- **p-value**: p = [value]
+- **Effect size**: [effect size measure] = [value]
+- **Confidence interval**: [CI range]
+
+**Result**: [Brief statement of statistical significance and direction]
+
+#### Model Fit (if applicable)
+
+```{r}
+#| label: tbl-model-fit
+#| tbl-cap: "Model Fit Statistics"
+
+# Model fit indices will be generated here
+```
+
+**Table 4.5** presents model fit statistics:
+- **Chi-square**: χ²([df]) = [value], p = [p-value]
+- **CFI**: [value]
+- **TLI**: [value]
+- **RMSEA**: [value] (90% CI: [lower, upper])
+- **SRMR**: [value]
+
+## Research Question 3: [Question Text]
+
+### Hypothesis 3: [Hypothesis Statement]
+
+#### Primary Analysis
+
+```{r}
+#| label: tbl-rq3-primary
+#| tbl-cap: "Primary Analysis Results for Research Question 3"
+
+# Analysis results table will be generated here
+```
+
+**Primary Statistical Test**: [Test name]
+- **Test statistic**: [statistic] = [value]
+- **Degrees of freedom**: [df]
+- **p-value**: p = [value]
+- **Effect size**: [effect size measure] = [value]
+- **Confidence interval**: [CI range]
+
+**Result**: [Brief statement of statistical significance and direction]
+
+#### Mediation/Moderation Analysis (if applicable)
+
+```{r}
+#| label: fig-mediation
+#| fig-cap: "Path Model for Mediation Analysis"
+
+# Path diagram will be generated here
+```
+
+**Figure 4.4** shows the path model for the mediation analysis. 
+
+**Mediation Results**:
+- **Direct effect**: b = [value], SE = [value], p = [p-value]
+- **Indirect effect**: b = [value], SE = [value], 95% CI = [lower, upper]
+- **Total effect**: b = [value], SE = [value], p = [p-value]
+
+## Additional Analyses
+
+### Exploratory Analysis
+
+#### Unexpected Findings
+
+[Description of any unexpected or interesting findings that emerged during analysis]
+
+```{r}
+#| label: fig-exploratory
+#| fig-cap: "Exploratory Analysis Results"
+
+# Additional visualizations will be generated here
+```
+
+#### Sensitivity Analysis
+
+- **Outlier analysis**: [Results of outlier detection and impact]
+- **Robustness checks**: [Results of alternative analytical approaches]
+- **Missing data sensitivity**: [Results of different missing data handling approaches]
+
+### Subgroup Analysis
+
+#### Analysis by [Grouping Variable]
+
+```{r}
+#| label: tbl-subgroup
+#| tbl-cap: "Subgroup Analysis Results"
+
+# Subgroup analysis table will be generated here
+```
+
+**Table 4.7** presents results stratified by [grouping variable]:
+- **Group 1**: [Results summary]
+- **Group 2**: [Results summary]
+- **Group comparison**: [Statistical test results]
+
+## Qualitative Results (if applicable)
+
+### Thematic Analysis
+
+#### Theme 1: [Theme Name]
+
+[Description of theme with supporting quotes]
+
+> "Representative quote from participant" (Participant ID)
+
+**Sub-themes**:
+- **Sub-theme 1.1**: [Description]
+- **Sub-theme 1.2**: [Description]
+
+#### Theme 2: [Theme Name]
+
+[Description of theme with supporting quotes]
+
+> "Representative quote from participant" (Participant ID)
+
+#### Theme Integration
+
+```{r}
+#| label: fig-thematic-map
+#| fig-cap: "Thematic Map of Qualitative Results"
+
+# Thematic map visualization will be generated here
+```
+
+**Figure 4.5** illustrates the relationships between identified themes.
+
+## Summary of Results
+
+### Key Findings
+
+1. **Research Question 1**: [Brief summary of findings and statistical significance]
+2. **Research Question 2**: [Brief summary of findings and statistical significance]
+3. **Research Question 3**: [Brief summary of findings and statistical significance]
+
+### Hypothesis Testing Summary
+
+```{r}
+#| label: tbl-hypothesis-summary
+#| tbl-cap: "Summary of Hypothesis Testing Results"
+
+# Summary table of all hypotheses will be generated here
+```
+
+**Table 4.8** summarizes the results of all hypothesis tests:
+- **Hypothesis 1**: [Supported/Not supported] (p = [value])
+- **Hypothesis 2**: [Supported/Not supported] (p = [value])
+- **Hypothesis 3**: [Supported/Not supported] (p = [value])
+
+### Effect Sizes
+
+All reported effect sizes follow Cohen's conventions:
+- **Small effects**: [effect size measure] ≈ [threshold]
+- **Medium effects**: [effect size measure] ≈ [threshold]
+- **Large effects**: [effect size measure] ≈ [threshold]
+
+The current study found [summary of effect sizes and their practical significance].
+
+## Chapter Summary
+
+This chapter presented the results of the data analysis addressing the three research questions. The findings indicate that [brief summary of main findings]. [Summary of supported/unsupported hypotheses]. These results provide the foundation for the discussion and interpretation presented in the following chapter.

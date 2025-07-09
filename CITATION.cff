@@ -1,4 +1,4 @@
-cff-version: 1.0.0
+cff-version: 1.2.0
 message: "If you use the packageSkeleton Package, please cite it using these metadata."
 authors:
 - family-names: "Betebenner"
@@ -7,7 +7,7 @@ authors:
 - family-names: "Van Iwaarden"
   given-names: "Adam"
 title: "packageSkeleton: A GitHub repository featuring a starter template for R package development, paired with a Quarto-powered website."
-version: 0.0-0.8
+version: 0.0-0.9
 doi: 10.5281/zenodo.3634024
-date-released: 2025-6-11
+date-released: 2025-7-9
 url: "https://centerforassessment.github.io/packageSkeleton"

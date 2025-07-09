@@ -1,0 +1,50 @@
+project:
+  type: book
+  output-dir: ../../docs/dissertation
+
+book:
+  title: "Dissertation Title"
+  author: "Author Name"
+  date: today
+  chapters:
+    - index.qmd
+    - 01-introduction.qmd
+    - 02-literature-review.qmd
+    - 03-methodology.qmd
+    - 04-results.qmd
+    - 05-discussion.qmd
+    - 06-conclusion.qmd
+    - references.qmd
+  
+  appendices:
+    - appendix-a.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: 
+      - assets/css/dissertation-styles.css
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    
+  pdf:
+    documentclass: report
+    classoption: [12pt,letterpaper,oneside]
+    geometry:
+      - top=1in
+      - bottom=1in
+      - left=1.5in
+      - right=1in
+    fontsize: 12pt
+    linestretch: 2.0
+    number-sections: true
+    toc: true
+    lot: true
+    lof: true
+    keep-tex: true
+    include-in-header:
+      - assets/latex/preamble-simple.tex
+
+bibliography: assets/bibliography/references.bib
+csl: assets/bibliography/apa.csl

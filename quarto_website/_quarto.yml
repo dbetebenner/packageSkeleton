@@ -5,6 +5,7 @@ project:
    - "*.qmd"      # Render all .qmd files by default
    - "!content/presentations/**"  # Exclude everything in the "content/presentations" directory
    - "!content/documents/**"  # Exclude everything in the "content/documents" directory
+   - "!content/dissertation/**"  # Exclude everything in the "content/dissertation" directory
    - "assets/**/*"
 
 execute:
@@ -49,6 +50,8 @@ website:
             href: documents.qmd
           - text: Presentations 
             href: presentations.qmd
+          - text: Dissertation
+            href: dissertation.qmd
       - text: News
         href: news.qmd
       - text: "{{< iconify fa6-brands github size=28px title='GitHub Repo' label='The packageSkeleton GitHub Repo' >}}"
