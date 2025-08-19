@@ -1,105 +1,162 @@
 # CSS Organization
 
-This directory contains CSS files for the main website, while content-specific styling is organized within each content directory for better modularity.
+This directory contains the streamlined CSS architecture for the packageSkeleton website, featuring a consolidated design system with advanced styling and animations.
 
 ## File Structure
 
 ### Main Website Styles
-- `website-styles.css` - Basic website styles and font imports
-- `website-custom.scss` - Main website customization (navbar, layout, etc.)
-- `documents.css` - Styling for the documents landing page
+- `website-custom.scss` - **Primary stylesheet** containing all core website styling (527 lines)
+- `documents.css` - Specialized styling for the documents landing page
 
-### Content-Specific Styles (Located in Content Directories)
+### Consolidated Design System
 
-#### Documents (`content/documents/assets/css/`)
-- `documents-shared.css` - Shared styles for all documents
-- `document-styles.css` - Document-specific overrides
-
-#### Presentations (`content/presentations/assets/css/`)
-- `presentations-shared.css` - Shared styles for all presentations
-- `presentation-styles.css` - Presentation-specific overrides
+As of the latest update, this directory uses a **consolidated approach** where:
+- ✅ `website-custom.scss` serves as the single source of truth for all main styling
+- ✅ Content-specific styles remain modular (e.g., `documents.css`)
+- ✅ Eliminated redundant files for cleaner architecture
 
 ## CSS Architecture
 
-### Separation of Concerns
+### Primary Stylesheet (`website-custom.scss`)
 
-1. **Main Website Styles**: Applied across the entire website
-   - `website-styles.css` - Basic typography and imports
-   - `website-custom.scss` - Main website customization
-   - `documents.css` - Documents landing page grid and cards
+This comprehensive SCSS file includes:
 
-2. **Content-Specific Styles**: Applied to specific content types
-   - **Documents**: Located in `content/documents/assets/css/`
-   - **Presentations**: Located in `content/presentations/assets/css/`
+#### **Core Design System**
+- **Color Palette**: Sophisticated grey/black theme with RGB(237,237,235) base
+- **Typography**: Professional font stack with enhanced heading hierarchy
+- **SCSS Variables**: Logo paths and customizable defaults
 
-### Benefits of Content-Specific Organization
+#### **Advanced Navbar System**
+- **Dynamic Background**: Smooth color transitions on scroll
+- **Logo Integration**: Hover effects with color switching
+- **Responsive Dropdown Menus**: 
+  - Rounded corners with subtle shadows
+  - Animated caret rotation (up ↔ down)
+  - Inset hover effects with multi-layer shadows
+  - Active state indication (black text + caret)
 
-1. **Co-location**: CSS is located with the content it styles
-2. **Modularity**: Each content type has its own styling system
-3. **Maintainability**: Easy to find and modify specific styles
-4. **Reusability**: Styles can be shared within content types
-5. **Performance**: Only load the CSS needed for each content type
-6. **Scalability**: Easy to add new content types with their own styling
-7. **Asset Path Management**: Relative paths work correctly for each context
+#### **Interactive Elements**
+- **Link Styling**: Consistent grey-to-black hover transitions
+- **Anchor Links**: Smooth color transitions with no underlines
+- **Navigation**: Clean sidebar styling without underlines
+- **Code Blocks**: Enhanced backgrounds and borders
 
-## Usage
+#### **Advanced Animations**
+- **Smooth Transitions**: 0.3s ease timing throughout
+- **Hover Effects**: Left-to-right underline animations
+- **Dropdown Animations**: Caret rotation with state management
+- **Scroll Effects**: Dynamic navbar shrinking
 
-### Main Website
-The main website uses all core styles plus page-specific styles as needed.
+### Specialized Styling (`documents.css`)
 
-### Individual Documents
-Documents in `content/documents/` use:
-- `assets/css/documents-shared.css` - Common document styling
-- `assets/css/document-styles.css` - Context-specific overrides
+The documents page maintains its own dedicated stylesheet for:
+- **Document Cards**: Grid layout with hover animations
+- **Typography**: Document-specific heading and text styling  
+- **Interactive Elements**: Buttons, tags, and action components
+- **Responsive Design**: Mobile-optimized layouts
 
-### Individual Presentations
-Presentations in `content/presentations/` use:
-- `assets/css/presentations-shared.css` - Common presentation styling
-- `assets/css/presentation-styles.css` - Context-specific overrides
+## Technical Implementation
 
-## Adding New Styles
+### Color System
+```scss
+// Primary background colors
+$body-bg: rgb(237, 237, 235);
+body { background-color: rgb(237, 237, 235); }
+body.shrink { background-color: rgb(237, 237, 238); }
 
-1. **Global website changes**: Edit files in `assets/css/`
-2. **Document changes**: Edit files in `content/documents/assets/css/`
-3. **Presentation changes**: Edit files in `content/presentations/assets/css/`
-4. **New content type**: Create `content/newtype/assets/css/` structure
+// Dropdown menu colors
+background-color: rgb(227, 227, 225);
+hover: rgb(237, 237, 235);
 
-## Best Practices
-
-1. **Use CSS custom properties** for asset paths to handle different contexts
-2. **Keep styles modular** - one file per major functionality
-3. **Use semantic class names** that describe the purpose, not appearance
-4. **Include responsive design** in each CSS file
-5. **Document complex CSS** with comments
-6. **Co-locate CSS with content** for better organization
-
-## File Dependencies
-
-```
-Main Website:
-website-styles.css (base)
-    ↓
-website-custom.scss (main site)
-    ↓
-documents.css (page-specific)
-
-Documents:
-content/documents/assets/css/documents-shared.css
-    ↓
-content/documents/assets/css/document-styles.css
-
-Presentations:
-content/presentations/assets/css/presentations-shared.css
-    ↓
-content/presentations/assets/css/presentation-styles.css
+// Link colors
+default: #7c7c7c;
+hover: #000;
 ```
 
-## Content-Specific Architecture
+### Advanced Shadow Effects
+```scss
+// Multi-layer inset shadows for dropdown items
+box-shadow: inset 0 2px 4px rgba(222, 222, 220, 0.8), 
+            inset 0 1px 2px rgba(222, 222, 220, 0.8),
+            inset 0 -1px 2px rgba(222, 222, 220, 0.8),
+            inset 0 -2px 4px rgba(222, 222, 220, 0.8);
+```
 
-This approach provides several advantages:
+### JavaScript Integration
 
-1. **Clear Ownership**: Each content type owns its styling
-2. **Easier Maintenance**: Changes to one content type don't affect others
-3. **Better Organization**: Related files are grouped together
-4. **Simplified Paths**: Asset paths are relative to the content directory
-5. **Independent Development**: Teams can work on different content types independently 
+The CSS works in conjunction with JavaScript for:
+- **Dropdown State Management**: Caret rotation and color changes
+- **Scroll Effects**: Dynamic navbar shrinking
+- **Smooth Animations**: State transitions and hover effects
+
+## File Organization
+
+### Current Structure
+```
+assets/css/
+├── website-custom.scss  (527 lines - MAIN STYLESHEET)
+│   ├── SCSS Variables & Defaults
+│   ├── Body & Layout Styling  
+│   ├── Advanced Navbar System
+│   ├── Dropdown Menu Animations
+│   ├── Link & Typography Styling
+│   ├── Enhanced Code Blocks
+│   └── Responsive Design
+└── documents.css        (197 lines - PAGE-SPECIFIC)
+    ├── Document Grid Layout
+    ├── Card Components
+    ├── Interactive Elements
+    └── Mobile Responsiveness
+```
+
+### Consolidation Benefits
+
+1. **Performance**: Reduced HTTP requests (2 files vs. 4 previously)
+2. **Maintainability**: Single source of truth for main styling
+3. **Consistency**: Unified color palette and design language
+4. **Modularity**: Page-specific styles remain separate
+
+## Usage & Development
+
+### Making Changes
+
+1. **Global styling**: Edit `website-custom.scss`
+   - Navbar, dropdowns, links, typography
+   - Color scheme and animations
+   - Interactive elements
+
+2. **Document page**: Edit `documents.css`
+   - Document cards and grid layout
+   - Page-specific components
+
+### Best Practices
+
+1. **SCSS Variables**: Use `$variable-name` for reusable values
+2. **Consistent Timing**: Use 0.3s ease for most transitions
+3. **Color Harmony**: Maintain grey/black theme consistency
+4. **Progressive Enhancement**: Ensure basic functionality without JavaScript
+5. **Mobile-First**: Design for mobile, enhance for desktop
+
+### Adding New Features
+
+1. **New animations**: Follow existing transition patterns (0.3s ease)
+2. **Color additions**: Extend the grey/black palette thoughtfully
+3. **Interactive elements**: Maintain consistent hover states
+4. **Responsive design**: Test across device sizes
+
+## Technical Dependencies
+
+### Quarto Integration
+```yaml
+# _quarto.yml configuration
+theme:
+  - cosmo
+  - ./assets/css/website-custom.scss
+css: 
+  - ./assets/css/documents.css
+```
+
+### JavaScript Dependencies
+- `scroll.js` - Navbar shrinking and dropdown management
+- `jquery` - DOM manipulation and event handling
+- Bootstrap classes - Dropdown state management (.show, .open) 
