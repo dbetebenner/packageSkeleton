@@ -1,23 +1,41 @@
 /*-- scss:defaults --*/
 $h2-font-size:          1.6rem !default;
 $headings-font-weight:  500 !default;
-$body-bg: #ededeb !default;
+$body-bg: rgb(237, 237, 235) !default;
 
 /*-- scss:rules --*/
+
+/* SCSS variables for logo paths */
+$logo-grey-path: url(./assets/img/logo_grey.png);
+$logo-color-path: url(./assets/img/logo_color.png);
+
+/* Body background transition on scroll ------------------ */
+body {
+    background-color: rgb(237, 237, 235);
+    transition: background-color 0.35s ease;
+}
+
+body.shrink {
+    background-color: #F0F0F1;
+}
 
 /* For shrinking navbar ------------------ */
 
  .navbar {
-    background-image: linear-gradient(to bottom, #f4f4f0 0%, #e6e6e2 100%);
-    border-color: transparent;
-    border-bottom: 1px solid #ffa73b;
-    -webkit-box-shadow: 0 3px 12px 0px #ffa73b;
-    box-shadow: 0 2px 8px 0px rgba(0, 0, 0, 0.1);
+   // background-image: linear-gradient(to bottom, #EFECEF 0%, #EAE6EA 100%);
+   // border-color: transparent;
+    background-color: rgb(237, 237, 235);
+    border-color: rgb(237, 237, 235);
+   // border-bottom: 1px solid #ffa73b;
+   // -webkit-box-shadow: 0 3px 12px 0px #ffa73b;
+   // box-shadow: 0 2px 8px 0px rgba(0, 0, 0, 0.1);
     min-height: 50px;
     transition: all 0.35s ease; 
  }
 
  .navbar.shrink {
+    // background-image: linear-gradient(to bottom, #EFECF3 0%, #EAE6ED 100%);
+    background-color: #F0F0F1;
     min-height: 0;
     padding: 0 0;
     background-size: 32px auto;
@@ -46,7 +64,7 @@ $body-bg: #ededeb !default;
  }
 
  .navbar-logo {
-    background-image: url(./assets/img/logo_grey.png);
+    background-image: $logo-grey-path;
     background-size: contain;
     background-repeat: no-repeat;
     max-height: 36px;
@@ -54,7 +72,7 @@ $body-bg: #ededeb !default;
  }
 
  .navbar-logo:hover, .navbar-logo:focus {
-    background-image: url(./assets/img/logo_color.png);
+    background-image: $logo-color-path;
     transition: all 0.25s ease-in-out;
  }
 
@@ -103,6 +121,186 @@ $body-bg: #ededeb !default;
     color: #000
 }
 
+/* Navbar link hover effect with left-to-right line animation */
+.navbar-nav .nav-link {
+    position: relative;
+    transition: color 0.3s ease;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 5px;
+    left: 0.5rem;
+    right: 0.5rem;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(90deg, black 0%, #7c7c7c 100%);
+    transition: width 0.4s ease;
+    transform-origin: left;
+}
+
+.navbar-nav .nav-link:hover::after {
+    width: calc(100% - 1rem);
+}
+
+/* Ensure the effect works for dropdown menu triggers as well */
+.navbar-nav .nav-item.dropdown .nav-link {
+    position: relative;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.navbar-nav .nav-item.dropdown .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 5px;
+    left: 0.5rem;
+    right: 0.5rem;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(90deg, black 0%, #7c7c7c 100%);
+    transition: width 0.4s ease;
+    transform-origin: left;
+}
+
+.navbar-nav .nav-item.dropdown .nav-link:hover::after {
+    width: calc(100% - 1rem);
+}
+
+/* Exclude icon links from underline effect */
+.navbar-nav .nav-link[href*="github.com"]::after,
+.navbar-nav .nav-link[href*="bsky.app"]::after {
+    display: none !important;
+}
+
+/* Alternative approach: target links containing iconify icons */
+.navbar-nav .nav-link:has(iconify-icon)::after {
+    display: none !important;
+}
+
+/* Dropdown arrow repositioning and rotation effect */
+/* Hide the default Bootstrap caret */
+.navbar-nav .dropdown-toggle .caret,
+.navbar-nav .dropdown-toggle::after {
+    display: none;
+}
+
+/* Create custom dropdown arrow on the left */
+.navbar-nav .dropdown .nav-link {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse; /* Reverses the order to put arrow first */
+}
+
+.navbar-nav .dropdown .nav-link::before {
+    content: '▲';
+    display: inline-block;
+    margin-left: 6px;
+    margin-right: 0;
+    font-size: 0.8em;
+    transition: transform 0.3s ease;
+    color: #7c7c7c;
+}
+
+/* Rotation and styling when dropdown is open - targeting the correct Bootstrap classes */
+/* Multiple approaches to ensure compatibility with different Bootstrap/Quarto versions */
+
+/* Bootstrap 3 style */
+.navbar-nav li.dropdown.open .nav-link::before {
+    transform: rotate(180deg);
+    color: #000;
+}
+
+.navbar-nav li.dropdown.open .nav-link {
+    color: #000 !important;
+}
+
+/* Bootstrap 4/5 style */
+.navbar-nav li.dropdown.show .nav-link::before {
+    transform: rotate(180deg);
+    color: #000;
+}
+
+.navbar-nav li.dropdown.show .nav-link {
+    color: #000 !important;
+}
+
+/* Alternative targeting using aria-expanded attribute */
+.navbar-nav .dropdown .nav-link[aria-expanded="true"]::before {
+    transform: rotate(180deg);
+    color: #000;
+}
+
+.navbar-nav .dropdown .nav-link[aria-expanded="true"] {
+    color: #000 !important;
+}
+
+/* Targeting via parent with show class */
+.navbar-nav .show > .nav-link::before {
+    transform: rotate(180deg);
+    color: #000;
+}
+
+.navbar-nav .show > .nav-link {
+    color: #000 !important;
+}
+
+/* Quarto specific targeting */
+.navbar-nav .nav-item.dropdown.show .nav-link::before,
+.navbar-nav .nav-item.dropdown.open .nav-link::before {
+    transform: rotate(180deg);
+    color: #000;
+}
+
+.navbar-nav .nav-item.dropdown.show .nav-link,
+.navbar-nav .nav-item.dropdown.open .nav-link {
+    color: #000 !important;
+}
+
+/* Dropdown menu styling - rounded corners */
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        position: absolute;
+        border-radius: 7px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        background-color: #E2E2E0;
+        box-shadow: 0 3px 6px 0px rgba(226, 226, 224, 0.9);
+        border-color: #D0D0CE;
+        border-width: 1px;
+    }
+}
+
+/* Dropdown menu item hover styling */
+.navbar-nav .dropdown-menu > li > a:hover,
+.navbar-nav .dropdown-menu > li > a:focus {
+    background-color: rgb(237, 237, 235) !important;
+    color: #000;
+    box-shadow: inset 0 2px 4px rgba(222, 222, 220, 0.9), 
+                inset 0 1px 2px rgba(222, 222, 220, 0.9),
+                inset 0 -1px 2px rgba(222, 222, 220, 0.9),
+                inset 0 -2px 4px rgba(222, 222, 220, 0.9) !important;
+    transition: all 0.2s ease;
+}
+
+/* Remove underlines from dropdown menu links */
+.navbar-nav .dropdown-menu a,
+.navbar-nav .dropdown-menu > li > a {
+    text-decoration: none !important;
+    transition: all 0.2s ease;
+    box-shadow: none;
+}
+
+.navbar-nav .dropdown-menu a:hover,
+.navbar-nav .dropdown-menu > li > a:hover,
+.navbar-nav .dropdown-menu a:focus,
+.navbar-nav .dropdown-menu > li > a:focus {
+    text-decoration: none !important;
+}
+
 /* Target the Bluesky icon using the icon attribute */
 iconify-icon[icon="fa6-brands:bluesky"]:hover {
     color: #1185FE;  /* Change to blue on hover */
@@ -129,11 +327,14 @@ iconify-icon[icon="jam:github-square"] {
 /* Move the anchor icon close to the section header text */
 .anchorjs-link {
     font-size: 0.8em;          /* Adjust the icon's font size */
-    color: #2761e3;               /* Optional: set icon color */
+    color: #7C7C7C;               /* Optional: set icon color */
+    text-decoration: none !important;
+    transition: color 0.3s ease;
 }
 
 .anchorjs-link:hover {
-   color: #ff8c00;
+   color: #000;
+   text-decoration: none !important;
 }
 
 /* Ensure the header text doesn't overlap with the icon */
@@ -180,4 +381,147 @@ h1, h2, h3, h4, h5, h6 {
 /* Grid Column Styling */
 .grid {
   align-items: center;
+}
+
+/* On this page sidebar styling */
+/* Table of contents (TOC) link colors */
+.sidebar nav[role="doc-toc"] ul li a {
+    color: #7c7c7c !important;
+    text-decoration: none !important;
+}
+
+.sidebar nav[role="doc-toc"] ul li a:hover {
+    color: #000 !important;
+    text-decoration: none !important;
+}
+
+.sidebar nav[role="doc-toc"] ul li a.active {
+    color: #000 !important;
+    font-weight: 500;
+    text-decoration: none !important;
+}
+
+/* Alternative selectors for different Quarto versions */
+.toc-active {
+    color: #000 !important;
+    font-weight: 500;
+    text-decoration: none !important;
+}
+
+#TOC .nav-link {
+    color: #7c7c7c !important;
+    text-decoration: none !important;
+}
+
+#TOC .nav-link:hover,
+#TOC .nav-link.active {
+    color: #000 !important;
+    text-decoration: none !important;
+}
+
+/* Page navigation sidebar */
+.page-navigation .nav-link {
+    color: #7c7c7c !important;
+    text-decoration: none !important;
+}
+
+.page-navigation .nav-link:hover,
+.page-navigation .nav-link.active {
+    color: #000 !important;
+    text-decoration: none !important;
+}
+
+/* Source code block styling */
+div.sourceCode {
+    background-color: rgba(228, 231, 234, .65) !important;
+    border: 1px solid rgba(225, 228, 231, .65) !important;
+}
+
+/* Hyperlink styling for consistency */
+/* Main content area links */
+.quarto-title-block a,
+.content a,
+main a,
+article a,
+.main a,
+#quarto-content a {
+    color: #7c7c7c !important;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+.quarto-title-block a:hover,
+.content a:hover,
+main a:hover,
+article a:hover,
+.main a:hover,
+#quarto-content a:hover {
+    color: #000 !important;
+    text-decoration: underline;
+}
+
+/* General fallback for all links not in navbar or sidebar */
+a:not(.nav-link):not(.navbar-brand):not(.dropdown-toggle):not([role="doc-toc"] a) {
+    color: #7c7c7c !important;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+a:not(.nav-link):not(.navbar-brand):not(.dropdown-toggle):not([role="doc-toc"] a):hover {
+    color: #000 !important;
+    text-decoration: underline;
+}
+
+/* Additional typography and styling from shared-styles.css */
+/* Enhanced typography */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+h1 {
+    font-size: 2.2rem;
+    color: #2c3e50;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #34495e;
+}
+
+h3 {
+    font-size: 1.4rem;
+    color: #7f8c8d;
+}
+
+/* Enhanced code styling */
+pre {
+    background-color: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 0.375rem;
+    padding: 1rem;
+    overflow-x: auto;
+}
+
+code {
+    background-color: #f8f9fa;
+    padding: 0.2em 0.4em;
+    border-radius: 0.25rem;
+    font-size: 0.875em;
+}
+
+/* Enhanced blockquotes */
+blockquote {
+    border-left: 4px solid #7c7c7c;
+    padding-left: 1rem;
+    margin-left: 0;
+    color: #6c757d;
+    font-style: italic;
 }

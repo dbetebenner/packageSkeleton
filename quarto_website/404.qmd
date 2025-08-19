@@ -1,0 +1,22 @@
+---
+format:
+  html:
+    toc: false
+    number-sections: false
+    html: true
+    page-layout: full
+---
+
+::: {.error-404-container}
+
+[![](assets/img/packageSkeleton_404.png){.error-404-image}](https://centerforassessment.github.io/packageSkeleton/)
+
+::: {.error-404-title}
+Error 404 - Page Not Found
+:::
+
+::: {.error-404-subtitle}
+The page you're looking for doesn't exist.
+:::
+
+:::

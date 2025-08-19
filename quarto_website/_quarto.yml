@@ -106,7 +106,6 @@ format:
      - cosmo
      - ./assets/css/website-custom.scss
     css: 
-      - ./assets/css/website-styles.css
       - ./assets/css/documents.css
     toc: true
     include-after: |
