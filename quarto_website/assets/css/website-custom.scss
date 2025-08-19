@@ -16,7 +16,7 @@ body {
 }
 
 body.shrink {
-    background-color: #F0F0F1;
+    background-color: rgb(237, 237, 238);
 }
 
 /* For shrinking navbar ------------------ */
@@ -35,7 +35,7 @@ body.shrink {
 
  .navbar.shrink {
     // background-image: linear-gradient(to bottom, #EFECF3 0%, #EAE6ED 100%);
-    background-color: #F0F0F1;
+    background-color: rgb(237, 237, 238);
     min-height: 0;
     padding: 0 0;
     background-size: 32px auto;
@@ -267,9 +267,9 @@ body.shrink {
         border-radius: 7px;
         padding-top: 7px;
         padding-bottom: 7px;
-        background-color: #E2E2E0;
-        box-shadow: 0 3px 6px 0px rgba(226, 226, 224, 0.9);
-        border-color: #D0D0CE;
+        background-color: rgb(227, 227, 225);
+        box-shadow: 0 3px 6px 0px rgba(222, 222, 220, 0.9);
+        border-color: rgb(208, 208, 206);
         border-width: 1px;
     }
 }
@@ -279,10 +279,10 @@ body.shrink {
 .navbar-nav .dropdown-menu > li > a:focus {
     background-color: rgb(237, 237, 235) !important;
     color: #000;
-    box-shadow: inset 0 2px 4px rgba(222, 222, 220, 0.9), 
-                inset 0 1px 2px rgba(222, 222, 220, 0.9),
-                inset 0 -1px 2px rgba(222, 222, 220, 0.9),
-                inset 0 -2px 4px rgba(222, 222, 220, 0.9) !important;
+    box-shadow: inset 0 2px 4px rgba(222, 222, 220, 0.8), 
+                inset 0 1px 2px rgba(222, 222, 220, 0.8),
+                inset 0 -1px 2px rgba(222, 222, 220, 0.8),
+                inset 0 -2px 4px rgba(222, 222, 220, 0.8) !important;
     transition: all 0.2s ease;
 }
 
