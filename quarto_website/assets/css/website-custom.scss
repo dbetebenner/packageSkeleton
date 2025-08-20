@@ -431,6 +431,18 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none !important;
 }
 
+/* Inline code in sidebar navigation - transparent background */
+.sidebar nav[role="doc-toc"] code,
+.page-navigation code,
+#TOC code {
+    background-color: transparent !important;
+    font-family: 'source-code-pro', monospace !important;
+    font-size: 0.9em !important;
+    color: inherit !important;
+    padding: 3px !important;
+    border-radius: 3px !important;
+}
+
 /* Source code block styling */
 div.sourceCode {
     background-color: rgba(228, 231, 234, .65) !important;
@@ -511,10 +523,24 @@ pre {
 }
 
 code {
-    background-color: #f8f9fa;
-    padding: 0.2em 0.4em;
-    border-radius: 0.25rem;
-    font-size: 0.875em;
+    font-family: 'source-code-pro', monospace;
+    font-size: 0.9em;
+    color: inherit; /* Use the same color as surrounding text */
+    background-color: rgb(220, 220, 218);
+    padding: 3px;
+    border-radius: 3px;
+}
+
+/* Override more specific inline code rules */
+p code:not(.sourceCode), 
+li code:not(.sourceCode), 
+td code:not(.sourceCode) {
+    font-family: 'source-code-pro', monospace !important;
+    font-size: 0.9em !important;
+    color: inherit !important;
+    background-color: rgb(220, 220, 218) !important;
+    padding: 3px !important;
+    border-radius: 3px !important;
 }
 
 /* Enhanced blockquotes */
@@ -524,4 +550,22 @@ blockquote {
     margin-left: 0;
     color: #6c757d;
     font-style: italic;
+}
+
+/* Footer height customization */
+.nav-footer {
+    min-height: 2.5em !important; /* Reduced from default 3.5em */
+    padding-top: 0.4rem !important;
+    padding-bottom: 0.4rem !important;
+}
+
+.nav-footer-left .footer-items,
+.nav-footer-center .footer-items,
+.nav-footer-right .footer-items {
+    padding-top: 0.2em !important; /* Reduced from default 0.3em */
+    padding-bottom: 0.2em !important; /* Reduced from default 0.3em */
+}
+
+.nav-footer-center {
+    min-height: 2em !important; /* Reduced from default 3em */
 }
